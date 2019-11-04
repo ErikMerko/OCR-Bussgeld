@@ -68,14 +68,14 @@ class Kennzeichen_Validator(Validator):
         except:
             format_kennzeichen = '???'
         if self.__ortskennung_Check(format_kennzeichen):
-            self.__result = 'KFZ-Kennzeichen: '+format_kennzeichen
+            self.__result = format_kennzeichen
         else:
             rotated_str = self.__rechts_rotieren(format_kennzeichen)
 
             if rotated_str:
-                self.__result = 'KFZ-Kennzeichen: '+rotated_str
+                self.__result = rotated_str
             else:
-                self.__result = 'KFZ-Kennzeichen: ???'
+                self.__result = '???'
 
     # Überprüft die Gültigkeit der Ortskennung. Rückgabewert ,,True" für gültig. 
     def __ortskennung_Check(self, format_kennzeichen):
@@ -122,9 +122,9 @@ class Tatdatum_Validator(Validator):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         try:
-            self.__result = 'Tatdatum: '+super().format_filter(r'\bam\s\d{2}\.\d{2}\.\d{2,4}', self.ocrOutput)[-1]
+            self.__result = super().format_filter(r'\bam\s\d{2}\.\d{2}\.\d{2,4}', self.ocrOutput)[-1]
         except:
-            self.__result = 'Kein Tatdatum gefunden'
+            self.__result = '???'
     
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -137,9 +137,9 @@ class Tatuhrzeit_Validator(Validator):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         try:
-            self.__result = 'Tatuhrzeit: '+super().format_filter(r'\bum\s\d{1,2}\:\d{2}\sUhr', self.ocrOutput)[-1]
+            self.__result = super().format_filter(r'\bum\s\d{1,2}\:\d{2}\sUhr', self.ocrOutput)[-1]
         except:
-            self.__result = 'Keine Tatuhrzeit gefunden'
+            self.__result = '???'
     
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -152,9 +152,9 @@ class Verwarngeld_Validator(Validator):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         try:
-            self.__result = 'Verwarngeld: '+super().format_filter(r'\b\d{1,4}\,\d{2}\s(€|EUR)', self.ocrOutput)[-1]
+            self.__result = super().format_filter(r'\b\d{1,4}\,\d{2}\s(€|EUR)', self.ocrOutput)[-1]
         except:
-            self.__result = 'Kein Verwarngeld gefunden'
+            self.__result = '???'
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
