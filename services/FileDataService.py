@@ -15,3 +15,15 @@ class FileDataService:
     def open(self):
         with open(self.filename, 'rb') as inp:
             self.files = pickle.load(inp)
+
+
+class FileContext:
+
+    name = None
+    asString = None
+    asData = None
+
+    def __init__(self, name, asString, asData):
+        self.name = name
+        self.asString = asString
+        self.asData = asData

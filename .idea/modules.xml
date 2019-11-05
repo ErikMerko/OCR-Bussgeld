@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ocr-bußgeld.iml" filepath="$PROJECT_DIR$/.idea/ocr-bußgeld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ocr-bussgeld.iml" filepath="$PROJECT_DIR$/.idea/ocr-bussgeld.iml" />
     </modules>
   </component>
 </project>
