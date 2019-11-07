@@ -119,7 +119,7 @@ class Tatuhrzeit_Detector(Detector):
 # Extrahiert das Verwarngeld aus dem OCR-Output.
 class Verwarngeld_Detector(Detector):
 
-    # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         self.__result = super().format_filter(r'\b\d{1,4}\,\d{2}\s(€|EUR)', self.ocrOutput)
@@ -132,25 +132,49 @@ class Verwarngeld_Detector(Detector):
         return self.__result
 
 
-class Verwarngeld_Validator:
+# Extrahiert den Aussteller der Verwarnung aus dem OCR-Output.
+class Aussteller_Detector(Detector):
 
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
-        self.ocrOutput = ocrOutput
-        self.__check_plausibility()
+        super().__init__(ocrOutput)
+        # TODO Detector implementieren
 
-    def __check_plausibility(self):
-        val = Verwarngeld_Detector(self.ocrOutput)
-        matches = val.get_result()
-        self.__result = matches[0].replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
-        for betrag in matches:
-            betrag = betrag.replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
-            if float(self.__result) < float(betrag):
-                self.__result = betrag
 
-        # TODO Plausibilität überprüfen!
+# Extrahiert das Aktenzeichen aus dem OCR-Output.
+class Aktenzeichen_Detector(Detector):
 
-    def get_result(self):
-        return self.__result
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
+    def __init__(self, ocrOutput):
+        super().__init__(ocrOutput)
+        # TODO Detector implementieren
+
+
+# Extrahiert die Telefonnummer aus dem OCR-Output.
+class Telefon_Detector(Detector):
+
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
+    def __init__(self, ocrOutput):
+        super().__init__(ocrOutput)
+        # TODO Detector implementieren
+
+
+# Extrahiert den Ort des Vergehens aus dem OCR-Output.
+class Tatort_Detector(Detector):
+
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
+    def __init__(self, ocrOutput):
+        super().__init__(ocrOutput)
+        # TODO Detector implementieren
+
+
+# Extrahiert die Art des Vergehens aus dem OCR-Output.
+class Vergehen_Detector(Detector):
+
+    # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
+    def __init__(self, ocrOutput):
+        super().__init__(ocrOutput)
+        # TODO Detector implementieren
 
 
 class Kennzeichen_Validator:
@@ -212,6 +236,23 @@ class Kennzeichen_Validator:
         return self.__result
 
 
+class Tatdatum_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Tatdatum_Detector(self.ocrOutput)
+        matches = val.get_result()
+        self.__result = matches
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
+
 class Tatuhrzeit_Validator:
 
     def __init__(self, ocrOutput):
@@ -229,21 +270,106 @@ class Tatuhrzeit_Validator:
         return self.__result
 
 
-class Tatdatum_Validator:
+class Verwarngeld_Validator:
 
     def __init__(self, ocrOutput):
         self.ocrOutput = ocrOutput
         self.__check_plausibility()
 
     def __check_plausibility(self):
-        val = Tatdatum_Detector(self.ocrOutput)
+        val = Verwarngeld_Detector(self.ocrOutput)
         matches = val.get_result()
-        self.__result = matches
+        self.__result = matches[0].replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
+        for betrag in matches:
+            betrag = betrag.replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
+            if float(self.__result) < float(betrag):
+                self.__result = betrag
 
         # TODO Plausibilität überprüfen!
 
     def get_result(self):
         return self.__result
+
+
+class Aussteller_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Aussteller_Detector(self.ocrOutput)
+        matches = val.get_result()
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
+
+class Aktenzeichen_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Aktenzeichen_Detector(self.ocrOutput)
+        matches = val.get_result()
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
+
+class Telefon_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Telefon_Detector(self.ocrOutput)
+        matches = val.get_result()
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
+
+class Tatort_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Tatort_Detector(self.ocrOutput)
+        matches = val.get_result()
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
+
+class Vergehen_Validator:
+
+    def __init__(self, ocrOutput):
+        self.ocrOutput = ocrOutput
+        self.__check_plausibility()
+
+    def __check_plausibility(self):
+        val = Vergehen_Detector(self.ocrOutput)
+        matches = val.get_result()
+
+        # TODO Plausibilität überprüfen!
+
+    def get_result(self):
+        return self.__result
+
 
 class InformationContext:
     def __init__(self, knz, date, time, verwarngeld):
