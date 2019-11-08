@@ -25,20 +25,23 @@ class Extractor:
         val = Tatdatum_Validator(self.ocrOutput)
         return val.get_result()
 
-        # Gibt aus dem OCR-Output die Tatuhrzeit als String zurück
-
+    # Gibt aus dem OCR-Output die Tatuhrzeit als String zurück
     def find_Tatuhrzeit(self):
         val = Tatuhrzeit_Validator(self.ocrOutput)
         return val.get_result()
 
-        # Gibt aus dem OCR-Output das Verwarngeld als String zurück
-
+    # Gibt aus dem OCR-Output das Verwarngeld als String zurück
     def find_Verwarngeld(self):
         val = Verwarngeld_Validator(self.ocrOutput)
         return val.get_result()
 
+    # Gibt aus dem OCR-Output das Vergehen als String zurück
+    def find_Vergehen(self):
+        val = Vergehen_Validator(self.ocrOutput)
+        return val.get_result()
+
     def get_information_context(self):
-        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld())
+        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen())
 
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
@@ -174,7 +177,41 @@ class Vergehen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        # TODO Detector implementieren
+        print(ocrOutput)
+        schlagwort = self.__schlagwort_Check(ocrOutput)
+        print(schlagwort)
+        if schlagwort != None:
+            regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)])+\.'
+            self.__result = super().format_filter(regex, self.ocrOutput)
+        else:
+            self.__result = '???'
+
+    # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
+    def __schlagwort_Check(self, ocrOutput):
+        schlagworte = self.__alle_Schlagworte()
+        print(schlagworte)
+        for schlagwort in schlagworte:
+            print(schlagwort)
+            super().__init__(ocrOutput)
+            self.__result = super().format_filter(schlagwort, self.ocrOutput)
+            if len(self.__result) == 1:
+                print(schlagwort)
+                return schlagwort
+
+    # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
+    def __alle_Schlagworte(self):
+        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        # lines = [line.strip() for line in lines]
+        schlagworte = []
+        for line in lines:
+                schlagworte.append(line.rstrip())
+        print(schlagworte)
+        return schlagworte
+
+    # Gibt den finalen Ergebnissstring zurück.
+    def get_result(self):
+        return self.__result
 
 
 class Kennzeichen_Validator:
@@ -300,6 +337,7 @@ class Aussteller_Validator:
     def __check_plausibility(self):
         val = Aussteller_Detector(self.ocrOutput)
         matches = val.get_result()
+        self.__result = matches
 
         # TODO Plausibilität überprüfen!
 
@@ -316,6 +354,7 @@ class Aktenzeichen_Validator:
     def __check_plausibility(self):
         val = Aktenzeichen_Detector(self.ocrOutput)
         matches = val.get_result()
+        self.__result = matches
 
         # TODO Plausibilität überprüfen!
 
@@ -332,6 +371,7 @@ class Telefon_Validator:
     def __check_plausibility(self):
         val = Telefon_Detector(self.ocrOutput)
         matches = val.get_result()
+        self.__result = matches
 
         # TODO Plausibilität überprüfen!
 
@@ -348,6 +388,7 @@ class Tatort_Validator:
     def __check_plausibility(self):
         val = Tatort_Detector(self.ocrOutput)
         matches = val.get_result()
+        self.__result = matches
 
         # TODO Plausibilität überprüfen!
 
@@ -364,6 +405,7 @@ class Vergehen_Validator:
     def __check_plausibility(self):
         val = Vergehen_Detector(self.ocrOutput)
         matches = val.get_result()
+        self.__result = matches
 
         # TODO Plausibilität überprüfen!
 
@@ -372,8 +414,9 @@ class Vergehen_Validator:
 
 
 class InformationContext:
-    def __init__(self, knz, date, time, verwarngeld):
+    def __init__(self, knz, date, time, verwarngeld, vergehen):
         self.Kennzeichen = knz
         self.Tatdatum = date
         self.Tatzeit = time
         self.Verwarngeld = verwarngeld
+        self.Vergehen = vergehen
