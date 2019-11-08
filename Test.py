@@ -11,5 +11,5 @@ from BussgeldExtractor import Extractor
 extr = Extractor("resources/ideal-images/smartphone/38b3acaa-ac9a-4e2b-86d7-c829def36060-1.png")
 
 context = extr.get_information_context()
-print(json.dumps(context, default=lambda x: x.__dict__))
+print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))
 
