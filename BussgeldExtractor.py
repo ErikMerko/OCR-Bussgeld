@@ -179,22 +179,19 @@ class Vergehen_Detector(Detector):
         super().__init__(ocrOutput)
         print(ocrOutput)
         schlagwort = self.__schlagwort_Check(ocrOutput)
-        print(schlagwort)
         if schlagwort != None:
-            regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)])+\.'
+            regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+\.'
             self.__result = super().format_filter(regex, self.ocrOutput)
         else:
             self.__result = '???'
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
+        super().__init__(ocrOutput)
         schlagworte = self.__alle_Schlagworte()
-        print(schlagworte)
         for schlagwort in schlagworte:
-            print(schlagwort)
-            super().__init__(ocrOutput)
             self.__result = super().format_filter(schlagwort, self.ocrOutput)
-            if len(self.__result) == 1:
+            if len(self.__result) >= 1:
                 print(schlagwort)
                 return schlagwort
 
@@ -202,11 +199,9 @@ class Vergehen_Detector(Detector):
     def __alle_Schlagworte(self):
         with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
-        # lines = [line.strip() for line in lines]
         schlagworte = []
         for line in lines:
                 schlagworte.append(line.rstrip())
-        print(schlagworte)
         return schlagworte
 
     # Gibt den finalen Ergebnissstring zurück.
