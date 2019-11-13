@@ -225,6 +225,7 @@ class Kennzeichen_Validator:
                 return
             else:
                 self.__result = self.__rechts_rotieren(kennzeichen)
+                return
         self.__result = '???'
 
     # Überprüft die Gültigkeit der Ortskennung. Rückgabewert ,,True" für gültig.
