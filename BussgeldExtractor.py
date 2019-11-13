@@ -9,7 +9,7 @@ class Extractor:
 
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
-        # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
 
         # Entfernt Zeilenumbrüche
@@ -76,11 +76,10 @@ class Kennzeichen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}',
-                                              self.ocrOutput)
+        self.__result = super().format_filter(r'\b([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
         if len(self.__result) < 1:
-            self.__result = '???'
-            # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
+            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
+
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -197,7 +196,7 @@ class Vergehen_Detector(Detector):
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
-        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open("ocr-bussgeld/resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -225,7 +224,8 @@ class Kennzeichen_Validator:
                 self.__result = kennzeichen
                 return
             else:
-                self.__result = '???'
+                self.__result = self.__rechts_rotieren(kennzeichen)
+        self.__result = '???'
 
     # Überprüft die Gültigkeit der Ortskennung. Rückgabewert ,,True" für gültig.
     def __ortskennung_Check(self, format_kennzeichen):
@@ -241,7 +241,7 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
-        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open("ocr-bussgeld/resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
@@ -257,10 +257,7 @@ class Kennzeichen_Validator:
         if self.__ortskennung_Check(rotate_str):
             return rotate_str
         elif rotate_str[0].isupper():
-            return self.__rechts_rotieren(self.ocrOutput[
-                                          self.ocrOutput.find(rotate_str, 0) + 1:self.ocrOutput.find(rotate_str,
-                                                                                                     0) + len(
-                                              rotate_str) + 1])
+            return self.__rechts_rotieren(self.ocrOutput[self.ocrOutput.find(rotate_str, 0) + 1:self.ocrOutput.find(rotate_str,0) + len(rotate_str) + 1])
         else:
             return False
 
