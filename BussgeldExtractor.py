@@ -9,7 +9,7 @@ class Extractor:
 
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
 
         # Entfernt Zeilenumbrüche
@@ -177,26 +177,28 @@ class Vergehen_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         print(ocrOutput)
-        schlagwort = self.__schlagwort_Check(ocrOutput)
-        if schlagwort != None:
-            regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+\.'
-            self.__result = super().format_filter(regex, self.ocrOutput)
-        else:
-            self.__result = '???'
+        schlagworte = self.__schlagwort_Check(ocrOutput)
+        for schlagwort in schlagworte:
+            if schlagwort != None:
+                regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+\.'
+                self.__result = super().format_filter(regex, self.ocrOutput)
+            else:
+                self.__result = '???'
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
         super().__init__(ocrOutput)
         schlagworte = self.__alle_Schlagworte()
+        erg = []
         for schlagwort in schlagworte:
             self.__result = super().format_filter(schlagwort, self.ocrOutput)
             if len(self.__result) >= 1:
-                print(schlagwort)
-                return schlagwort
+                erg.append(schlagwort)
+        return erg
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
-        with open("ocr-bussgeld/resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -242,7 +244,7 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
-        with open("ocr-bussgeld/resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
