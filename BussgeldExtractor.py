@@ -1,5 +1,6 @@
 import pytesseract
 import re
+import datetime
 from PIL import Image
 
 # import rstr
@@ -13,7 +14,7 @@ class Extractor:
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
 
         # Entfernt Zeilenumbrüche
-        # self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
+        self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
 
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
     def find_Kennzeichen(self):
@@ -92,10 +93,9 @@ class Tatdatum_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\bam\s\d{2}\.\d{2}\.\d{2,4}', self.ocrOutput)
+        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
         if len(self.__result) < 1:
             self.__result = '???'
-            # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -108,7 +108,7 @@ class Tatuhrzeit_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\bum\s\d{1,2}\:\d{2}\sUhr', self.ocrOutput)
+        self.__result = super().format_filter(r'\bum\s(2[0-3]|1[0-9]|0[0-9]|[0-9])\:([0-5][0-9])\sUhr', self.ocrOutput)
         if len(self.__result) < 1:
             self.__result = '???'
             # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
@@ -176,7 +176,6 @@ class Vergehen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        print(ocrOutput)
         schlagworte = self.__schlagwort_Check(ocrOutput)
         for schlagwort in schlagworte:
             if schlagwort != None:
@@ -272,14 +271,54 @@ class Tatdatum_Validator:
 
     def __init__(self, ocrOutput):
         self.ocrOutput = ocrOutput
+        print(ocrOutput)
         self.__check_plausibility()
 
     def __check_plausibility(self):
         val = Tatdatum_Detector(self.ocrOutput)
         matches = val.get_result()
-        self.__result = matches
+        check_matches = []
+        for match in matches:
+            zukunft = self.__check_Zukunft(match)
+            if zukunft == True:
+                erg = datetime.datetime.strptime(match, '%d.%m.%Y')
+                check_matches.append(erg)
 
-        # TODO Plausibilität überprüfen!
+        self.__result = self.__check_Tatdatum(check_matches)
+
+    def __check_Tatdatum(self, matches):
+        if len(matches) == 1 | len(matches) > 3:
+            erg = '???'
+        elif len(matches) == 2:
+            if ((matches[0] + datetime.timedelta(days=3650)) < matches[1]) | ((matches[1] + datetime.timedelta(days=3650)) < matches[0]):
+                print(matches[0] + datetime.timedelta(days=3650))
+                if matches[0] > matches[1]:
+                    zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
+                else:
+                    zerg = datetime.date.strftime(matches[1], '%d.%m.%Y')
+            else:
+                if matches[0] < matches[1]:
+                    zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
+                else:
+                    zerg = datetime.date.strftime(matches[1], '%d.%m.%Y')
+            erg = str(zerg)
+        else:
+            if ((matches[0] < matches[1]) & (matches[0] > matches[2])) | ((matches[0] > matches[1]) & (matches[0] < matches[2])):
+                zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
+            elif ((matches[1] < matches[0]) & (matches[1] > matches[2])) | ((matches[1] > matches[0]) & (matches[1] < matches[2])):
+                zerg = datetime.date.strftime(matches[1], '%d.%m.%Y')
+            elif ((matches[2] < matches[0]) & (matches[2] > matches[1])) | ((matches[2] > matches[0]) & (matches[2] < matches[1])):
+                zerg = datetime.date.strftime(matches[2], '%d.%m.%Y')
+            erg = str(zerg)
+        return erg
+
+    def __check_Zukunft(self, datum):
+        heute = datetime.datetime.today()
+        match = datetime.datetime.strptime(datum, '%d.%m.%Y')
+        if match > heute:
+            return False
+        else:
+            return True
 
     def get_result(self):
         return self.__result
