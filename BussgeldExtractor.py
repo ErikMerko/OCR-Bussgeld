@@ -94,8 +94,6 @@ class Tatdatum_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
-        if len(self.__result) < 1:
-            self.__result = '???'
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -179,10 +177,15 @@ class Vergehen_Detector(Detector):
         schlagworte = self.__schlagwort_Check(ocrOutput)
         for schlagwort in schlagworte:
             if schlagwort != None:
-                regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"])+\.'
+                regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"]|[\$])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"]|[\$])+\.'
                 self.__result = super().format_filter(regex, self.ocrOutput)
-            else:
-                self.__result = '???'
+        if len(self.__result) == 0:
+            for schlagwort in schlagworte:
+                if schlagwort != None:
+                    regex = r'Sie(.)+' + schlagwort + '(.)+\.'
+                    self.__result = super().format_filter(regex, self.ocrOutput)
+                else:
+                    self.__result = '???'
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
@@ -278,16 +281,21 @@ class Tatdatum_Validator:
         val = Tatdatum_Detector(self.ocrOutput)
         matches = val.get_result()
         check_matches = []
-        for match in matches:
-            zukunft = self.__check_Zukunft(match)
-            if zukunft == True:
-                erg = datetime.datetime.strptime(match, '%d.%m.%Y')
-                check_matches.append(erg)
-
-        self.__result = self.__check_Tatdatum(check_matches)
+        if len(matches) < 1:
+            self.__result = '???'
+        else:
+            for match in matches:
+                zukunft = self.__check_Zukunft(match)
+                if zukunft == False:
+                    try:
+                        erg = datetime.datetime.strptime(match, '%d.%m.%Y')
+                    except ValueError:
+                        erg = datetime.datetime.strptime(match, '%d.%m.%y')
+                    check_matches.append(erg)
+            self.__result = self.__check_Tatdatum(check_matches)
 
     def __check_Tatdatum(self, matches):
-        if len(matches) == 1 | len(matches) > 3:
+        if (len(matches) == 1) | (len(matches) > 3):
             erg = '???'
         elif len(matches) == 2:
             if ((matches[0] + datetime.timedelta(days=3650)) < matches[1]) | ((matches[1] + datetime.timedelta(days=3650)) < matches[0]):
@@ -302,7 +310,7 @@ class Tatdatum_Validator:
                 else:
                     zerg = datetime.date.strftime(matches[1], '%d.%m.%Y')
             erg = str(zerg)
-        else:
+        elif len(matches) == 3:
             if ((matches[0] < matches[1]) & (matches[0] > matches[2])) | ((matches[0] > matches[1]) & (matches[0] < matches[2])):
                 zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
             elif ((matches[1] < matches[0]) & (matches[1] > matches[2])) | ((matches[1] > matches[0]) & (matches[1] < matches[2])):
@@ -314,11 +322,14 @@ class Tatdatum_Validator:
 
     def __check_Zukunft(self, datum):
         heute = datetime.datetime.today()
-        match = datetime.datetime.strptime(datum, '%d.%m.%Y')
+        try:
+            match = datetime.datetime.strptime(datum, '%d.%m.%Y')
+        except ValueError:
+            match = datetime.datetime.strptime(datum, '%d.%m.%y')
         if match > heute:
-            return False
-        else:
             return True
+        else:
+            return False
 
     def get_result(self):
         return self.__result
