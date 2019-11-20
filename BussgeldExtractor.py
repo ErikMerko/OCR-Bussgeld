@@ -123,9 +123,6 @@ class Verwarngeld_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         self.__result = super().format_filter(r'\b\d{1,4}\,\d{2}\s(€|EUR)', self.ocrOutput)
-        if len(self.__result) < 1:
-            self.__result = '???'
-            # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -175,17 +172,16 @@ class Vergehen_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         schlagworte = self.__schlagwort_Check(ocrOutput)
+        formulierungen = self.__alle_Formulierungen()
         for schlagwort in schlagworte:
             if schlagwort != None:
-                regex = r'Sie([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"]|[\$])+' + schlagwort + '([A-ZÄÖÜ]|[a-zäöüß]|[0-9]|[\/]|[\s]|[\,]|[\(]|[\)]|[\§]|[\.]|[\"]|[\$])+\.'
-                self.__result = super().format_filter(regex, self.ocrOutput)
-        if len(self.__result) == 0:
-            for schlagwort in schlagworte:
-                if schlagwort != None:
-                    regex = r'Sie(.)+' + schlagwort + '(.)+\.'
-                    self.__result = super().format_filter(regex, self.ocrOutput)
-                else:
-                    self.__result = '???'
+                for formulierung in formulierungen:
+                    if formulierung.find(schlagwort) != -1:
+                        regex1 = r'Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.'
+                        regex2 = formulierung
+                        print(regex1)
+                        print(regex2)
+                        self.__result = super().format_filter(regex2, self.ocrOutput)
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
@@ -193,8 +189,8 @@ class Vergehen_Detector(Detector):
         schlagworte = self.__alle_Schlagworte()
         erg = []
         for schlagwort in schlagworte:
-            self.__result = super().format_filter(schlagwort, self.ocrOutput)
-            if len(self.__result) >= 1:
+            zerg = super().format_filter(schlagwort, self.ocrOutput)
+            if len(zerg) >= 1:
                 erg.append(schlagwort)
         return erg
 
@@ -206,6 +202,15 @@ class Vergehen_Detector(Detector):
         for line in lines:
                 schlagworte.append(line.rstrip())
         return schlagworte
+
+    # Gibt eine Stringliste mit allen Bussgeldformulierungen zurück
+    def __alle_Formulierungen(self):
+        with open("resources/Bussgeldformulierungen.txt", 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        formulierungen = []
+        for line in lines:
+            formulierungen.append(line.rstrip())
+        return formulierungen
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -361,11 +366,14 @@ class Verwarngeld_Validator:
     def __check_plausibility(self):
         val = Verwarngeld_Detector(self.ocrOutput)
         matches = val.get_result()
-        self.__result = matches[0].replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
-        for betrag in matches:
-            betrag = betrag.replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
-            if float(self.__result) < float(betrag):
-                self.__result = betrag
+        if len(matches) < 1:
+            self.__result = '???'
+        else:
+            self.__result = matches[0].replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
+            for betrag in matches:
+                betrag = betrag.replace(" ", "").replace("EUR", "").replace("€", "").replace(",", ".")
+                if float(self.__result) < float(betrag):
+                    self.__result = betrag
 
         # TODO Plausibilität überprüfen!
 
