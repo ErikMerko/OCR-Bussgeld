@@ -10,7 +10,7 @@ class Extractor:
 
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
-        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
 
         # Entfernt Zeilenumbrüche
@@ -41,8 +41,13 @@ class Extractor:
         val = Vergehen_Validator(self.ocrOutput)
         return val.get_result()
 
+    # Gibt aus dem OCR-Output das Vergehen als String zurück
+    def find_AusstellerVerwarnung(self):
+        val = Aussteller_Validator(self.ocrOutput)
+        return val.get_result()        
+
     def get_information_context(self):
-        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen())
+        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen(), self.find_AusstellerVerwarnung())
 
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
@@ -135,7 +140,22 @@ class Aussteller_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
+        mail=self.__searchMail(ocrOutput)
+    
+    
+    def __searchMail(self,ocrOutput):
+        regexmail =r'\S{1,40}@\S{1,20}.de'
+        self.__result = super().format_filter(regexmail, self.ocrOutput)
+        for result in __result:
+         print(result)
+
         # TODO Detector implementieren
+
+    def __searchURL(self,ocrOutput):
+         regexurl =r'www.\S{1,50} .de'
+
+           
+
 
 
 # Extrahiert das Aktenzeichen aus dem OCR-Output.
@@ -154,8 +174,8 @@ class Telefon_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         # TODO Detector implementieren
-
-
+    
+        
 # Extrahiert den Ort des Vergehens aus dem OCR-Output.
 class Tatort_Detector(Detector):
 
