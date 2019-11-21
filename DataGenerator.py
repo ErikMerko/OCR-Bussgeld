@@ -1,16 +1,33 @@
 import random 
 import string
+import re
 
 #Ingo Speckens
 
 testdaten_anzahl = 50
 
+def function_Textfile_Auslesen():
+    #Pfad noch ändern zu resources/KFZ-Kennzeichen.txt
+    with open('resources/KFZ-Kennzeichen.txt', 'r', encoding='utf-8') as kfz:
+    
+        listeKfz = []
+        listeKfzOk = []
+        for zeile in kfz:
+            listeMatch = re.findall('^([A-ZÖÄÜ]{1,3})\s*$', zeile)
+            match = ''.join(listeMatch)
+            listeKfz.append(match)
+        #zero-length-strings entfernen
+        listeKfzOk = [i for i in listeKfz if i]
+        return listeKfzOk
+
+
 #Kennzeichen_Generator
 def function_Kennzeichen_Generator():
+
     listeKennzeichen = []
     for x in range(testdaten_anzahl):
         grossbuchstaben = string.ascii_uppercase
-        kennzeichen = (''.join(random.choice(grossbuchstaben) for i in range(random.randint(1,3))) 
+        kennzeichen = (random.choice(function_Textfile_Auslesen())
         + random.choice([' ', ' -', '-']) 
         + ''.join(random.choice(grossbuchstaben) for i in range(random.randint(1,2)))
         + " "
