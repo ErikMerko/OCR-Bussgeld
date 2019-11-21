@@ -2,7 +2,7 @@ Sie führten das Kraftfahrzeug mit einer Atema(l|I)koho(l|I)konzentration von (0
 Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr\.
 Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer Atema(l|I)koho(l|I)konzentration von (0|O),25 mg\/(l|I) oder mehr geführt hat\.
 Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr geführt hat\.
-Sie führten das Kraftfahrzeug unter Wirkung des berauschenden Mitte(l|I)s \w{1,}\.
+Sie führten das Kraftfahrzeug unter Wirkung des berauschenden Mitte(l|I)s \(\w{1,}\)\.
 Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
 Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
 Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
@@ -321,4 +321,4 @@ Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Vorfahr
 Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
 Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Dadurch wurde ein Vorfahrtberechtigter gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
 Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Es kam zum Unfa(l|I){2}\.
-Sie ver(l|I)ießen die Autobahn an der Ste(l|I){2}e, die nicht durch eine Ausfahrttafe(l|I) (Zeichen 332) und durch ein Pfei(l|I)schi(l|I)d (Zeichen 333) oder eines dieser Zeichen gekennzeichnet war\.
+Sie ver(l|I)ießen die Autobahn an der Ste(l|I){2}e, die nicht durch eine Ausfahrttafe(l|I) \(Zeichen 332\) und durch ein Pfei(l|I)schi(l|I)d \(Zeichen 333\) oder eines dieser Zeichen gekennzeichnet war\.

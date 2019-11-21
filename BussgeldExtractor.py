@@ -93,7 +93,7 @@ class Tatdatum_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
+        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}\s', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -177,11 +177,10 @@ class Vergehen_Detector(Detector):
             if schlagwort != None:
                 for formulierung in formulierungen:
                     if formulierung.find(schlagwort) != -1:
-                        regex1 = r'Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.'
-                        regex2 = formulierung
-                        print(regex1)
-                        print(regex2)
-                        self.__result = super().format_filter(regex2, self.ocrOutput)
+                        regex = formulierung
+                        self.__result = super().format_filter(regex, self.ocrOutput)
+                        if len(self.__result) == 1:
+                            break
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
@@ -293,9 +292,9 @@ class Tatdatum_Validator:
                 zukunft = self.__check_Zukunft(match)
                 if zukunft == False:
                     try:
-                        erg = datetime.datetime.strptime(match, '%d.%m.%Y')
+                        erg = datetime.datetime.strptime(match, '%d.%m.%Y ')
                     except ValueError:
-                        erg = datetime.datetime.strptime(match, '%d.%m.%y')
+                        erg = datetime.datetime.strptime(match, '%d.%m.%y ')
                     check_matches.append(erg)
             self.__result = self.__check_Tatdatum(check_matches)
 
@@ -304,7 +303,6 @@ class Tatdatum_Validator:
             erg = '???'
         elif len(matches) == 2:
             if ((matches[0] + datetime.timedelta(days=3650)) < matches[1]) | ((matches[1] + datetime.timedelta(days=3650)) < matches[0]):
-                print(matches[0] + datetime.timedelta(days=3650))
                 if matches[0] > matches[1]:
                     zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
                 else:
@@ -328,9 +326,9 @@ class Tatdatum_Validator:
     def __check_Zukunft(self, datum):
         heute = datetime.datetime.today()
         try:
-            match = datetime.datetime.strptime(datum, '%d.%m.%Y')
+            match = datetime.datetime.strptime(datum, '%d.%m.%Y ')
         except ValueError:
-            match = datetime.datetime.strptime(datum, '%d.%m.%y')
+            match = datetime.datetime.strptime(datum, '%d.%m.%y ')
         if match > heute:
             return True
         else:
