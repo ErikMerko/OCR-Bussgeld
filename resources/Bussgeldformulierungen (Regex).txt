@@ -1,0 +1,722 @@
+Sie führten das Kraftfahrzeug mit einer Atema(l|I)koho(l|I)konzentration von (0|O),25 mg\/(l|I) oder mehr\.
+Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr\.
+Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer Atema(l|I)koho(l|I)konzentration von (0|O),25 mg\/(l|I) oder mehr geführt hat\.
+Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr geführt hat\.
+Sie führten das Kraftfahrzeug unter Wirkung des berauschenden Mitte(l|I)s \(\w{1,}\)\.
+Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
+Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
+Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
+Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen\.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen, so dass ein nachfo(l|I)gendes Fahrzeug gefährdet (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurde\.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben\. Es kam zum Unfa(l|I){2}\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne auf den nachfo(l|I)genden Verkehr zu achten\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne auf den nachfo(l|I)genden Verkehr zu achten, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne auf den nachfo(l|I)genden Verkehr zu achten\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten sich nach (l|I)inks auf den Schienen ein und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch ein Schienenfahrzeug\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug durchfahren zu (l|I)assen\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen\.
+Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen ab, ohne ein in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrendes Fahrrad mit Hi(l|I)fsmotor durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne ein in entgegenkommender\/g(l|I)eicher (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Richtung geradeaus weiterfahrendes Fahrrad mit Hi(l|I)fsmotor durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?diese\.
+Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war\.
+Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war\. Es kam zum Unfa(l|I){2}\.
+Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen\.
+Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen in das Grundstück ab und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen in das Grundstück ab und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
+Sie wendeten auf der Straße und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie wendeten auf der Straße und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
+Sie (l|I)ießen beim Rückwärtsfahren die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie (l|I)ießen beim Rückwärtsfahren die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
+Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\.
+Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein, so dass die (I|l)nsassen dieses Fahrzeugs gefährdet (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurden\.
+Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\. (I|l)hr Abstand betrug \d{1,3},\d{2} m\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren info(l|I)ge zu geringen Abstands auf das abbremsende Fahrzeug auf\. Es kam zum Unfa(l|I){2}\.
+Sie hie(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrg\. (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\.
+Sie bremsten a(l|I)s Vorausfahrender stark ohne zwingenden Grund, so dass es zur Gefährdung (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?des nachfo(l|I)genden Verkehrstei(l|I)nehmers kam\.
+Sie bremsten a(l|I)s Vorausfahrender stark ohne zwingenden Grund, so dass es zum Unfa(l|I){2} kam\.
+Sie hie(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften nicht den zum Einscheren erforder(l|I)ichen Abstand von dem (vorausfahrenden Fahrzeug|Vorausfahrenden)\.
+Sie hie(l|I)ten a(l|I)s Führer des Lastkraftwagens (zu(l|I)ässige Gesamtmasse über 3,5 t)\/Kraftomnibusses (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?bei einer Geschwindigkeit von mehr a(l|I)s 5(0|O) km\/h auf einer Autobahn den Mindestabstand von 5(0|O) m zum vorausfahrenden Fahrzeug nicht ein\.
+Sie hie(l|I)ten a(l|I)s Führer des kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern (zu(l|I)ässige Gesamtmasse über 3,5 t)\/Kraftomnibusses mit Fahrgästen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?bei einer Geschwindigkeit von mehr a(l|I)s 5(0|O) km\/h auf einer Autobahn den Mindestabstand von 5(0|O) m zum vorausfahrenden Fahrzeug nicht ein\.
+Sie fuhren mit nicht angepasster Geschwindigkeit an einen Bahnübergang heran\.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten\.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang\.
+Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie überquerten a(l|I)s nichtmotorisierter Verkehrstei(l|I)nehmer (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie ver(l|I)etzten vor einem Bahnübergang eine Wartepf(l|I)icht\.
+Sie fuhren aus einem Grundstück auf die Straße und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren aus einem Grundstück auf die Straße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren von einem anderen Straßentei(l|I) auf die Fahrbahn und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren von einem anderen Straßentei(l|I) auf die Fahrbahn\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren vom Fahrbahnrand an und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren vom Fahrbahnrand an\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren aus einem Grundstück auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie fuhren von einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie fuhren von einem Straßentei(l|I) auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie fuhren über einen abgesenkten Bordstein auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie fuhren vom Fahrbahnrand der Straße an, ohne den Fahrtrichtungsanzeiger zu benutzen\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
+Sie benutzten mit einem Lastkraftwagen mit einer zu(l|I)ässigen Gesamtmasse von mehr a(l|I)s 3,5 t außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens\.
+Sie benutzten mit einem Lastkraftwagen mit einer zu(l|I)ässigen Gesamtmasse von mehr a(l|I)s 3,5 t außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens\.
+Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie wechse(l|I)ten den Fahrstreifen und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dabei (A|a)ndere\.
+Sie wechse(l|I)ten den Fahrstreifen und verursachten dabei einen Unfa(l|I){2}\.
+Sie wechse(l|I)ten den Fahrstreifen, ohne dies rechtzeitig und deut(l|I)ich anzukündigen\.
+Sie fuhren auf dem Ausfäde(l|I)ungsstreifen schne(l|I){2}er a(l|I)s der Verkehr auf den durchgehenden Fahrstreifen\.
+Sie fuhren auf dem Ausfäde(l|I)ungsstreifen schne(l|I){2}er a(l|I)s der Verkehr auf den durchgehenden Fahrstreifen und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf dem Ausfäde(l|I)ungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei\.
+Sie fuhren auf dem Ausfäde(l|I)ungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
+Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
+Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
+Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
+Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie verursachten info(l|I)ge nicht angepasster Geschwindigkeit einen Unfa(l|I){2}\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften bei einer Sichtweite von weniger a(l|I)s 5(0|O) m durch Nebe(l|I), Schneefa(l|I){2} oder Regen um \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften bei einer Sichtweite von weniger a(l|I)s 5(0|O) m durch Nebe(l|I), Schneefa(l|I){2} oder Regen um \d{1,3} km\/h\.
+Sie fuhren ohne triftigen Grund so (l|I)angsam, dass der Verkehrsf(l|I)uss behindert wurde\.
+Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?a(l|I)s Fahrzeugführer ein Kind\/einen Hi(l|I)fsbedürftigen\/einen ä(l|I)teren Menschen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), insbesondere durch nicht ausreichend verminderte Geschwindigkeit\/mange(l|I)nde Bremsbereitschaft\/unzureichenden Seitenabstand beim Vorbeifahren\/unzureichenden Seitenabstand beim Überho(l|I)en \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie schädigten a(l|I)s Fahrzeugführer ein Kind\/einen Hi(l|I)fsbedürftigen\/einen ä(l|I)teren Menschen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), insbesondere durch nicht ausreichend verminderte Geschwindigkeit\/mange(l|I)nde Bremsbereitschaft\/unzureichenden Seitenabstand beim Vorbeifahren\/unzureichenden Seitenabstand beim Überho(l|I)en \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit für mehr a(l|I)s 5 Minuten Dauer bis zu \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit in mehr a(l|I)s 2 Fä(l|I){2}en nach Fahrtantritt bis zu \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit mit Schneeketten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit mit Schneeketten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
+Sie kamen von der Fahrbahn ab und verursachten Sachschaden\.
+Sie gerieten ins Sch(l|I)eudern und verursachten Sachschaden\.
+Sie streiften beim Vorbeifahren ein Fahrzeug und verursachten Sachschaden\.
+Sie (l|I)ießen beim Befahren der Straße die im Verkehr erforder(l|I)iche Rücksicht außer Acht und beschmutzten dabei (A|a)ndere\.
+Sie ste(l|I){2}ten das Fahrzeug so ab, dass ein anderes Fahrzeug nicht wegfahren konnte\.
+Sie (l|I)ießen an einer Fahrbahnverengung die im Verkehr erforder(l|I)iche Sorgfa(l|I)t außer Acht, so dass es zum Unfa(l|I){2} kam\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?(A|a)ndere, indem Sie ihnen das Einordnen im sogenannten Reißversch(l|I)ussverfahren nicht ermög(l|I)ichten\.
+Sie fuhren in den Kreuzungsbereich\/Einmündungsbereich (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Mög(l|I)ichkeit zu geben, diesen zu ver(l|I)assen\.
+Sie fuhren in den Kreuzungsbereich\/Einmündungsbereich (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Mög(l|I)ichkeit zu geben, diesen zu ver(l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?durch das Parken auf einer Fußgängerfurt der Lichtzeichenan(l|I)age (A|a)ndere\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?durch das Parken (A|a)ndere\.
+Sie be(l|I)ästigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t (A|a)ndere mehr a(l|I)s nach den Umständen unvermeidbar\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t (A|a)ndere mehr a(l|I)s nach den Umständen unvermeidbar\.
+Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t (A|a)ndere\.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t (A|a)ndere\.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t andere Verkehrstei(l|I)nehmer durch Auffahren auf ein vorausfahrendes Fahrzeug\.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t andere Verkehrstei(l|I)nehmer durch Auffahren auf ein stehendes Fahrzeug\.
+Sie beschädigten beim Fahren in eine\/aus einer Park(l|I)ücke ein stehendes Fahrzeug\.
+Sie fuhren mit einem Kraftrad auf dem Hinterrad und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie hie(l|I)ten näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses\.
+Sie hie(l|I)ten näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses, wodurch (A|a)ndere behindert (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurden\.
+Sie parkten (l|I)änger a(l|I)s 1 Stunde näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses\.
+Sie parkten (l|I)änger a(l|I)s 1 Stunde näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses, wodurch (A|a)ndere behindert (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurden\.
+Sie missachteten das Rot(l|I)icht in Verbindung mit dem Ge(l|I)b(l|I)icht\.
+Sie missachteten das Ge(l|I)b(l|I)icht der Lichtzeichenan(l|I)age, obwoh(l|I) Sie gefahr(l|I)os hätten anha(l|I)ten können\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) aus einem anderen a(l|I)s dem rechten Fahrstreifen nach rechts ab\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?den Fahrzeugverkehr der freigegebenen Richtung\.
+Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
+Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab, ohne vorher anzuha(l|I)ten\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den Fahrzeugverkehr der freigegebenen Verkehrsrichtungen\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab\. Es kam zum Unfa(l|I){2} mit dem Fahrzeugverkehr der freigegebenen Verkehrsrichtungen\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab\. Es kam zum Unfa(l|I){2} mit dem Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\. Es kam zum Unfa(l|I){2}\.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn\.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten vorschriftswidrig den Gehweg\.
+Sie benutzten vorschriftswidrig den Gehweg und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten vorschriftswidrig den Gehweg und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten vorschriftswidrig den Seitenstreifen\.
+Sie benutzten vorschriftswidrig den Seitenstreifen und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten vorschriftswidrig den Seitenstreifen und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten verbotenerweise die Verkehrsinse(l|I)\.
+Sie benutzten verbotenerweise die Verkehrsinse(l|I) und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten verbotenerweise die Verkehrsinse(l|I) und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten verbotenerweise den Grünstreifen\.
+Sie benutzten verbotenerweise den Grünstreifen und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten verbotenerweise den Grünstreifen und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\.
+Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\. Beim Wechse(l|I) auf den Fahrstreifen gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Sie (A|a)ndere\.
+Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\. Beim Wechse(l|I) auf den Fahrstreifen kam es zum Unfa(l|I){2}\.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn\.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren in der Ein-\/Ausfahrt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\.
+Sie fuhren in der Ein-\/Ausfahrt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren in der Ein-\/Ausfahrt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren nicht mög(l|I)ichst weit rechts\.
+Sie benutzten nicht die rechte Fahrbahnseite\.
+Sie benutzten nicht die rechte Fahrbahnseite und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie benutzten nicht den rechten Fahrstreifen und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen beim Überho(l|I)twerden gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen beim Überho(l|I)twerden gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen bei Unübersicht(l|I)ichkeit gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen bei Unübersicht(l|I)ichkeit gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen in einer Kurve gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen in einer Kurve gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie gerieten auf die (l|I)inke Fahrbahnseite und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie gerieten auf die (l|I)inke Fahrbahnseite und stießen mit dem entgegenkommenden Fahrzeug zusammen\. Es kam zum Unfa(l|I){2}\.
+Sie gerieten auf die (l|I)inke Fahrbahnseite und stießen mit einem stehenden Fahrzeug zusammen\. Es kam zum Unfa(l|I){2}\.
+Sie verstießen auf der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?gegen das Rechtsfahrgebot und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen auf der Autobahn\/Kraftfahrstraße (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
+Sie (l|I)ießen die in Längsrichtung fahrende Schienenbahn nicht durchfahren\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen\. Es kam zum Unfa(l|I){2}\.
+Sie verhie(l|I)ten sich a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?nicht so, dass eine Gefährdung (A|a)nderer ausgesch(l|I)ossen war\.
+Sie verhie(l|I)ten sich a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?nicht so, dass eine Gefährdung (A|a)nderer ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
+Sie suchten a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), obwoh(l|I) nötig, nicht den nächsten geeigneten P(l|I)atz zum Parken auf\.
+Sie überho(l|I)ten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\.
+Sie überho(l|I)ten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\.
+Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\.
+Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age\.
+Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)) und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age, missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)) und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgegebenen Fahrtrichtung (Zeichen 297) und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgegebenen Fahrtrichtung (Zeichen 297)\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\.
+Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\.
+Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
+Sie hie(l|I)ten beim Überho(l|I)en keinen ausreichenden Seitenabstand zu anderen Verkehrstei(l|I)nehmern ein\.
+Sie streiften beim Überho(l|I)en das in g(l|I)eicher Richtung fahrende Fahrzeug\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d wie mög(l|I)ich nach rechts ein\.
+Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d wie mög(l|I)ich nach rechts ein und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?beim Wiedereinordnen nach dem Überho(l|I)en den Überho(l|I)ten\.
+Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?beim Wiedereinordnen nach dem Überho(l|I)en (A|a)ndere\.
+Sie schnitten beim Wiedereinordnen nach dem Überho(l|I)en (A|a)ndere\. Es kam zum Unfa(l|I){2}\.
+Sie scherten zum Überho(l|I)en aus und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den nachfo(l|I)genden Verkehr\.
+Sie scherten zum Überho(l|I)en aus, ohne auf das überho(l|I)ende Fahrzeug zu achten, so dass es zum Unfa(l|I){2} kam\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
+Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie kündigten das Überho(l|I)en mit Fern(l|I)icht an und b(l|I)endeten dadurch den Gegenverkehr\.
+Sie hinderten einen anderen Verkehrstei(l|I)nehmer am Überho(l|I)en, indem Sie Ihre Geschwindigkeit erhöhten\.
+Sie ermäßigten nicht ihre Geschwindigkeit\/warteten nicht (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?a(l|I)s Fahrer eines (l|I)angsameren Fahrzeugs, um so mehreren unmitte(l|I)bar fo(l|I)genden Fahrzeugen das Überho(l|I)en zu ermög(l|I)ichen\.
+Sie überho(l|I)ten vorschriftswidrig (l|I)inks, obwoh(l|I) ein anderer Verkehrstei(l|I)nehmer seine Absicht, nach (l|I)inks abzubiegen, angekündigt und sich eingeordnet hatte\.
+Sie überho(l|I)ten vorschriftswidrig (l|I)inks, obwoh(l|I) ein anderer Verkehrstei(l|I)nehmer seine Absicht, nach (l|I)inks abzubiegen, angekündigt und sich eingeordnet hatte\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten ein Schienenfahrzeug vorschriftswidrig (l|I)inks\.
+Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?(l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen\.
+Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?(l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?(l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie scherten vor einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
+Sie kündigten nach dem Vorbeifahren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?das Wiedereinordnen nicht rechtzeitig und deut(l|I)ich an\.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an die bevorrechtigte Straße heran\. Hierdurch wurde der Vorfahrtberechtigte irritiert\.
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter wesent(l|I)ich behindert (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurde\.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein (A|a)nderer wesent(l|I)ich behindert (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurde\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Dadurch wurde ein Vorfahrtberechtigter wesent(l|I)ich behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurde\.
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?wurde\.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Dadurch wurde ein Vorfahrtberechtigter gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Es kam zum Unfa(l|I){2}\.
+Sie ver(l|I)ießen die Autobahn an der Ste(l|I){2}e, die nicht durch eine Ausfahrttafe(l|I) \(Zeichen 332\) und durch ein Pfei(l|I)schi(l|I)d \(Zeichen 333\) oder eines dieser Zeichen gekennzeichnet war\.
+Sie haben den nötigen Abstand bei unter 8(0|O) km\/h nicht eingeha(l|I)ten\.
+Sie haben den nötigen Abstand bei unter 8(0|O) km\/h nicht eingeha(l|I)ten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie haben den nötigen Abstand bei unter 8(0|O) km\/h nicht eingeha(l|I)ten\. Es kam zum Unfa(l|I){2}\.
+Sie bremsten a(l|I)s Vorausfahrender ohne zwingenden Grund stark ab und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bremsten a(l|I)s Vorausfahrender ohne zwingenden Grund stark ab\. Es kam zum Unfa(l|I){2}\.
+Sie hie(l|I)ten beim Überho(l|I)en keinen ausreichenden Seitenabstand zu anderen Verkehrstei(l|I)nehmern ein\. Es kam zum Unfa(l|I){2}\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfo(l|I)genden Verkehr zu beachten\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfo(l|I)genden Verkehr zu beachten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen nach (l|I)inks\/rechts (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfo(l|I)genden Verkehr zu beachten\. Es kam zum Unfa(l|I){2}\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug \/Fahrrad durchfahren zu (l|I)assen oder ohne auf andere Verkehrstei(l|I)nehmer zu achten\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug \/Fahrrad durchfahren zu (l|I)assen oder ohne auf andere Verkehrstei(l|I)nehmer zu achten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?Fahrzeug \/Fahrrad durchfahren zu (l|I)assen oder ohne auf andere Verkehrstei(l|I)nehmer zu achten\. Es kam zum Unfa(l|I){2}\.
+Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr zum zweiten Ma(l|I)\.
+Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr zum dritten Ma(l|I)\.
+Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration über (0|O),29 Promi(l|I){2}e und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dabei (A|a)ndere\.
+Sie führten das Kraftfahrzeug und hatten eine B(l|I)uta(l|I)koho(l|I)konzentration von mehr a(l|I)s 1,(0|O)9 Promi(l|I){2}e\.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mitte(l|I)s\.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mitte(l|I)s zum zweiten Ma(l|I)\.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mitte(l|I)s zum dritten Ma(l|I)\.
+Sie fuhren außerha(l|I)b einer gekennzeichneten Ansch(l|I)ussste(l|I){2}e\/Kreuzung\/Einmündung auf die Autobahn\.
+Sie fuhren außerha(l|I)b einer gekennzeichneten Ansch(l|I)ussste(l|I){2}e\/Kreuzung\/Einmündung auf die Autobahn\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren außerha(l|I)b einer gekennzeichneten Ansch(l|I)ussste(l|I){2}e\/Kreuzung\/Einmündung auf die Autobahn\. Es kam zum Unfa(l|I){2}\.
+Sie wendeten auf der Einfahrt\/Ausfahrt der Autobahn\/Kraftfahrstraße\.
+Sie wendeten auf der Einfahrt\/Ausfahrt der Autobahn\/Kraftfahrstraße\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie wendeten auf der Einfahrt\/Ausfahrt der Autobahn\/Kraftfahrstraße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten\.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten\. Es kam zum Unfa(l|I){2}\.
+Sie wendeten auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße\.
+Sie wendeten auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie wendeten auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße rückwärts\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße rückwärts\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen auf der Autobahn\/Kraftfahrstraße rückwärts\. Es kam zum Unfa(l|I){2}\.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße\.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße rückwärts\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße rückwärts\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße rückwärts\. Es kam zum Unfa(l|I){2}\.
+Sie parkten auf der Autobahn\/Kraftstraße\.
+Sie parkten auf der Autobahn\/Kraftstraße\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie parkten auf der Autobahn\/Kraftstraße\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten am Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr aussch(l|I)ießen konnten\.
+Sie überho(l|I)ten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr aussch(l|I)ießen konnten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr aussch(l|I)ießen konnten\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten, ein Bahnbediensteter “Ha(l|I)t” gebot, ein hörbares Signa(l|I) ertönte\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten, ein Bahnbediensteter “Ha(l|I)t” gebot, ein hörbares Signa(l|I) ertönte\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten, ein Bahnbediensteter “Ha(l|I)t” gebot, ein hörbares Signa(l|I) ertönte\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht bzw\. ge(l|I)be oder rote Lichtzeichen gegeben wurden\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht bzw\. ge(l|I)be oder rote Lichtzeichen gegeben wurden\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht bzw\. ge(l|I)be oder rote Lichtzeichen gegeben wurden\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie unter(l|I)ießen es, die vorgeschriebenen Be(l|I)euchtungseinrichtungen zu benutzen, obwoh(l|I) es die Sichtverhä(l|I)tnisse erforderten\.
+Sie unter(l|I)ießen es, die vorgeschriebenen Be(l|I)euchtungseinrichtungen zu benutzen, obwoh(l|I) es die Sichtverhä(l|I)tnisse erforderten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie unter(l|I)ießen es, die vorgeschriebenen Be(l|I)euchtungseinrichtungen zu benutzen, obwoh(l|I) es die Sichtverhä(l|I)tnisse erforderten\. Es kam zum Unfa(l|I){2}\.
+Die Be(l|I)euchtungsvorrichtungen an (I|l)hrem Fahrzeug waren verdeckt\/verschmutzt\/defekt\.
+Die Be(l|I)euchtungsvorrichtungen an (I|l)hrem Fahrzeug waren verdeckt\/verschmutzt\/defekt\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Die Be(l|I)euchtungsvorrichtungen an (I|l)hrem Fahrzeug waren verdeckt\/verschmutzt\/defekt\. Es kam zum Unfa(l|I){2}\.
+Sie b(l|I)endeten nicht rechtzeitig ab, obwoh(l|I) Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor (I|l)hnen fuhr\.
+Sie b(l|I)endeten nicht rechtzeitig ab, obwoh(l|I) Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor (I|l)hnen fuhr\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie b(l|I)endeten nicht rechtzeitig ab, obwoh(l|I) Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor (I|l)hnen fuhr\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren mit Fern(l|I)icht, obwoh(l|I) die Straße mit durchgehender Be(l|I)euchtung versehen war\.
+Sie fuhren mit Fern(l|I)icht, obwoh(l|I) die Straße mit durchgehender Be(l|I)euchtung versehen war\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren mit Fern(l|I)icht, obwoh(l|I) die Straße mit durchgehender Be(l|I)euchtung versehen war\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren mit eingescha(l|I)teter Nebe(l|I)sch(l|I)uss(l|I)euchte und\/oder Nebe(l|I)scheinwerfer, obwoh(l|I) keine Sichtberhinderung mit einer Sichtweite unter 5(0|O) Meter gegeben war\.
+Sie fuhren mit eingescha(l|I)teter Nebe(l|I)sch(l|I)uss(l|I)euchte und\/oder Nebe(l|I)scheinwerfer, obwoh(l|I) keine Sichtberhinderung mit einer Sichtweite unter 5(0|O) Meter gegeben war\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren mit eingescha(l|I)teter Nebe(l|I)sch(l|I)uss(l|I)euchte und\/oder Nebe(l|I)scheinwerfer, obwoh(l|I) keine Sichtberhinderung mit einer Sichtweite unter 5(0|O) Meter gegeben war\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren innerha(l|I)b einer gesch(l|I)ossenen (O|0)rtschaft ohne Abb(l|I)end(l|I)icht, obwoh(l|I) die Sicht durch Nebe(l|I), Schneefa(l|I){2} oder Regen erheb(l|I)ich behindert war\.
+Sie fuhren innerha(l|I)b einer gesch(l|I)ossenen (O|0)rtschaft ohne Abb(l|I)end(l|I)icht, obwoh(l|I) die Sicht durch Nebe(l|I), Schneefa(l|I){2} oder Regen erheb(l|I)ich behindert war\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren außerha(l|I)b einer gesch(l|I)ossenen (O|0)rtschaft ohne Abb(l|I)end(l|I)icht, obwoh(l|I) die Sicht durch Nebe(l|I), Schneefa(l|I){2} oder Regen erheb(l|I)ich behindert war\.
+Sie fuhren außerha(l|I)b einer gesch(l|I)ossenen (O|0)rtschaft ohne Abb(l|I)end(l|I)icht, obwoh(l|I) die Sicht durch Nebe(l|I), Schneefa(l|I){2} oder Regen erheb(l|I)ich behindert war\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren außerha(l|I)b einer gesch(l|I)ossenen (O|0)rtschaft ohne Abb(l|I)end(l|I)icht, obwoh(l|I) die Sicht durch Nebe(l|I), Schneefa(l|I){2} oder Regen erheb(l|I)ich behindert war\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten die (I|l)nbetriebnahme des Fahrzeuges an, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war, bzw\. (l|I)ießen sie zu\.
+Sie ordneten die (I|l)nbetriebnahme des Fahrzeuges an, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war, bzw\. (l|I)ießen sie zu\. Die Umwe(l|I)t war dadurch gefährdet\.
+Sie ordneten die (I|l)nbetriebnahme des Fahrzeuges an, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war, bzw\. (l|I)ießen sie zu\. Die Verkehrssicherheit war gefährdet\.
+Sie nahmen das Fahrzeug in Betrieb, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\.
+Sie nahmen das Fahrzeug in Betrieb, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Umwe(l|I)t war dadurch gefährdet\.
+Sie nahmen das Fahrzeug in Betrieb, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Verkehrssicherheit war gefährdet\.
+Sie haben das unvorschriftsmäßig gebaute Fahrzeug bzw\. dessen unvorschriftsmäßig gebauten Anhänger in Betrieb genommen\.
+Sie haben das unvorschriftsmäßig gebaute Fahrzeug bzw\. dessen unvorschriftsmäßig gebauten Anhänger in Betrieb genommen\. Die Verkehrssicherheit war gefährdet\.
+Sie führten das Kraftfahrzeug ohne die vorgeschriebenen Sicherheitsgurte\/Rückha(l|I)tesysteme\.
+Sie nahmen das Kraftfahrzeug unter Verstoß gegen eine Vorschrift über mitzuführendes Erste-Hi(l|I)fe-Materia(l|I) in Betrieb\.
+Sie führten das Kraftfahrzeug und verstießen dabei gegen die Vorschrift über Warnwesten\.
+Sie führten das Kraftfahrzeug\/den Anhänger und verstießen dabei gegen die Vorschrift über Warndreieck, Warn(l|I)euchte bzw\. Warnb(l|I)inkan(l|I)age\.
+Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg\.Sie führten den vorgeschriebenen Führerschein nicht mit\.
+Sie händigten auf Ver(l|I)angen der zuständigen Personen den Führerschein nicht aus\.
+Sie zeigten den Ver(l|I)ust (I|l)hres bisherigen Führerscheins nicht unverzüg(l|I)ich an und (l|I)ießen sich kein Ersatzdokument ausste(l|I){2}en\.
+Sie (l|I)ieferten (I|l)hren bisherigen Führerschein, nachdem er nach Aushändigung des neuen wieder aufgefunden wurde, nicht unverzüg(l|I)ich der zuständigen Fahrer(l|I)aubnisbehörde ab\.
+Sie (l|I)ieferten (I|l)hren Führerschein nach Entziehung der Fahrer(l|I)aubnis nicht unverzüg(l|I)ich bei der entscheidenden Behörde ab\.
+Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg\.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an den Fußgängerüberweg heran, obwoh(l|I) ein Bevorrechtigter diesen erkennbar benutzen wo(l|I){2}te\.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an den Fußgängerüberweg heran, obwoh(l|I) ein Bevorrechtigter diesen erkennbar benutzen wo(l|I){2}te\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ermög(l|I)ichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwoh(l|I) dieser erkennbar den Fußgängerüberweg benutzen wo(l|I){2}te\.
+Sie ermög(l|I)ichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwoh(l|I) dieser erkennbar den Fußgängerüberweg benutzen wo(l|I){2}te\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ermög(l|I)ichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwoh(l|I) dieser erkennbar den Fußgängerüberweg benutzen wo(l|I){2}te\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten an dem Fußgängerüberweg ein Fahrzeug\.
+Sie überho(l|I)ten an dem Fußgängerüberweg ein Fahrzeug\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten an dem Fußgängerüberweg ein Fahrzeug\. Es kam zum Unfa(l|I){2}\.
+Sie verursachten aufgrund nicht angepasster Geschwinigkeit einen Unfa(l|I){2}\.
+Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie gefährdeten durch zu hohes Tempo, mange(l|I)nde Bremsbereitschaft oder ungenügend Seitenabstand Kinder, Hi(l|I)fsbedürftige und Ä(l|I)tere\.
+Sie nahmen an einem i(l|I){2}ega(l|I)en Kraftfahrzeugrennen tei(l|I)\.
+Sie nahmen an einem i(l|I){2}ega(l|I)en Kraftfahrzeugrennen tei(l|I)\. Sie waren Veransta(l|I)ter\.
+Sie betrieben ein Radarwarn- oder Laserstörgerät bzw\. führten ein betriebsbereites Gerät mit\.
+Sie ermög(l|I)ichten einem (O|0)mnibus des Linienverkehrs\/einem Schu(l|I)bus nicht das Abfahren von einer gekennzeichneten Ha(l|I)teste(l|I){2}e\.
+Sie ermög(l|I)ichten einem (O|0)mnibus des Linienverkehrs\/einem Schu(l|I)bus nicht das Abfahren von einer gekennzeichneten Ha(l|I)teste(l|I){2}e\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ermög(l|I)ichten einem (O|0)mnibus des Linienverkehrs\/einem Schu(l|I)bus nicht das Abfahren von einer gekennzeichneten Ha(l|I)teste(l|I){2}e\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei\. Sie behinderten dadurch Fahrgäste\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei\. Sie gefährdeten dadurch Fahrgäste\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei\. Sie behinderten dadurch Fahrgäste\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei\. Sie gefährdeten dadurch Fahrgäste\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs vorbei, obwoh(l|I) Sie hätten warten müssen\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs vorbei, obwoh(l|I) Sie hätten warten müssen\. Sie behinderten dadurch Fahrgäste\.
+Sie fuhren an einer Ha(l|I)teste(l|I){2}e bei ein- oder aussteigenden Fahrgästen rechts\/an einem (O|0)mnibus des Linienverkehrs vorbei, obwoh(l|I) Sie hätten warten müssen\. Sie gefährdeten dadurch Fahrgäste\.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fä(l|I){2}igen Sicherheitsprüfung anzume(l|I)den\. Termin überschritten um bis zu 2 Monate\.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fä(l|I){2}igen Sicherheitsprüfung anzume(l|I)den\. Termin überschritten um 2 bis 4 Monate\.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fä(l|I){2}igen Sicherheitsprüfung anzume(l|I)den\. Termin überschritten um 4 bis 8 Monate\.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fä(l|I){2}igen Sicherheitsprüfung anzume(l|I)den\. Termin überschritten um > 8 Monate\.
+Sie versäumten, das Fahrzeug zur fä(l|I){2}igen Hauptuntersuchung anzume(l|I)den\. Termin überschritten um 2 bis 4 Monate\.
+Sie versäumten, das Fahrzeug zur fä(l|I){2}igen Hauptuntersuchung anzume(l|I)den\. Termin überschritten um 4 bis 8 Monate\.
+Sie versäumten, das Fahrzeug zur fä(l|I){2}igen Hauptuntersuchung anzume(l|I)den\. Termin überschritten um > 8 Monate\.
+Sie führten das Fahrzeug nicht rechtzeitig zur Nachprüfung der Mänge(l|I)beseitigung vor\.
+Sie missachteten das Verbot\/die Beschränkung für den Betrieb des Fahrzeuges wegen Feh(l|I)ens einer gü(l|I)tigen Prüfp(l|I)akette\.
+Sie sicherten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab\.
+Sie sicherten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie sicherten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab\. Es kam zum Unfa(l|I){2}\.
+Sie be(l|I)euchteten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig\.
+Sie be(l|I)euchteten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie be(l|I)euchteten (I|l)hr (l|I)iegen geb(l|I)iebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig\. Es kam zum Unfa(l|I){2}\.
+Sie parkten an engen, unübersicht(l|I)ichen Ste(l|I){2}en\.
+Sie parkten an engen, unübersicht(l|I)ichen Ste(l|I){2}en mit Verkehrsbehinderung\.
+Sie parkten an engen, unübersicht(l|I)ichen Ste(l|I){2}en (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten an engen, unübersicht(l|I)ichen Ste(l|I){2}en (l|I)änger a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten in Kurvenbereichen\.
+Sie parkten in Kurvenbereichen mit Verkehrsbehinderung\.
+Sie parkten in Kurvenbereichen (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten in Kurvenbereichen (l|I)änger a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten unmitte(l|I)bar vor\/auf Fußgängerüberwegen\.
+Sie parkten unmitte(l|I)bar vor\/auf Fußgängerüberwegen mit Verkehrsbehinderung\.
+Sie parkten unmitte(l|I)bar vor\/auf Fußgängerüberwegen (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten unmitte(l|I)bar vor\/auf Fußgängerüberwegen a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten unmitte(l|I)bar vor Lichtzeichen\.
+Sie parkten unmitte(l|I)bar vor Lichtzeichen mit Verkehrsbehinderung\.
+Sie parkten unmitte(l|I)bar vor Lichtzeichen (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten unmitte(l|I)bar vor Lichtzeichen a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten im (eingeschränkten) Ha(l|I)teverbot\.
+Sie parkten im (eingeschränkten) Ha(l|I)teverbot mit Verkehrsbehinderung\.
+Sie parkten im (eingeschränkten) Ha(l|I)teverbot (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten im (eingeschränkten) Ha(l|I)teverbot a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten auf dem Seitenstreifen\.
+Sie parkten auf dem Seitenstreifen mit Verkehrsbehinderung\.
+Sie parkten auf dem Seitenstreifen (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten auf dem Seitenstreifen a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig in einer verkehrsberuhigten Zone\.
+Sie parkten unzu(l|I)ässig in einer verkehrsberuhigten Zone mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig in einer verkehrsberuhigten Zone (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig in einer verkehrsberuhigten Zone (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor Grundstücksein-\/-ausfahrten\.
+Sie parkten unzu(l|I)ässig vor Grundstücksein-\/-ausfahrten mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor Grundstücksein-\/-ausfahrten (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig vor Grundstücksein-\/-ausfahrten (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig im 5-Meter-Bereich vor Kreuzungen\.
+Sie parkten unzu(l|I)ässig im 5-Meter-Bereich vor Kreuzungen mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig im 5-Meter-Bereich vor Kreuzungen (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig im 5-Meter-Bereich vor Kreuzungen (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Ha(l|I)teste(l|I){2}en (Bus oder Taxi)\.
+Sie parkten unzu(l|I)ässig auf Ha(l|I)teste(l|I){2}en (Bus oder Taxi) mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Ha(l|I)teste(l|I){2}en (Bus oder Taxi) (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig auf Ha(l|I)teste(l|I){2}en (Bus oder Taxi) (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor\/hinter einem Andreaskreuz\.
+Sie parkten unzu(l|I)ässig vor\/hinter einem Andreaskreuz mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor\/hinter einem Andreaskreuz (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig vor\/hinter einem Andreaskreuz (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig über Schatdecke(l|I)n\.
+Sie parkten unzu(l|I)ässig über Schatdecke(l|I)n mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig über Schatdecke(l|I)n (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig über Schatdecke(l|I)n (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig trotz Parkverbotsschi(l|I)d\.
+Sie parkten unzu(l|I)ässig trotz Parkverbotsschi(l|I)d mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig trotz Parkverbotsschi(l|I)d (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig trotz Parkverbotsschi(l|I)d (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor abgesenktem Bordstein\.
+Sie parkten unzu(l|I)ässig vor abgesenktem Bordstein mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig vor abgesenktem Bordstein (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig vor abgesenktem Bordstein (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Anwohnerparkp(l|I)ätzen\.
+Sie parkten unzu(l|I)ässig auf Anwohnerparkp(l|I)ätzen mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Anwohnerparkp(l|I)ätzen (l|I)änger a(l|I)s 3 Stunden\.
+Sie parkten unzu(l|I)ässig auf Anwohnerparkp(l|I)ätzen (l|I)änger a(l|I)s 3 Stunden mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Rad- und\/oder Gehwegen\.
+Sie parkten unzu(l|I)ässig auf Rad- und\/oder Gehwegen mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf Rad- und\/oder Gehwegen (l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten unzu(l|I)ässig auf Rad- und\/oder Gehwegen (l|I)änger a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten in zweiter Reihe\.
+Sie parkten in zweiter Reihe mit Verkehrsbehinderung\.
+Sie parkten in zweiter Reihe (l|I)änger a(l|I)s 15 Minuten\.
+Sie parkten in zweiter Reihe (l|I)änger a(l|I)s 15 Minuten mit Verkehrsbehinderung\.
+Sie parkten vor einer Feuerwehrzufahrt\.
+Sie parkten vor einer Feuerwehrzufahrt\. Sie behinderten dadurch ein Einsatzfahrzeug\.
+Sie parkten im Fahrraum von Schienenfahrzeugen\.
+Sie parkten im Fahrraum von Schienenfahrzeugen mit Verkehrsbehinderung\.
+Sie parkten unzu(l|I)ässig auf einem Schwerbehindertenpark(l|I)p(l|I)atz\.
+Sie parkten und behinderten dadurch Rettungsfahrzeuge\.
+Sie nahmen im Kfz ein Kind mit, ohne für die vorschriftsmäßige Sicherung zu sorgen\.
+Sie nahmen im Kfz ein Kind mit, ohne für die vorschriftsmäßige Sicherung zu sorgen\. Sie nahmen mehrere Kinder mit\.
+Sie beförderten a(l|I)s Fahrer ein Kind, ohne für die vorschriftsmäßige Sicherung zu sorgen\.
+Sie beförderten a(l|I)s Fahrer ein Kind, ohne für die vorschriftsmäßige Sicherung zu sorgen\. Sie beförderten mehrere Kinder\.
+Sie beförderten auf der Ladef(l|I)äche des Kfz\/Anhängers Personen\.
+Sie hatten während der Fahrt den Sicherheitsgurt nicht ange(l|I)egt\.
+Sie befo(l|I)gten nicht die (verkehrsrege(l|I)nde) Weisung\/die Anweisung zur Durchführung einer Verkehrskontro(l|I){2}e des Po(l|I)izeibeamten\.
+Sie befo(l|I)gten nicht das Zeichen oder das Ha(l|I)tegebot des Po(l|I)izeibeamten\. Es kam zum Unfa(l|I){2}\.
+Sie führten das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) es unzu(l|I)ässig auf einer Achse mit Diagona(l|I)- und Radia(l|I)reifen ausgerüstet war\.
+Sie führten das Fahrzeug, obwoh(l|I) dessen Reifen mit Spikes ausgestattet waren\.
+Sie führten das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\.
+Sie führten das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\.
+Sie führten a(l|I)s Ha(l|I)ter das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter das Kraftfahrzeug (bzw\. dessen Anhänger), obwoh(l|I) dessen Reifen keine ausreichende Profi(l|I)- oder Einschnitttiefe bzw\. keine ausreichenden Profi(l|I)ri(l|I){2}en oder Einschnitte besaß\. Es kam zum Unfa(l|I){2}\.
+Sie führten das Kfz\/den Anhänger mit mange(l|I)haften Reifen, sodass die Verkehrssicherheit beeinträchtigt war\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen Winterreifen\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen Winterreifen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen Winterreifen\. Es kam zum Unfa(l|I){2}\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Sie bogen ab, ohne anzuha(l|I)ten\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch andere Kfz\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Es kam zum Unfa(l|I){2} mit einem anderen Kfz\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Sie behinderten dadurch Fußgänger\/Fahrradfahrer\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Sie gefährdeten dadurch Fußgänger\/Fahrradfahrer\.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr\. Es kam zum Unfa(l|I){2} mit dem Fußgänger\/Radfahrer\.
+Sie begingen einen einfachen Rot(l|I)ichtverstoß\.
+Sie begingen einen einfachen Rot(l|I)ichtverstoß\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie begingen einen einfachen Rot(l|I)ichtverstoß\. Es kam zum Unfa(l|I){2}\.
+Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\.
+Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\. Es kam zum Unfa(l|I){2}\.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten auf der dem Gegenverkehr vorbeha(l|I)tenen Fahrbahn\.
+Sie überho(l|I)ten auf der dem Gegenverkehr vorbeha(l|I)tenen Fahrbahn\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten auf der dem Gegenverkehr vorbeha(l|I)tenen Fahrbahn\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d a(l|I)s mög(l|I)ich rechts ein\.
+Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d a(l|I)s mög(l|I)ich rechts ein\. Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?beim Wiedereinordnen nach dem Überho(l|I)en den Überho(l|I)ten\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?beim Wiedereinordnen nach dem Überho(l|I)en den Überho(l|I)ten\. Es kam zum Unfa(l|I){2}\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig anzukündigen\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig anzukündigen\. Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig anzukündigen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig anzukündigen\.
+Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig anzukündigen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, ohne dass Sie aussch(l|I)ießen konnten, dass während des gesamten Überho(l|I)vorgangs der Gegenverkehr nicht behindert wird\.
+Sie überho(l|I)ten, ohne dass Sie aussch(l|I)ießen konnten, dass während des gesamten Überho(l|I)vorgangs der Gegenverkehr nicht behindert wird\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten, ohne dass Sie aussch(l|I)ießen konnten, dass während des gesamten Überho(l|I)vorgangs der Gegenverkehr nicht behindert wird\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten trotz unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen\.
+Sie überho(l|I)ten trotz unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten trotz unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
+Sie scherten zum Überho(l|I)en aus, ohne auf das überho(l|I)ende Fahrzeug zu achten\. Es kam zum Unfa(l|I){2}\.
+Sie hie(l|I)ten a(l|I)s Betei(l|I)igter eines Unfa(l|I){2}s nicht unverzüg(l|I)ich an\.
+Sie unter(l|I)ießen es a(l|I)s Betei(l|I)igter an einem Verkehrsunfa(l|I){2}, anderen am Unfa(l|I){2}ort anwesenden Betei(l|I)igten oder Geschädigten (I|l)hre Betei(l|I)igung am Unfa(l|I){2} anzugeben\.
+Sie unter(l|I)ießen es a(l|I)s Betei(l|I)igter an einem Verkehrsunfa(l|I){2}, anderen am Unfa(l|I){2}ort anwesenden Betei(l|I)igten oder Geschädigten auf Ver(l|I)angen (I|l)hren Führerschein oder Fahrzeugschein vorzuweisen\.
+Sie unter(l|I)ießen es a(l|I)s Betei(l|I)igter an einem Verkehrsunfa(l|I){2}, anderen am Unfa(l|I){2}ort anwesenden Betei(l|I)igten oder Geschädigten nach bestem Wissen Angaben über (I|l)hre Haftpf(l|I)ichtversicherung zu machen\.
+Sie unter(l|I)ießen es a(l|I)s Betei(l|I)igter eines Unfa(l|I){2}es, nachdem Sie eine nach den Umständen angemessene Zeit gewartet hatten, (I|l)hren Namen und (I|l)hre Anschrift am Unfa(l|I){2}ort zu hinter(l|I)assen\.
+Sie sicherten a(l|I)s Betei(l|I)igter an einem Verkehrsunfa(l|I){2} nicht den Verkehr\.
+Sie sicherten a(l|I)s Betei(l|I)igter an einem Verkehrsunfa(l|I){2} nicht den Verkehr\. Es kam zum (Fo(l|I)ge-)Unfa(l|I){2}\.
+Sie fuhren a(l|I)s Betei(l|I)igter eines Unfa(l|I){2}es mit geringfügigem Schaden nicht unverzüg(l|I)ich beiseite\.
+Sie fuhren a(l|I)s Betei(l|I)igter eines Unfa(l|I){2}es mit geringfügigem Schaden nicht unverzüg(l|I)ich beiseite\. Es kam zum (Fo(l|I)ge-)Unfa(l|I){2}\.
+Sie beseitigten nach einem Unfa(l|I){2} Unfa(l|I){2}spuren, bevor die notwendigen Festste(l|I){2}ungen getroffen waren\.
+Sie führten das Fahrzeug, obwoh(l|I) die Kennzeichen sch(l|I)echt (l|I)esbar waren\.
+Sie führten das Fahrzeug, obwoh(l|I) (I|l)hre Sicht\/(I|l)hr Gehör beeinträchtigt war\.
+Sie benutzten a(l|I)s Fahrzeugführer verbotswidrig ein Mobi(l|I)- oder Autote(l|I)efon und hie(l|I)ten den Hörer in der Hand\.
+Sie benutzten a(l|I)s Fahrzeugführer verbotswidrig ein technisches Gerät, um die Verkehrsüberwachung anzuzeigen\/zu stören\.
+Sie verstießen gegen das Rechtsfahrgebot und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie verstießen gegen das Rechtsfahrgebot Es kam zum Unfa(l|I){2}\.
+Sie scherten vor einem Hindernis aus, ohne dies rechtzeitig anzukündigen\.
+Sie ordneten sich nach dem Vorbeifahren ein, ohne dies rechtzeitig anzukündigen\.
+Sie fuhren an einem Hindernis (l|I)inks vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu (l|I)assen\.
+Sie fuhren an einem Hindernis (l|I)inks vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu (l|I)assen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren an einem Hindernis (l|I)inks vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten a(l|I)s Wartepf(l|I)ichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere\.
+Sie missachteten a(l|I)s Wartepf(l|I)ichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten a(l|I)s Wartepf(l|I)ichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten die Vorfahrtrege(l|I)ung durch Beschi(l|I)derung (VZ 2(0|O)5\/VZ 2(0|O)6) und behinderten dadurch andere\.
+Sie missachteten die Vorfahrtrege(l|I)ung durch Beschi(l|I)derung (VZ 2(0|O)5\/VZ 2(0|O)6) und behinderten dadurch andere\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten die Vorfahrtrege(l|I)ung durch Beschi(l|I)derung (VZ 2(0|O)5\/VZ 2(0|O)6) und behinderten dadurch andere\. Es kam zum Unfa(l|I){2}\.
+Sie gaben missbräuch(l|I)ich Scha(l|I){2}zeichen\/Leuchtzeichen\.
+Sie gaben missbräuch(l|I)ich Scha(l|I){2}zeichen\/Leuchtzeichen\. Sie be(l|I)ästigten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie scha(l|I)teten missbräch(l|I)ich das Warnb(l|I)inks(l|I)icht an\.
+Sie begingen erstma(l|I)ig einen B-Verstoß während der Probezeit\.
+Sie begingen erstma(l|I)ig einen A-Verstoß einen zweiten B-Verstoß während der Probezeit\.
+Sie begingen einen A-Verstoß mit A(l|I)koho(l|I) und Drogen\.
+Sie begingen einen A-Verstoß bzw\. zwei B-Verstöße während der ver(l|I)ängerten Probezeit\.
+Sie begingen einen zweiten A-Verstoß bzw\. zwei weitere B-Verstöße während der ver(l|I)ängerten Probezeit\.
+Sie haben während der Probezeit a(l|I)s Fahrzeugführer die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
+Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Fahrzeugführer die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie nahmen den Lkw\/K(O|0)B bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie nahmen den Lkw\/K(O|0)B bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie nahmen den Lkw\/K(O|0)B bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie nahmen das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie nahmen das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie nahmen das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie nahmen den Lkw\/K(O|0)B in Betrieb, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Umwe(l|I)t war dadurch gefährdet\.
+Sie nahmen den Lkw\/K(O|0)B in Betrieb, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Verkehrssicherheit war gefährdet\.
+Sie ordneten die (I|l)nbetriebnahme des Lkw\/K(O|0)B an, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Umwe(l|I)t war dadurch gefährdet\.
+Sie ordneten die (I|l)nbetriebnahme des Lkw\/K(O|0)B an, obwoh(l|I) die Betriebser(l|I)aubnis er(l|I)oschen war\. Die Verkehrssicherheit war gefährdet\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter den Lkw\/K(O|0)B bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie fuhren mit dem kennzeichnungspf(l|I)ichtigen Fahrzeug mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhä(l|I)tnisse nicht mit angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
+Sie unter(l|I)ießen es, die Ladung des Lkw\/K(O|0)B bzw\. dessen Anhängers ausreichend gegen Verrutschen, Umfa(l|I){2}en, Hin- und Herro(l|I){2}en, Herabfa(l|I){2}en abzusichern\.
+Sie unter(l|I)ießen es, die Ladung des Lkw\/K(O|0)B bzw\. dessen Anhängers ausreichend gegen Verrutschen, Umfa(l|I){2}en, Hin- und Herro(l|I){2}en, Herabfa(l|I){2}en abzusichern\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie unter(l|I)ießen es, die Ladung des Lkw\/K(O|0)B bzw\. dessen Anhängers ausreichend gegen Verrutschen, Umfa(l|I){2}en, Hin- und Herro(l|I){2}en, Herabfa(l|I){2}en abzusichern\. Es kam zum Unfa(l|I){2}\.
+Sie führten das Fahrzeug, obwoh(l|I) es mit Ladung höher a(l|I)s 4,2(0|O) m war\.
+Sie führten das Fahrzeug, obwoh(l|I) es mit Ladung (l|I)änger a(l|I)s 2(0|O),75 m war\.
+Sie ordneten die (I|l)nbetriebnahme eines Lkw\/K(O|0)B bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\.
+Sie ordneten die (I|l)nbetriebnahme eines Lkw\/K(O|0)B bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ordneten die (I|l)nbetriebnahme eines Lkw\/K(O|0)B bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten die (I|l)nbetriebnahme eines kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\.
+Sie ordneten die (I|l)nbetriebnahme eines kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie ordneten die (I|l)nbetriebnahme eines kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen bzw\. dessen Anhängers an, obwoh(l|I) die Verkehrssicherheit durch die Ladung\/Besetzung wesent(l|I)ich beeinträchtigt wurde bzw\. (l|I)ießen sie zu\. Es kam zum Unfa(l|I){2}\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\. Es kam zum Unfa(l|I){2}\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie führten a(l|I)s Ha(l|I)ter das kennzeichnungspf(l|I)ichtige Fahrzeug mit gefähr(l|I)ichen Gütern\/den K(O|0)B mit Fahrgästen bzw\. dessen Anhänger, obwoh(l|I) die Reifen keine ausreichende Profi(l|I)- bzw\. Einschnitttiefe bzw\. ausreichenden Profi(l|I)ri(l|I){2}en besaßen\. Es kam zum Unfa(l|I){2}\.
+Sie ordneten die (I|l)nbetriebnahme eines Lkw\/K(O|0)B an, obwoh(l|I) die Reifen mange(l|I)haft waren bzw\. (l|I)ießen sie zu\.
+Sie ordneten die (I|l)nbetriebnahme eines Lkw\/K(O|0)B an, obwoh(l|I) die Reifen mir Spikes ausgestattet waren bzw\. (l|I)ießen sie zu\.
+Sie haben die Ausnahmegenehmigung nicht mitgeführt bzw\. ausgehändigt\.
+Sie fuhren mit dem Kraftfahrzeug trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes auf der Autobahn\.
+Sie fuhren mit dem Kfz (l|I)änger a(l|I)s 15 Minuten trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes\.
+Sie fuhren mit dem Lkw mit über 7,5 t zGG\/Lkw mit Anhänger verbotswidrig an einem Sonntag\/Feiertag\.
+Sie (l|I)ießen es zu bzw\. ordneten an, dass mit dem Kfz trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes (l|I)änger a(l|I)s 15 Minuten gefahren wird\.
+Sie (l|I)ießen es zu bzw\. ordneten an, dass mit dem Lkw mit über 7,5 t zGG\/Lkw mit Anhänger verbotswidrig an einem Sonntag\/Feiertag gefahren wird\.
+Sie überho(l|I)ten und missachteten dabei das Überho(l|I)verbotszeichen\.
+Sie überho(l|I)ten und missachteten dabei das Überho(l|I)verbotszeichen\. Sie behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten und missachteten dabei das Überho(l|I)verbotszeichen\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überho(l|I)ten und missachteten dabei das Überho(l|I)verbotszeichen\. Es kam zum Unfa(l|I){2}\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher war a(l|I)s die des überho(l|I)ten Fahrzeugs\.
+Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher war a(l|I)s die des überho(l|I)ten Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
+Sie berho(l|I)ten mit einem Kfz mit über 7,5 t zGG, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\.
+Sie berho(l|I)ten mit einem Kfz mit über 7,5 t zGG, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie berho(l|I)ten mit einem Kfz mit über 7,5 t zGG, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
+Sie berho(l|I)ten mit einem kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\.
+Sie berho(l|I)ten mit einem kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie berho(l|I)ten mit einem kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
+Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b  gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h in einem verkehrsberuhigten  Bereich (Zeichen 325\.1, 325\.2)\.
+Sie (l|I)ießen das nicht zuge(l|I)assene Fahrzeug an der Ste(l|I){2}e stehen, wodurch der Verkehr erschwert werden konnte\.
