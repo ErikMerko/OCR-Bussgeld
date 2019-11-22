@@ -1,324 +1,722 @@
-Sie führten das Kraftfahrzeug mit einer Atema(l|I)koho(l|I)konzentration von (0|O),25 mg\/(l|I) oder mehr\.
-Sie führten das Kraftfahrzeug mit einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr\.
-Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer Atema(l|I)koho(l|I)konzentration von (0|O),25 mg\/(l|I) oder mehr geführt hat\.
-Sie führten das Kraftfahrzeug mit einer A(l|I)koho(l|I)menge im Körper, die zu einer B(l|I)uta(l|I)koho(l|I)konzentration von (0|O),5 Promi(l|I){2}e oder mehr geführt hat\.
-Sie führten das Kraftfahrzeug unter Wirkung des berauschenden Mitte(l|I)s \(\w{1,}\)\.
-Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
-Sie haben in der Probezeit nach (§|$) 2a StVG a(l|I)s Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
-Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Führer eines Kraftfahrzeuges ein a(l|I)koho(l|I)isches Getränk zu sich genommen\.
-Sie haben vor Vo(l|I){2}endung des 21\. Lebensjahres a(l|I)s Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines a(l|I)koho(l|I)ischen Getränks angetreten\.
-Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen\.
-Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen, so dass ein nachfo(l|I)gendes Fahrzeug gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurde\.
-Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deut(l|I)ich anzukündigen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben\. Es kam zum Unfa(l|I){2}\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne auf den nachfo(l|I)genden Verkehr zu achten\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne auf den nachfo(l|I)genden Verkehr zu achten, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen nach (l|I)inks\/rechts \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ab, ohne auf den nachfo(l|I)genden Verkehr zu achten\. Es kam zum Unfa(l|I){2}\.
-Sie ordneten sich nach (l|I)inks auf den Schienen ein und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch ein Schienenfahrzeug\.
-Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Fahrzeug durchfahren zu (l|I)assen\.
-Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Fahrzeug durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen ab, ohne ein entgegenkommendes\/in g(l|I)eicher Richtung fahrendes \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Fahrzeug durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen\.
-Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen ab, ohne einen in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen ab, ohne ein in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrendes Fahrrad mit Hi(l|I)fsmotor durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen ab, ohne ein in entgegenkommender\/g(l|I)eicher \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Richtung geradeaus weiterfahrendes Fahrrad mit Hi(l|I)fsmotor durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) diese\.
-Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war\.
-Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen a(l|I)s Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwoh(l|I) dies mög(l|I)ich war\. Es kam zum Unfa(l|I){2}\.
-Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen\.
-Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen a(l|I)s Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie bogen in das Grundstück ab und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie bogen in das Grundstück ab und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
-Sie wendeten auf der Straße und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie wendeten auf der Straße und (l|I)ießen dabei die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
-Sie (l|I)ießen beim Rückwärtsfahren die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie (l|I)ießen beim Rückwärtsfahren die (I|l)hnen ob(l|I)iegende besondere Vorsicht außer Acht\. Es kam zum Unfa(l|I){2}\.
-Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\.
-Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein, so dass die (I|l)nsassen dieses Fahrzeugs gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurden\.
-Sie hie(l|I)ten bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\. (I|l)hr Abstand betrug \d{1,3},\d{2} m\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren info(l|I)ge zu geringen Abstands auf das abbremsende Fahrzeug auf\. Es kam zum Unfa(l|I){2}\.
-Sie hie(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrg\. \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) bei einer Geschwindigkeit von \d{1,3} km\/h den erforder(l|I)ichen Abstand von \d{1,3},\d{2} m zum vorausfahrenden Fahrzeug nicht ein\.
-Sie bremsten a(l|I)s Vorausfahrender stark ohne zwingenden Grund, so dass es zur Gefährdung \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) des nachfo(l|I)genden Verkehrstei(l|I)nehmers kam\.
-Sie bremsten a(l|I)s Vorausfahrender stark ohne zwingenden Grund, so dass es zum Unfa(l|I){2} kam\.
-Sie hie(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften nicht den zum Einscheren erforder(l|I)ichen Abstand von dem vorausfahrenden Fahrzeug\.
-Sie hie(l|I)ten a(l|I)s Führer des Lastkraftwagens (zu(l|I)ässige Gesamtmasse über 3,5 t)\/Kraftomnibusses \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) bei einer Geschwindigkeit von mehr a(l|I)s 5(0|O) km\/h auf einer Autobahn den Mindestabstand von 5(0|O) m zum vorausfahrenden Fahrzeug nicht ein\.
-Sie hie(l|I)ten a(l|I)s Führer des kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern (zu(l|I)ässige Gesamtmasse über 3,5 t)\/Kraftomnibusses mit Fahrgästen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) bei einer Geschwindigkeit von mehr a(l|I)s 5(0|O) km\/h auf einer Autobahn den Mindestabstand von 5(0|O) m zum vorausfahrenden Fahrzeug nicht ein\.
-Sie fuhren mit nicht angepasster Geschwindigkeit an einen Bahnübergang heran\.
-Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten\.
-Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 2(0|O)1) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang\.
-Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten unzu(l|I)ässig an einem Bahnübergang\. Es kam zum Unfa(l|I){2}\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) sich ein Schienenfahrzeug näherte\. Es kam zum Unfa(l|I){2}\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\. Es kam zum Unfa(l|I){2}\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\. Es kam zum Unfa(l|I){2}\.
-Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie überquerten a(l|I)s nichtmotorisierter Verkehrstei(l|I)nehmer \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie ver(l|I)etzten vor einem Bahnübergang eine Wartepf(l|I)icht\.
-Sie fuhren aus einem Grundstück auf die Straße und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren aus einem Grundstück auf die Straße\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren von einem anderen Straßentei(l|I) auf die Fahrbahn und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren von einem anderen Straßentei(l|I) auf die Fahrbahn\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren vom Fahrbahnrand an und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren vom Fahrbahnrand an\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren aus einem Grundstück auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie fuhren aus einer Fußgängerzone (Zeichen 242\.1, 242\.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie fuhren von einem verkehrsberuhigten Bereich (Zeichen 325\.1, 325\.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie fuhren von einem Straßentei(l|I) auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie fuhren über einen abgesenkten Bordstein auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie fuhren vom Fahrbahnrand der Straße an, ohne den Fahrtrichtungsanzeiger zu benutzen\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der beiden in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen einen der drei in Fahrtrichtung (l|I)inken, aussch(l|I)ieß(l|I)ich dem Gegenverkehr vorbeha(l|I)tenen, zum Überho(l|I)en\. Es kam zum Unfa(l|I){2}\.
-Sie benutzten mit einem Lastkraftwagen mit einer zu(l|I)ässigen Gesamtmasse von mehr a(l|I)s 3,5 t außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens\.
-Sie benutzten mit einem Lastkraftwagen mit einer zu(l|I)ässigen Gesamtmasse von mehr a(l|I)s 3,5 t außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens\.
-Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften den (l|I)inken Fahrstreifen zu einem anderen Zweck a(l|I)s dem des Linksabbiegens und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie wechse(l|I)ten den Fahrstreifen und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dabei Andere\.
-Sie wechse(l|I)ten den Fahrstreifen und verursachten dabei einen Unfa(l|I){2}\.
-Sie wechse(l|I)ten den Fahrstreifen, ohne dies rechtzeitig und deut(l|I)ich anzukündigen\.
-Sie fuhren auf dem Ausfäde(l|I)ungsstreifen schne(l|I){2}er a(l|I)s der Verkehr auf den durchgehenden Fahrstreifen\.
-Sie fuhren auf dem Ausfäde(l|I)ungsstreifen schne(l|I){2}er a(l|I)s der Verkehr auf den durchgehenden Fahrstreifen und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren auf dem Ausfäde(l|I)ungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei\.
-Sie fuhren auf dem Ausfäde(l|I)ungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
-Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
-Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren ein kennzeichnungspf(l|I)ichtiges Kraftfahrzeug mit gefähr(l|I)ichen Gütern in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen ört(l|I)ichen Straßen- oder Verkehrsverhä(l|I)tnisse mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
-Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
-Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren mit einem kennzeichnungspf(l|I)ichtigen Kraftfahrzeug mit gefähr(l|I)ichen Gütern bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren einen Kraftomnibus mit Fahrgästen bei sch(l|I)echten Sicht- oder Wetterverhä(l|I)tnissen mit nicht angepasster Geschwindigkeit\. Es kam zum Unfa(l|I){2}\.
-Sie verursachten info(l|I)ge nicht angepasster Geschwindigkeit einen Unfa(l|I){2}\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften bei einer Sichtweite von weniger a(l|I)s 5(0|O) m durch Nebe(l|I), Schneefa(l|I){2} oder Regen um \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften bei einer Sichtweite von weniger a(l|I)s 5(0|O) m durch Nebe(l|I), Schneefa(l|I){2} oder Regen um \d{1,3} km\/h\.
-Sie fuhren ohne triftigen Grund so (l|I)angsam, dass der Verkehrsf(l|I)uss behindert wurde\.
-Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) a(l|I)s Fahrzeugführer ein Kind\/einen Hi(l|I)fsbedürftigen\/einen ä(l|I)teren Menschen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), insbesondere durch nicht ausreichend verminderte Geschwindigkeit\/mange(l|I)nde Bremsbereitschaft\/unzureichenden Seitenabstand beim Vorbeifahren\/unzureichenden Seitenabstand beim Überho(l|I)en \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie schädigten a(l|I)s Fahrzeugführer ein Kind\/einen Hi(l|I)fsbedürftigen\/einen ä(l|I)teren Menschen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), insbesondere durch nicht ausreichend verminderte Geschwindigkeit\/mange(l|I)nde Bremsbereitschaft\/unzureichenden Seitenabstand beim Vorbeifahren\/unzureichenden Seitenabstand beim Überho(l|I)en \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit für mehr a(l|I)s 5 Minuten Dauer bis zu \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit in mehr a(l|I)s 2 Fä(l|I){2}en nach Fahrtantritt bis zu \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit mit Schneeketten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
-Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit mit Schneeketten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.
-Sie kamen von der Fahrbahn ab und verursachten Sachschaden\.
-Sie gerieten ins Sch(l|I)eudern und verursachten Sachschaden\.
-Sie streiften beim Vorbeifahren ein Fahrzeug und verursachten Sachschaden\.
-Sie (l|I)ießen beim Befahren der Straße die im Verkehr erforder(l|I)iche Rücksicht außer Acht und beschmutzten dabei Andere\.
-Sie ste(l|I){2}ten das Fahrzeug so ab, dass ein anderes Fahrzeug nicht wegfahren konnte\.
-Sie (l|I)ießen an einer Fahrbahnverengung die im Verkehr erforder(l|I)iche Sorgfa(l|I)t außer Acht, so dass es zum Unfa(l|I){2} kam\.
-Sie behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Andere, indem Sie ihnen das Einordnen im sogenannten Reißversch(l|I)ussverfahren nicht ermög(l|I)ichten\.
-Sie fuhren in den Kreuzungsbereich\/Einmündungsbereich \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Mög(l|I)ichkeit zu geben, diesen zu ver(l|I)assen\.
-Sie fuhren in den Kreuzungsbereich\/Einmündungsbereich \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Mög(l|I)ichkeit zu geben, diesen zu ver(l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) durch das Parken auf einer Fußgängerfurt der Lichtzeichenan(l|I)age Andere\.
-Sie behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) durch das Parken Andere\.
-Sie be(l|I)ästigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t Andere mehr a(l|I)s nach den Umständen unvermeidbar\.
-Sie behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t Andere mehr a(l|I)s nach den Umständen unvermeidbar\.
-Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t Andere\.
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t Andere\.
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t andere Verkehrstei(l|I)nehmer durch Auffahren auf ein vorausfahrendes Fahrzeug\.
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforder(l|I)ichen Sorgfa(l|I)t andere Verkehrstei(l|I)nehmer durch Auffahren auf ein stehendes Fahrzeug\.
-Sie beschädigten beim Fahren in eine\/aus einer Park(l|I)ücke ein stehendes Fahrzeug\.
-Sie fuhren mit einem Kraftrad auf dem Hinterrad und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie hie(l|I)ten näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses\.
-Sie hie(l|I)ten näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses, wodurch Andere behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurden\.
-Sie parkten (l|I)änger a(l|I)s 1 Stunde näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses\.
-Sie parkten (l|I)änger a(l|I)s 1 Stunde näher a(l|I)s 1(0|O) Meter vor einem Lichtzeichen und verdeckten dieses, wodurch Andere behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurden\.
-Sie missachteten das Rot(l|I)icht in Verbindung mit dem Ge(l|I)b(l|I)icht\.
-Sie missachteten das Ge(l|I)b(l|I)icht der Lichtzeichenan(l|I)age, obwoh(l|I) Sie gefahr(l|I)os hätten anha(l|I)ten können\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) aus einem anderen a(l|I)s dem rechten Fahrstreifen nach rechts ab\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) den Fahrzeugverkehr der freigegebenen Richtung\.
-Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
-Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte bereits (l|I)änger a(l|I)s 1 Sekunde an\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Es kam zum Unfa(l|I){2}\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Die Rotphase dauerte bereits (l|I)änger a(l|I)s 1 Sekunde an\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\. Die Rotphase dauerte bereits (l|I)änger a(l|I)s 1 Sekunde an\.
-Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte bereits (l|I)änger a(l|I)s 1 Sekunde an\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab, ohne vorher anzuha(l|I)ten\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch den Fahrzeugverkehr der freigegebenen Verkehrsrichtungen\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab\. Es kam zum Unfa(l|I){2} mit dem Fahrzeugverkehr der freigegebenen Verkehrsrichtungen\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der freigegebenen Verkehrsrichtungen\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der freigegebenen Verkehrsrichtungen\.
-Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab\. Es kam zum Unfa(l|I){2} mit dem Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der freigegebenen Verkehrsrichtungen\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\. Es kam zum Unfa(l|I){2}\.
-Sie benutzten vorschriftswidrig nicht die Fahrbahn\.
-Sie benutzten vorschriftswidrig nicht die Fahrbahn und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten vorschriftswidrig nicht die Fahrbahn und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten vorschriftswidrig den Gehweg\.
-Sie benutzten vorschriftswidrig den Gehweg und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten vorschriftswidrig den Gehweg und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten vorschriftswidrig den Seitenstreifen\.
-Sie benutzten vorschriftswidrig den Seitenstreifen und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten vorschriftswidrig den Seitenstreifen und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten verbotenerweise die Verkehrsinse(l|I)\.
-Sie benutzten verbotenerweise die Verkehrsinse(l|I) und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten verbotenerweise die Verkehrsinse(l|I) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten verbotenerweise den Grünstreifen\.
-Sie benutzten verbotenerweise den Grünstreifen und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten verbotenerweise den Grünstreifen und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\.
-Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\. Beim Wechse(l|I) auf den Fahrstreifen gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) Sie Andere\.
-Sie benutzten den Seitenstreifen zum Zweck des schne(l|I){2}eren Vorwärtskommens\. Beim Wechse(l|I) auf den Fahrstreifen kam es zum Unfa(l|I){2}\.
-Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn\.
-Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren in der Ein-\/Ausfahrt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\.
-Sie fuhren in der Ein-\/Ausfahrt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren in der Ein-\/Ausfahrt \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\.
-Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren auf der Nebenfahrbahn\/dem Seitenstreifen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\.
-Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren auf der durchgehenden Fahrbahn der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) entgegen der Fahrtrichtung\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren nicht mög(l|I)ichst weit rechts\.
-Sie benutzten nicht die rechte Fahrbahnseite\.
-Sie benutzten nicht die rechte Fahrbahnseite und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie benutzten nicht den rechten Fahrstreifen und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen beim Überho(l|I)twerden gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen beim Überho(l|I)twerden gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen bei Unübersicht(l|I)ichkeit gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen bei Unübersicht(l|I)ichkeit gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen in einer Kurve gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen in einer Kurve gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie gerieten auf die (l|I)inke Fahrbahnseite und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie gerieten auf die (l|I)inke Fahrbahnseite und stießen mit dem entgegenkommenden Fahrzeug zusammen\. Es kam zum Unfa(l|I){2}\.
-Sie gerieten auf die (l|I)inke Fahrbahnseite und stießen mit einem stehenden Fahrzeug zusammen\. Es kam zum Unfa(l|I){2}\.
-Sie verstießen auf der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) gegen das Rechtsfahrgebot und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie verstießen auf der Autobahn\/Kraftfahrstraße \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) gegen das Rechtsfahrgebot\. Es kam zum Unfa(l|I){2}\.
-Sie (l|I)ießen die in Längsrichtung fahrende Schienenbahn nicht durchfahren\.
-Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen\.
-Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren bei G(l|I)atteis, Schneeg(l|I)ätte, Schneematsch, Eis- oder Reifg(l|I)ätte ohne die vorgeschriebenen M+S-Reifen\. Es kam zum Unfa(l|I){2}\.
-Sie verhie(l|I)ten sich a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) nicht so, dass eine Gefährdung Anderer ausgesch(l|I)ossen war\.
-Sie verhie(l|I)ten sich a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) nicht so, dass eine Gefährdung Anderer ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
-Sie suchten a(l|I)s Führer eines kennzeichnungspf(l|I)ichtigen Kraftfahrzeugs mit gefähr(l|I)ichen Gütern bei einer Sichtweite unter 5(0|O) m\/Schneeg(l|I)ätte oder G(l|I)atteis \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\), obwoh(l|I) nötig, nicht den nächsten geeigneten P(l|I)atz zum Parken auf\.
-Sie überho(l|I)ten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\.
-Sie überho(l|I)ten innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\.
-Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten außerha(l|I)b gesch(l|I)ossener (O|0)rtschaften verbotswidrig rechts\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\.
-Sie überho(l|I)ten, obwoh(l|I) die von (I|l)hnen gefahrene Geschwindigkeit nicht wesent(l|I)ich höher a(l|I)s die des überho(l|I)ten Fahrzeugs war\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\.
-Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten an einem Bahnübergang, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age\.
-Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten an einem Bahnübergang bei unk(l|I)arer Verkehrs(l|I)age\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs jede Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age\. Sie missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei Überho(l|I)verbotszeichen 276\/277 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age, missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295\/296 \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\))\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgegebenen Fahrtrichtung (Zeichen 297) und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten, obwoh(l|I) Sie nicht übersehen konnten, dass während des gesamten Überho(l|I)vorgangs eine Behinderung des Gegenverkehrs ausgesch(l|I)ossen war\. Sie fo(l|I)gten nicht der durch Pfei(l|I)e vorgegebenen Fahrtrichtung (Zeichen 297)\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\. Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten bei unk(l|I)arer Verkehrs(l|I)age und fo(l|I)gten nicht der durch Pfei(l|I)e vorgeschriebenen Fahrtrichtung (Zeichen 297)\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\.
-Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten mit einem Kraftfahrzeug mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\.
-Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie überho(l|I)ten mit einem kennzpf(l|I)\. Kfz\. m\. gef\. Gütern\/K(O|0)M m\. Fahrgästen \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) mit einer zu(l|I)ässigen Gesamtmasse über 7,5 t, obwoh(l|I) die Sichtweite durch Nebe(l|I), Schneefa(l|I){2} oder Regen weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
-Sie hie(l|I)ten beim Überho(l|I)en keinen ausreichenden Seitenabstand zu anderen Verkehrstei(l|I)nehmern ein\.
-Sie streiften beim Überho(l|I)en das in g(l|I)eicher Richtung fahrende Fahrzeug\. Es kam zum Unfa(l|I){2}\.
-Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d wie mög(l|I)ich nach rechts ein\.
-Sie ordneten sich nach dem Überho(l|I)en nicht wieder soba(l|I)d wie mög(l|I)ich nach rechts ein und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) beim Wiedereinordnen nach dem Überho(l|I)en den Überho(l|I)ten\.
-Sie gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) beim Wiedereinordnen nach dem Überho(l|I)en Andere\.
-Sie schnitten beim Wiedereinordnen nach dem Überho(l|I)en Andere\. Es kam zum Unfa(l|I){2}\.
-Sie scherten zum Überho(l|I)en aus und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch den nachfo(l|I)genden Verkehr\.
-Sie scherten zum Überho(l|I)en aus, ohne auf das überho(l|I)ende Fahrzeug zu achten, so dass es zum Unfa(l|I){2} kam\.
-Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
-Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und behinderten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie scherten zum Überho(l|I)en aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
-Sie ordneten sich nach dem Überho(l|I)en wieder ein, ohne es rechtzeitig und deut(l|I)ich anzukündigen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie kündigten das Überho(l|I)en mit Fern(l|I)icht an und b(l|I)endeten dadurch den Gegenverkehr\.
-Sie hinderten einen anderen Verkehrstei(l|I)nehmer am Überho(l|I)en, indem Sie Ihre Geschwindigkeit erhöhten\.
-Sie ermäßigten nicht ihre Geschwindigkeit\/warteten nicht \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) a(l|I)s Fahrer eines (l|I)angsameren Fahrzeugs, um so mehreren unmitte(l|I)bar fo(l|I)genden Fahrzeugen das Überho(l|I)en zu ermög(l|I)ichen\.
-Sie überho(l|I)ten vorschriftswidrig (l|I)inks, obwoh(l|I) ein anderer Verkehrstei(l|I)nehmer seine Absicht, nach (l|I)inks abzubiegen, angekündigt und sich eingeordnet hatte\.
-Sie überho(l|I)ten vorschriftswidrig (l|I)inks, obwoh(l|I) ein anderer Verkehrstei(l|I)nehmer seine Absicht, nach (l|I)inks abzubiegen, angekündigt und sich eingeordnet hatte\. Es kam zum Unfa(l|I){2}\.
-Sie überho(l|I)ten ein Schienenfahrzeug vorschriftswidrig (l|I)inks\.
-Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) (l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen\.
-Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) (l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen, und gefährdeten \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) dadurch Andere\.
-Sie fuhren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) (l|I)inks vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu (l|I)assen\. Es kam zum Unfa(l|I){2}\.
-Sie scherten vor einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) aus, ohne es rechtzeitig und deut(l|I)ich anzukündigen\.
-Sie kündigten nach dem Vorbeifahren an einer Fahrbahnverengung\/einem Hindernis auf der Fahrbahn\/einem ha(l|I)tenden Fahrzeug auf der Fahrbahn \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) das Wiedereinordnen nicht rechtzeitig und deut(l|I)ich an\.
-Sie fuhren nicht mit mäßiger Geschwindigkeit an die bevorrechtigte Straße heran\. Hierdurch wurde der Vorfahrtberechtigte irritiert\.
-Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter wesent(l|I)ich behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurde\.
-Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Anderer wesent(l|I)ich behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurde\.
-Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Dadurch wurde ein Vorfahrtberechtigter wesent(l|I)ich behindert \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurde\.
-Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
-Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) wurde\.
-Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs\. Es kam zum Unfa(l|I){2}\.
-Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Dadurch wurde ein Vorfahrtberechtigter gefährdet \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
-Sie fuhren aus einem Fe(l|I)d-\/Wa(l|I)dweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten\. Es kam zum Unfa(l|I){2}\.
-Sie ver(l|I)ießen die Autobahn an der Ste(l|I){2}e, die nicht durch eine Ausfahrttafe(l|I) \(Zeichen 332\) und durch ein Pfei(l|I)schi(l|I)d \(Zeichen 333\) oder eines dieser Zeichen gekennzeichnet war\.
+Sie führten das Kraftfahrzeug mit einer Atemalkoholkonzentration von 0,25 mg/l oder mehr.
+Sie führten das Kraftfahrzeug mit einer Blutalkoholkonzentration von 0,5 Promille oder mehr.
+Sie führten das Kraftfahrzeug mit einer Alkoholmenge im Körper, die zu einer Atemalkoholkonzentration von 0,25 mg/l oder mehr geführt hat.
+Sie führten das Kraftfahrzeug mit einer Alkoholmenge im Körper, die zu einer Blutalkoholkonzentration von 0,5 Promille oder mehr geführt hat.
+Sie führten das Kraftfahrzeug unter Wirkung des berauschenden Mittels (…).
+Sie haben in der Probezeit nach § 2a StVG als Führer eines Kraftfahrzeuges ein alkoholisches Getränk zu sich genommen.
+Sie haben in der Probezeit nach § 2a StVG als Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines alkoholischen Getränks angetreten.
+Sie haben vor Vollendung des 21. Lebensjahres als Führer eines Kraftfahrzeuges ein alkoholisches Getränk zu sich genommen.
+Sie haben vor Vollendung des 21. Lebensjahres als Führer eines Kraftfahrzeuges die Fahrt unter der Wirkung eines alkoholischen Getränks angetreten.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen, so dass ein nachfolgendes Fahrzeug gefährdet (…) wurde.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen. Es kam zum Unfall.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben, und gefährdeten (…) dadurch Andere.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben. Es kam zum Unfall.
+Sie bogen nach links/rechts (…) ab, ohne auf den nachfolgenden Verkehr zu achten.
+Sie bogen nach links/rechts (…) ab, ohne auf den nachfolgenden Verkehr zu achten, und gefährdeten (…) dadurch Andere.
+Sie bogen nach links/rechts (…) ab, ohne auf den nachfolgenden Verkehr zu achten. Es kam zum Unfall.
+Sie ordneten sich nach links auf den Schienen ein und behinderten (…) dadurch ein Schienenfahrzeug.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug durchfahren zu lassen.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug durchfahren zu lassen. Es kam zum Unfall.
+Sie bogen ab, ohne einen in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu lassen.
+Sie bogen ab, ohne einen in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne einen in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrenden Benutzer des Sonderfahrstreifens (Zeichen 245) durchfahren zu lassen. Es kam zum Unfall.
+Sie bogen ab, ohne einen in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne einen in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrenden Radfahrer durchfahren zu lassen. Es kam zum Unfall.
+Sie bogen ab, ohne ein in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrendes Fahrrad mit Hilfsmotor durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne ein in entgegenkommender/gleicher (…) Richtung geradeaus weiterfahrendes Fahrrad mit Hilfsmotor durchfahren zu lassen. Es kam zum Unfall.
+Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen, und gefährdeten (…) diese.
+Sie bogen ab, ohne auf Fußgänger besondere Rücksicht zu nehmen. Es kam zum Unfall.
+Sie bogen als Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwohl dies möglich war.
+Sie bogen als Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwohl dies möglich war, und gefährdeten (…) dadurch Andere.
+Sie bogen als Linksabbieger nicht vor dem entgegenkommenden Linksabbieger ab, obwohl dies möglich war. Es kam zum Unfall.
+Sie bogen als Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu lassen.
+Sie bogen als Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie bogen als Linksabbieger ab, ohne den entgegenkommenden Rechtsabbieger durchfahren zu lassen. Es kam zum Unfall.
+Sie bogen in das Grundstück ab und ließen dabei die Ihnen obliegende besondere Vorsicht außer Acht und gefährdeten (…) dadurch Andere.
+Sie bogen in das Grundstück ab und ließen dabei die Ihnen obliegende besondere Vorsicht außer Acht. Es kam zum Unfall.
+Sie wendeten auf der Straße und ließen dabei die Ihnen obliegende besondere Vorsicht außer Acht und gefährdeten (…) dadurch Andere.
+Sie wendeten auf der Straße und ließen dabei die Ihnen obliegende besondere Vorsicht außer Acht. Es kam zum Unfall.
+Sie ließen beim Rückwärtsfahren die Ihnen obliegende besondere Vorsicht außer Acht und gefährdeten (…) dadurch Andere.
+Sie ließen beim Rückwärtsfahren die Ihnen obliegende besondere Vorsicht außer Acht. Es kam zum Unfall.
+Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein.
+Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein, so dass die Insassen dieses Fahrzeugs gefährdet (…) wurden.
+Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein. Ihr Abstand betrug XXX,XX m. Es kam zum Unfall.
+Sie fuhren infolge zu geringen Abstands auf das abbremsende Fahrzeug auf. Es kam zum Unfall.
+Sie hielten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrg. (…) bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein. 
+Sie bremsten als Vorausfahrender stark ohne zwingenden Grund, so dass es zur Gefährdung (…) des nachfolgenden Verkehrsteilnehmers kam.
+Sie bremsten als Vorausfahrender stark ohne zwingenden Grund, so dass es zum Unfall kam.
+Sie hielten außerhalb geschlossener Ortschaften nicht den zum Einscheren erforderlichen Abstand von dem vorausfahrenden Fahrzeug|Vorausfahrenden.
+Sie hielten als Führer des Lastkraftwagens (zulässige Gesamtmasse über 3,5 t)/Kraftomnibusses (…) bei einer Geschwindigkeit von mehr als 50 km/h auf einer Autobahn den Mindestabstand von 50 m zum vorausfahrenden Fahrzeug nicht ein.
+Sie hielten als Führer des kennzeichnungspflichtigen Kraftfahrzeugs mit gefährlichen Gütern (zulässige Gesamtmasse über 3,5 t)/Kraftomnibusses mit Fahrgästen (…) bei einer Geschwindigkeit von mehr als 50 km/h auf einer Autobahn den Mindestabstand von 50 m zum vorausfahrenden Fahrzeug nicht ein.
+Sie fuhren mit nicht angepasster Geschwindigkeit an einen Bahnübergang heran.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 201) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 201) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten, und gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 201) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten. Es kam zum Unfall.
+Sie überholten unzulässig an einem Bahnübergang.
+Sie überholten unzulässig an einem Bahnübergang und gefährdeten (…) dadurch Andere.
+Sie überholten unzulässig an einem Bahnübergang. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl sich ein Schienenfahrzeug näherte.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl sich ein Schienenfahrzeug näherte, und gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl sich ein Schienenfahrzeug näherte. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden, und gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte, und gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte. Es kam zum Unfall.
+Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
+Sie überquerten als nichtmotorisierter Verkehrsteilnehmer (…) den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
+Sie verletzten vor einem Bahnübergang eine Wartepflicht.
+Sie fuhren aus einem Grundstück auf die Straße und gefährdeten (…) dadurch Andere. 	
+Sie fuhren aus einem Grundstück auf die Straße. Es kam zum Unfall.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße und gefährdeten (…) dadurch Andere. 			
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße. Es kam zum Unfall. 	
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße und gefährdeten (…) dadurch Andere. 			
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße. Es kam zum Unfall. 			
+Sie fuhren von einem anderen Straßenteil auf die Fahrbahn und gefährdeten (…) dadurch Andere. 
+Sie fuhren von einem anderen Straßenteil auf die Fahrbahn. Es kam zum Unfall. 		
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn und gefährdeten (…) dadurch Andere. 			
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn. Es kam zum Unfall. 	
+Sie fuhren vom Fahrbahnrand an und gefährdeten (…) dadurch Andere.
+Sie fuhren vom Fahrbahnrand an. Es kam zum Unfall.
+Sie fuhren aus einem Grundstück auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
+Sie fuhren von einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
+Sie fuhren von einem Straßenteil auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen. 
+Sie fuhren über einen abgesenkten Bordstein auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
+Sie fuhren vom Fahrbahnrand der Straße an, ohne den Fahrtrichtungsanzeiger zu benutzen.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen und gefährdeten (…) dadurch Andere.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen. Es kam zum Unfall.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der beiden in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der beiden in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen. Sie gefährdeten (…) dadurch Andere.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen vier durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der beiden in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen. Es kam zum Unfall.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der drei in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der drei in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen. Sie gefährdeten (…) dadurch Andere.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen sechs durch Leitlinien (Zeichen 340) markierten Fahrstreifen einen der drei in Fahrtrichtung linken, ausschließlich dem Gegenverkehr vorbehaltenen, zum Überholen. Es kam zum Unfall.
+Sie benutzten mit einem Lastkraftwagen mit einer zulässigen Gesamtmasse von mehr als 3,5 t außerhalb geschlossener Ortschaften den linken Fahrstreifen zu einem anderen Zweck als dem des Linksabbiegens.
+Sie benutzten mit einem Lastkraftwagen mit einer zulässigen Gesamtmasse von mehr als 3,5 t außerhalb geschlossener Ortschaften den linken Fahrstreifen zu einem anderen Zweck als dem des Linksabbiegens und behinderten (…) dadurch Andere.
+Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerhalb geschlossener Ortschaften den linken Fahrstreifen zu einem anderen Zweck als dem des Linksabbiegens.
+Sie benutzten mit einem Kraftfahrzeug mit Anhänger außerhalb geschlossener Ortschaften den linken Fahrstreifen zu einem anderen Zweck als dem des Linksabbiegens und behinderten (…) dadurch Andere.
+Sie wechselten den Fahrstreifen und gefährdeten (…) dabei Andere.
+Sie wechselten den Fahrstreifen und verursachten dabei einen Unfall.
+Sie wechselten den Fahrstreifen, ohne dies rechtzeitig und deutlich anzukündigen.
+Sie fuhren auf dem Ausfädelungsstreifen schneller als der Verkehr auf den durchgehenden Fahrstreifen.
+Sie fuhren auf dem Ausfädelungsstreifen schneller als der Verkehr auf den durchgehenden Fahrstreifen und gefährdeten (…) dadurch Andere.
+Sie fuhren auf dem Ausfädelungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei.
+Sie fuhren auf dem Ausfädelungsstreifen nicht mit mäßiger Geschwindigkeit und besonderer Vorsicht an dem stockenden oder stehenden Verkehr auf den durchgehenden Fahrstreifen vorbei und gefährdeten (…) dadurch Andere.
+Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit.
+Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren ein kennzeichnungspflichtiges Kraftfahrzeug mit gefährlichen Gütern in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit.
+Sie fuhren ein kennzeichnungspflichtiges Kraftfahrzeug mit gefährlichen Gütern in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren ein kennzeichnungspflichtiges Kraftfahrzeug mit gefährlichen Gütern in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren einen Kraftomnibus mit Fahrgästen in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit.
+Sie fuhren bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren mit einem kennzeichnungspflichtigen Kraftfahrzeug mit gefährlichen Gütern bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit.
+Sie fuhren mit einem kennzeichnungspflichtigen Kraftfahrzeug mit gefährlichen Gütern bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren mit einem kennzeichnungspflichtigen Kraftfahrzeug mit gefährlichen Gütern bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit und gefährdeten (…) dadurch Andere.
+Sie fuhren einen Kraftomnibus mit Fahrgästen bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie verursachten infolge nicht angepasster Geschwindigkeit einen Unfall.
+Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb geschlossener Ortschaften bei einer Sichtweite von weniger als 50 m durch Nebel, Schneefall oder Regen um XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit außerhalb geschlossener Ortschaften bei einer Sichtweite von weniger als 50 m durch Nebel, Schneefall oder Regen um XXX km/h.
+Sie fuhren ohne triftigen Grund so langsam, dass der Verkehrsfluss behindert wurde.
+Sie gefährdeten (…) als Fahrzeugführer ein Kind/einen Hilfsbedürftigen/einen älteren Menschen (…), insbesondere durch nicht ausreichend verminderte Geschwindigkeit/mangelnde Bremsbereitschaft/unzureichenden Seitenabstand beim Vorbeifahren/unzureichenden Seitenabstand beim Überholen (…).
+Sie schädigten als Fahrzeugführer ein Kind/einen Hilfsbedürftigen/einen älteren Menschen (…), insbesondere durch nicht ausreichend verminderte Geschwindigkeit/mangelnde Bremsbereitschaft/unzureichenden Seitenabstand beim Vorbeifahren/unzureichenden Seitenabstand beim Überholen (…).
+Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb geschlossener Ortschaften um XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit außerhalb geschlossener Ortschaften um XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit für mehr als 5 Minuten Dauer bis zu XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit in mehr als 2 Fällen nach Fahrtantritt bis zu XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit mit Schneeketten innerhalb geschlossener Ortschaften um XXX km/h.
+Sie überschritten die zulässige Höchstgeschwindigkeit mit Schneeketten außerhalb geschlossener Ortschaften um XXX km/h.
+Sie kamen von der Fahrbahn ab und verursachten Sachschaden.
+Sie gerieten ins Schleudern und verursachten Sachschaden. 
+Sie streiften beim Vorbeifahren ein Fahrzeug und verursachten Sachschaden. 			
+Sie ließen beim Befahren der Straße die im Verkehr erforderliche Rücksicht außer Acht und beschmutzten dabei Andere. 			
+Sie stellten das Fahrzeug so ab, dass ein anderes Fahrzeug nicht wegfahren konnte. 		
+Sie ließen an einer Fahrbahnverengung die im Verkehr erforderliche Sorgfalt außer Acht, so dass es zum Unfall kam. 			
+Sie behinderten (…) Andere, indem Sie ihnen das Einordnen im sogenannten Reißverschlussverfahren nicht ermöglichten. 			
+Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen. 			
+Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen. Es kam zum Unfall. 	
+Sie behinderten (…) durch das Parken auf einer Fußgängerfurt der Lichtzeichenanlage Andere. 	
+Sie behinderten (…) durch das Parken Andere.
+Sie belästigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar. 			
+Sie behinderten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar. 			
+Sie gefährdeten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere. 
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere. 	
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein vorausfahrendes Fahrzeug. 			
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein stehendes Fahrzeug. 			
+Sie beschädigten beim Fahren in eine/aus einer Parklücke ein stehendes Fahrzeug. 		
+Sie fuhren mit einem Kraftrad auf dem Hinterrad und gefährdeten (…) dadurch Andere.
+Sie hielten näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses.
+Sie hielten näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses, wodurch Andere behindert (…) wurden.
+Sie parkten länger als 1 Stunde näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses.
+Sie parkten länger als 1 Stunde näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses, wodurch Andere behindert (…) wurden.
+Sie missachteten das Rotlicht in Verbindung mit dem Gelblicht.
+Sie missachteten das Gelblicht der Lichtzeichenanlage, obwohl Sie gefahrlos hätten anhalten können.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil aus einem anderen als dem rechten Fahrstreifen nach rechts ab.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten (…) den Fahrzeugverkehr der freigegebenen Richtung.
+Sie missachteten das "Halt" anordnende besondere Lichtzeichen "weißer waagerechter Lichtbalken" für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall.
+Sie missachteten das "Halt" anordnende besondere Lichtzeichen "weißer waagerechter Lichtbalken" für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall. Die Rotphase dauerte bereits länger als 1 Sekunde an.
+Sie missachteten das Rotlicht der Lichtzeichenanlage.
+Sie missachteten das Rotlicht der Lichtzeichenanlage und gefährdeten (…) dadurch Andere.
+Sie missachteten das Rotlicht der Lichtzeichenanlage. Es kam zum Unfall.
+Sie missachteten das Rotlicht der Lichtzeichenanlage. Die Rotphase dauerte bereits länger als 1 Sekunde an.
+Sie missachteten das Rotlicht der Lichtzeichenanlage und gefährdeten (…) dadurch Andere. Die Rotphase dauerte bereits länger als 1 Sekunde an.
+Sie missachteten das Rotlicht der Lichtzeichenanlage. Es kam zum Unfall. Die Rotphase dauerte bereits länger als 1 Sekunde an.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab, ohne vorher anzuhalten.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und gefährdeten (…) dadurch den Fahrzeugverkehr der freigegebenen Verkehrsrichtungen.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab. Es kam zum Unfall mit dem Fahrzeugverkehr der freigegebenen Verkehrsrichtungen.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten (…) dadurch den Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und gefährdeten (…) dadurch den Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab. Es kam zum Unfall mit dem Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken".
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" und gefährdeten (…) dadurch Andere.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken". Es kam zum Unfall.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn und behinderten (…) dadurch Andere.
+Sie benutzten vorschriftswidrig nicht die Fahrbahn und gefährdeten (…) dadurch Andere.
+Sie benutzten vorschriftswidrig den Gehweg.
+Sie benutzten vorschriftswidrig den Gehweg und behinderten (…) dadurch Andere.
+Sie benutzten vorschriftswidrig den Gehweg und gefährdeten (…) dadurch Andere.
+Sie benutzten vorschriftswidrig den Seitenstreifen.
+Sie benutzten vorschriftswidrig den Seitenstreifen und behinderten (…) dadurch Andere.
+Sie benutzten vorschriftswidrig den Seitenstreifen und gefährdeten (…) dadurch Andere.
+Sie benutzten verbotenerweise die Verkehrsinsel.
+Sie benutzten verbotenerweise die Verkehrsinsel und behinderten (…) dadurch Andere.
+Sie benutzten verbotenerweise die Verkehrsinsel und gefährdeten (…) dadurch Andere.
+Sie benutzten verbotenerweise den Grünstreifen.
+Sie benutzten verbotenerweise den Grünstreifen und behinderten (…) dadurch Andere.
+Sie benutzten verbotenerweise den Grünstreifen und gefährdeten (…) dadurch Andere.
+Sie benutzten den Seitenstreifen zum Zweck des schnelleren Vorwärtskommens.
+Sie benutzten den Seitenstreifen zum Zweck des schnelleren Vorwärtskommens. Beim Wechsel auf den Fahrstreifen gefährdeten (…) Sie Andere.
+Sie benutzten den Seitenstreifen zum Zweck des schnelleren Vorwärtskommens. Beim Wechsel auf den Fahrstreifen kam es zum Unfall.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn und gefährdeten (…) dadurch Andere.
+Sie benutzten bei zwei getrennten Fahrbahnen nicht die rechte Fahrbahn. Es kam zum Unfall.
+Sie fuhren in der Ein-/Ausfahrt (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung.
+Sie fuhren in der Ein-/Ausfahrt (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung und gefährdeten (…) dadurch Andere.
+Sie fuhren in der Ein-/Ausfahrt (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung. Es kam zum Unfall.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung und gefährdeten (…) dadurch Andere.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen (…) der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung. Es kam zum Unfall.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung und gefährdeten (…) dadurch Andere.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße (…) entgegen der Fahrtrichtung. Es kam zum Unfall.
+Sie fuhren nicht möglichst weit rechts.
+Sie benutzten nicht die rechte Fahrbahnseite.
+Sie benutzten nicht die rechte Fahrbahnseite und behinderten (…) dadurch Andere.
+Sie benutzten nicht den rechten Fahrstreifen und behinderten (…) dadurch Andere.
+Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen bei Gegenverkehr gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen beim Überholtwerden gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen beim Überholtwerden gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen an einer Kuppe gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen bei Unübersichtlichkeit gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen bei Unübersichtlichkeit gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen in einer Kurve gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen in einer Kurve gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen durch Linksabbiegen in engem Bogen gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen durch Rechtsabbiegen in weitem Bogen gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie gerieten auf die linke Fahrbahnseite und gefährdeten (…) dadurch Andere.
+Sie gerieten auf die linke Fahrbahnseite und stießen mit dem entgegenkommenden Fahrzeug zusammen. Es kam zum Unfall.
+Sie gerieten auf die linke Fahrbahnseite und stießen mit einem stehenden Fahrzeug zusammen. Es kam zum Unfall.
+Sie verstießen auf der Autobahn/Kraftfahrstraße (…) gegen das Rechtsfahrgebot und behinderten (…) dadurch Andere.
+Sie verstießen auf der Autobahn/Kraftfahrstraße (…) gegen das Rechtsfahrgebot. Es kam zum Unfall.
+Sie ließen die in Längsrichtung fahrende Schienenbahn nicht durchfahren.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen M+S-Reifen.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen M+S-Reifen und behinderten (…) dadurch Andere.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen M+S-Reifen und gefährdeten (…) dadurch Andere.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen M+S-Reifen. Es kam zum Unfall.
+Sie verhielten sich als Führer eines kennzeichnungspflichtigen Kraftfahrzeugs mit gefährlichen Gütern bei einer Sichtweite unter 50 m/Schneeglätte oder Glatteis (…) nicht so, dass eine Gefährdung Anderer ausgeschlossen war.
+Sie verhielten sich als Führer eines kennzeichnungspflichtigen Kraftfahrzeugs mit gefährlichen Gütern bei einer Sichtweite unter 50 m/Schneeglätte oder Glatteis (…) nicht so, dass eine Gefährdung Anderer ausgeschlossen war. Es kam zum Unfall.
+Sie suchten als Führer eines kennzeichnungspflichtigen Kraftfahrzeugs mit gefährlichen Gütern bei einer Sichtweite unter 50 m/Schneeglätte oder Glatteis (…), obwohl nötig, nicht den nächsten geeigneten Platz zum Parken auf.
+Sie überholten innerhalb geschlossener Ortschaften verbotswidrig rechts.
+Sie überholten innerhalb geschlossener Ortschaften verbotswidrig rechts. Es kam zum Unfall.
+Sie überholten außerhalb geschlossener Ortschaften verbotswidrig rechts.
+Sie überholten außerhalb geschlossener Ortschaften verbotswidrig rechts und gefährdeten (…) dadurch Andere.
+Sie überholten außerhalb geschlossener Ortschaften verbotswidrig rechts. Es kam zum Unfall.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht wesentlich höher als die des überholten Fahrzeugs war.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht wesentlich höher als die des überholten Fahrzeugs war. Es kam zum Unfall.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war, und gefährdeten (…) dadurch Andere.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war. Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage.
+Sie überholten bei unklarer Verkehrslage und gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage. Es kam zum Unfall.
+Sie überholten an einem Bahnübergang, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war.
+Sie überholten an einem Bahnübergang, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war, und gefährdeten (…) dadurch Andere.
+Sie überholten an einem Bahnübergang, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war. Es kam zum Unfall.
+Sie überholten an einem Bahnübergang bei unklarer Verkehrslage.
+Sie überholten an einem Bahnübergang bei unklarer Verkehrslage und gefährdeten (…) dadurch Andere.
+Sie überholten an einem Bahnübergang bei unklarer Verkehrslage. Es kam zum Unfall.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie missachteten dabei Überholverbotszeichen 276/277 (…).
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war. Sie missachteten dabei Überholverbotszeichen 276/277 (…) und gefährdeten (…) dadurch Andere.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs jede Behinderung des Gegenverkehrs ausgeschlossen war. Sie missachteten dabei Überholverbotszeichen 276/277 (…). Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage und missachteten dabei Überholverbotszeichen 276/277 (…).
+Sie überholten bei unklarer Verkehrslage. Sie missachteten dabei Überholverbotszeichen 276/277 (…) und gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage und missachteten dabei Überholverbotszeichen 276/277 (…). Es kam zum Unfall.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295/296 (…)).
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295/296 (…)) und gefährdeten (…) dadurch Andere.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie fuhren verbotswidrig über die Fahrstreifenbegrenzung (Zeichen 295/296 (…)). Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295/296 (…)).
+Sie überholten bei unklarer Verkehrslage, missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295/296 (…)) und gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage und missachteten dabei die Fahrstreifenbegrenzung (Zeichen 295/296 (…)). Es kam zum Unfall.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung (Zeichen 297).
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie folgten nicht der durch Pfeile vorgegebenen Fahrtrichtung (Zeichen 297) und gefährdeten (…) dadurch Andere.
+Sie überholten, obwohl Sie nicht übersehen konnten, dass während des gesamten Überholvorgangs eine Behinderung des Gegenverkehrs ausgeschlossen war. Sie folgten nicht der durch Pfeile vorgegebenen Fahrtrichtung (Zeichen 297). Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung (Zeichen 297).
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung (Zeichen 297). Sie gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung (Zeichen 297). Es kam zum Unfall.
+Sie überholten mit einem Kraftfahrzeug mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug.
+Sie überholten mit einem Kraftfahrzeug mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug, und gefährdeten (…) dadurch Andere.
+Sie überholten mit einem Kraftfahrzeug mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug. Es kam zum Unfall.
+Sie überholten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrgästen (…) mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug.
+Sie überholten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrgästen (…) mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug, und gefährdeten (…) dadurch Andere.
+Sie überholten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrgästen (…) mit einer zulässigen Gesamtmasse über 7,5 t, obwohl die Sichtweite durch Nebel, Schneefall oder Regen weniger als 50 m betrug. Es kam zum Unfall.
+Sie hielten beim Überholen keinen ausreichenden Seitenabstand zu anderen Verkehrsteilnehmern ein.
+Sie streiften beim Überholen das in gleicher Richtung fahrende Fahrzeug. Es kam zum Unfall.
+Sie ordneten sich nach dem Überholen nicht wieder sobald wie möglich nach rechts ein.
+Sie ordneten sich nach dem Überholen nicht wieder sobald wie möglich nach rechts ein und behinderten (…) dadurch Andere.
+Sie behinderten (…) beim Wiedereinordnen nach dem Überholen den Überholten.
+Sie gefährdeten (…) beim Wiedereinordnen nach dem Überholen Andere.
+Sie schnitten beim Wiedereinordnen nach dem Überholen Andere. Es kam zum Unfall.	
+Sie scherten zum Überholen aus und gefährdeten (…) dadurch den nachfolgenden Verkehr.
+Sie scherten zum Überholen aus, ohne auf das überholende Fahrzeug zu achten, so dass es zum Unfall kam.
+Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen.
+Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen, und behinderten (…) dadurch Andere.
+Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen, und gefährdeten (…) dadurch Andere.
+Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig und deutlich anzukündigen.
+Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig und deutlich anzukündigen, und gefährdeten (…) dadurch Andere. 
+Sie kündigten das Überholen mit Fernlicht an und blendeten dadurch den Gegenverkehr.
+Sie hinderten einen anderen Verkehrsteilnehmer am Überholen, indem Sie Ihre Geschwindigkeit erhöhten.
+Sie ermäßigten nicht ihre Geschwindigkeit/warteten nicht (…) als Fahrer eines langsameren Fahrzeugs, um so mehreren unmittelbar folgenden Fahrzeugen das Überholen zu ermöglichen.
+Sie überholten vorschriftswidrig links, obwohl ein anderer Verkehrsteilnehmer seine Absicht, nach links abzubiegen, angekündigt und sich eingeordnet hatte.
+Sie überholten vorschriftswidrig links, obwohl ein anderer Verkehrsteilnehmer seine Absicht, nach links abzubiegen, angekündigt und sich eingeordnet hatte. Es kam zum Unfall.
+Sie überholten ein Schienenfahrzeug vorschriftswidrig links.
+Sie fuhren an einer Fahrbahnverengung/einem Hindernis auf der Fahrbahn/einem haltenden Fahrzeug auf der Fahrbahn (…) links vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu lassen.
+Sie fuhren an einer Fahrbahnverengung/einem Hindernis auf der Fahrbahn/einem haltenden Fahrzeug auf der Fahrbahn (…) links vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu lassen, und gefährdeten (…) dadurch Andere.
+Sie fuhren an einer Fahrbahnverengung/einem Hindernis auf der Fahrbahn/einem haltenden Fahrzeug auf der Fahrbahn (…) links vorbei, ohne das entgegenkommende Fahrzeug durchfahren zu lassen. Es kam zum Unfall.
+Sie scherten vor einer Fahrbahnverengung/einem Hindernis auf der Fahrbahn/einem haltenden Fahrzeug auf der Fahrbahn (…) aus, ohne es rechtzeitig und deutlich anzukündigen.
+Sie kündigten nach dem Vorbeifahren an einer Fahrbahnverengung/einem Hindernis auf der Fahrbahn/einem haltenden Fahrzeug auf der Fahrbahn (…) das Wiedereinordnen nicht rechtzeitig und deutlich an.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an die bevorrechtigte Straße heran. Hierdurch wurde der Vorfahrtberechtigte irritiert.
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter wesentlich behindert (…) wurde.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Anderer wesentlich behindert (…) wurde.
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten. Dadurch wurde ein Vorfahrtberechtigter wesentlich behindert (…).
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet (…) wurde.
+Sie missachteten die Vorfahrt des von rechts kommenden Fahrzeugs. Es kam zum Unfall.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs, so dass ein Vorfahrtberechtigter gefährdet (…) wurde.
+Sie missachteten die Vorfahrt des bevorrechtigten Fahrzeugs. Es kam zum Unfall.
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten. Dadurch wurde ein Vorfahrtberechtigter gefährdet (…).
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt des bevorrechtigten Fahrzeugs zu beachten. Es kam zum Unfall.
+Sie verließen die Autobahn an der Stelle, die nicht durch eine Ausfahrttafel (Zeichen 332) und durch ein Pfeilschild (Zeichen 333) oder eines dieser Zeichen gekennzeichnet war.
+Sie haben den nötigen Abstand bei unter 80 km/h nicht eingehalten.
+Sie haben den nötigen Abstand bei unter 80 km/h nicht eingehalten. Sie gefährdeten (…) dadurch Andere.
+Sie haben den nötigen Abstand bei unter 80 km/h nicht eingehalten. Es kam zum Unfall.
+Sie bremsten als Vorausfahrender ohne zwingenden Grund stark ab und gefährdeten (…) dadurch Andere.
+Sie bremsten als Vorausfahrender ohne zwingenden Grund stark ab. Es kam zum Unfall.
+Sie hielten beim Überholen keinen ausreichenden Seitenabstand zu anderen Verkehrsteilnehmern ein. Es kam zum Unfall.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfolgenden Verkehr zu beachten.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfolgenden Verkehr zu beachten. Sie gefährdeten (…) dadurch Andere.
+Sie bogen nach links/rechts (…) ab, ohne sich vorher ordnungsgemäß eingeordnet zu haben oder ohne den nachfolgenden Verkehr zu beachten. Es kam zum Unfall.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug /Fahrrad durchfahren zu lassen oder ohne auf andere Verkehrsteilnehmer zu achten.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug /Fahrrad durchfahren zu lassen oder ohne auf andere Verkehrsteilnehmer zu achten. Sie gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne ein entgegenkommendes/in gleicher Richtung fahrendes (…) Fahrzeug /Fahrrad durchfahren zu lassen oder ohne auf andere Verkehrsteilnehmer zu achten. Es kam zum Unfall.
+Sie führten das Kraftfahrzeug mit einer Blutalkoholkonzentration von 0,5 Promille oder mehr zum zweiten Mal.
+Sie führten das Kraftfahrzeug mit einer Blutalkoholkonzentration von 0,5 Promille oder mehr zum dritten Mal.
+Sie führten das Kraftfahrzeug mit einer Blutalkoholkonzentration über 0,29 Promille und gefährdeten (…) dabei Andere.
+Sie führten das Kraftfahrzeug und hatten eine Blutalkoholkonzentration von mehr als 1,09 Promille.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mittels.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mittels zum zweiten Mal.
+Sie führten das Kraftfahrzeug unter Wirkung eines berauschenden Mittels zum dritten Mal.
+Sie fuhren außerhalb einer gekennzeichneten Anschlussstelle/Kreuzung/Einmündung auf die Autobahn.
+Sie fuhren außerhalb einer gekennzeichneten Anschlussstelle/Kreuzung/Einmündung auf die Autobahn. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren außerhalb einer gekennzeichneten Anschlussstelle/Kreuzung/Einmündung auf die Autobahn. Es kam zum Unfall.
+Sie wendeten auf der Einfahrt/Ausfahrt der Autobahn/Kraftfahrstraße.
+Sie wendeten auf der Einfahrt/Ausfahrt der Autobahn/Kraftfahrstraße. Sie gefährdeten (…) dadurch Andere.
+Sie wendeten auf der Einfahrt/Ausfahrt der Autobahn/Kraftfahrstraße. Es kam zum Unfall.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren auf die Autobahn, ohne die Vorfahrt des auf der durchgehenden Fahrbahn fahrenden Kfz zu beachten. Es kam zum Unfall.
+Sie wendeten auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße.
+Sie wendeten auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße. Sie gefährdeten (…) dadurch Andere.
+Sie wendeten auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße. Es kam zum Unfall.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße rückwärts.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße rückwärts. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren auf der Nebenfahrbahn/dem Seitenstreifen auf der Autobahn/Kraftfahrstraße rückwärts. Es kam zum Unfall.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße. Sie gefährdeten (…) dadurch Andere.
+Sie wendeten auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße. Es kam zum Unfall.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße rückwärts.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße rückwärts. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren auf der durchgehenden Fahrbahn der Autobahn/Kraftfahrstraße rückwärts. Es kam zum Unfall.
+Sie parkten auf der Autobahn/Kraftstraße.
+Sie parkten auf der Autobahn/Kraftstraße. Sie gefährdeten (…) dadurch Andere.
+Sie parkten auf der Autobahn/Kraftstraße. Es kam zum Unfall.
+Sie überholten am Bahnübergang bei unklarer Verkehrslage. Sie gefährdeten (…) dadurch Andere.
+Sie überholten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr ausschließen konnten.
+Sie überholten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr ausschließen konnten. Sie gefährdeten (…) dadurch Andere.
+Sie überholten an einem Bahnübergang, ohne dass Sie jede Behinderung für den Gegenverkehr ausschließen konnten. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten, ein Bahnbediensteter “Halt” gebot, ein hörbares Signal ertönte.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten, ein Bahnbediensteter “Halt” gebot, ein hörbares Signal ertönte. Sie gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten, ein Bahnbediensteter “Halt” gebot, ein hörbares Signal ertönte. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht bzw. gelbe oder rote Lichtzeichen gegeben wurden.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht bzw. gelbe oder rote Lichtzeichen gegeben wurden. Sie gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht bzw. gelbe oder rote Lichtzeichen gegeben wurden. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl sich ein Schienenfahrzeug näherte. Sie gefährdeten (…) dadurch Andere.
+Sie überholten unzulässig an einem Bahnübergang. Sie gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 201) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten. Sie gefährdeten (…) dadurch Andere.
+Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen. Sie gefährdeten (…) dadurch Andere.
+Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. 
+Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. Sie gefährdeten (…) dadurch Andere.
+Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. Es kam zum Unfall.
+Die Beleuchtungsvorrichtungen an Ihrem Fahrzeug waren verdeckt/verschmutzt/defekt.
+Die Beleuchtungsvorrichtungen an Ihrem Fahrzeug waren verdeckt/verschmutzt/defekt. Sie gefährdeten (…) dadurch Andere.
+Die Beleuchtungsvorrichtungen an Ihrem Fahrzeug waren verdeckt/verschmutzt/defekt. Es kam zum Unfall.
+Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr.
+Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr. Sie gefährdeten (…) dadurch Andere.
+Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr. Es kam zum Unfall.
+Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. 
+Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. Es kam zum Unfall.
+Sie fuhren mit eingeschalteter Nebelschlussleuchte und/oder Nebelscheinwerfer, obwohl keine Sichtberhinderung mit einer Sichtweite unter 50 Meter gegeben war.
+Sie fuhren mit eingeschalteter Nebelschlussleuchte und/oder Nebelscheinwerfer, obwohl keine Sichtberhinderung mit einer Sichtweite unter 50 Meter gegeben war. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren mit eingeschalteter Nebelschlussleuchte und/oder Nebelscheinwerfer, obwohl keine Sichtberhinderung mit einer Sichtweite unter 50 Meter gegeben war. Es kam zum Unfall.
+Sie fuhren innerhalb einer geschlossenen Ortschaft ohne Abblendlicht, obwohl die Sicht durch Nebel, Schneefall oder Regen erheblich behindert war.
+Sie fuhren innerhalb einer geschlossenen Ortschaft ohne Abblendlicht, obwohl die Sicht durch Nebel, Schneefall oder Regen erheblich behindert war. Es kam zum Unfall.
+Sie fuhren außerhalb einer geschlossenen Ortschaft ohne Abblendlicht, obwohl die Sicht durch Nebel, Schneefall oder Regen erheblich behindert war.
+Sie fuhren außerhalb einer geschlossenen Ortschaft ohne Abblendlicht, obwohl die Sicht durch Nebel, Schneefall oder Regen erheblich behindert war. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren außerhalb einer geschlossenen Ortschaft ohne Abblendlicht, obwohl die Sicht durch Nebel, Schneefall oder Regen erheblich behindert war. Es kam zum Unfall.
+Sie ordneten die Inbetriebnahme des Fahrzeuges an, obwohl die Betriebserlaubnis erloschen war, bzw. ließen sie zu.
+Sie ordneten die Inbetriebnahme des Fahrzeuges an, obwohl die Betriebserlaubnis erloschen war, bzw. ließen sie zu. Die Umwelt war dadurch gefährdet.
+Sie ordneten die Inbetriebnahme des Fahrzeuges an, obwohl die Betriebserlaubnis erloschen war, bzw. ließen sie zu. Die Verkehrssicherheit war gefährdet.
+Sie nahmen das Fahrzeug in Betrieb, obwohl die Betriebserlaubnis erloschen war.
+Sie nahmen das Fahrzeug in Betrieb, obwohl die Betriebserlaubnis erloschen war. Die Umwelt war dadurch gefährdet.
+Sie nahmen das Fahrzeug in Betrieb, obwohl die Betriebserlaubnis erloschen war. Die Verkehrssicherheit war gefährdet.
+Sie haben das unvorschriftsmäßig gebaute Fahrzeug bzw. dessen unvorschriftsmäßig gebauten Anhänger in Betrieb genommen.
+Sie haben das unvorschriftsmäßig gebaute Fahrzeug bzw. dessen unvorschriftsmäßig gebauten Anhänger in Betrieb genommen. Die Verkehrssicherheit war gefährdet.
+Sie führten das Kraftfahrzeug ohne die vorgeschriebenen Sicherheitsgurte/Rückhaltesysteme.
+Sie nahmen das Kraftfahrzeug unter Verstoß gegen eine Vorschrift über mitzuführendes Erste-Hilfe-Material in Betrieb.
+Sie führten das Kraftfahrzeug und verstießen dabei gegen die Vorschrift über Warnwesten.
+Sie führten das Kraftfahrzeug/den Anhänger und verstießen dabei gegen die Vorschrift über Warndreieck, Warnleuchte bzw. Warnblinkanlage.
+Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg.Sie führten den vorgeschriebenen Führerschein nicht mit.
+Sie händigten auf Verlangen der zuständigen Personen den Führerschein nicht aus.
+Sie zeigten den Verlust Ihres bisherigen Führerscheins nicht unverzüglich an und ließen sich kein Ersatzdokument ausstellen.
+Sie lieferten ihren bisherigen Führerschein, nachdem er nach Aushändigung des neuen wieder aufgefunden wurde, nicht unverzüglich der zuständigen Fahrerlaubnisbehörde ab.
+Sie lieferten Ihren Führerschein nach Entziehung der Fahrerlaubnis nicht unverzüglich bei der entscheidenden Behörde ab.
+Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an den Fußgängerüberweg heran, obwohl ein Bevorrechtigter diesen erkennbar benutzen wollte.
+Sie fuhren nicht mit mäßiger Geschwindigkeit an den Fußgängerüberweg heran, obwohl ein Bevorrechtigter diesen erkennbar benutzen wollte. Sie gefährdeten (…) dadurch Andere.
+Sie ermöglichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwohl dieser erkennbar den Fußgängerüberweg benutzen wollte.
+Sie ermöglichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwohl dieser erkennbar den Fußgängerüberweg benutzen wollte. Sie gefährdeten (…) dadurch Andere.
+Sie ermöglichten einem Bevorrechtigten nicht das Überqueren der Fahrbahn, obwohl dieser erkennbar den Fußgängerüberweg benutzen wollte. Es kam zum Unfall.
+Sie überholten an dem Fußgängerüberweg ein Fahrzeug.
+Sie überholten an dem Fußgängerüberweg ein Fahrzeug. Sie gefährdeten (…) dadurch Andere.
+Sie überholten an dem Fußgängerüberweg ein Fahrzeug. Es kam zum Unfall.
+Sie verursachten aufgrund nicht angepasster Geschwinigkeit einen Unfall.
+Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrsverhältnisse mit nicht angepasster Geschwindigkeit. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren bei schlechten Sicht- oder Wetterverhältnissen mit nicht angepasster Geschwindigkeit. Sie gefährdeten (…) dadurch Andere.
+Sie gefährdeten durch zu hohes Tempo, mangelnde Bremsbereitschaft oder ungenügend Seitenabstand Kinder, Hilfsbedürftige und Ältere.
+Sie nahmen an einem illegalen Kraftfahrzeugrennen teil.
+Sie nahmen an einem illegalen Kraftfahrzeugrennen teil. Sie waren Veranstalter.
+Sie betrieben ein Radarwarn- oder Laserstörgerät bzw. führten ein betriebsbereites Gerät mit.
+Sie ermöglichten einem Omnibus des Linienverkehrs/einem Schulbus nicht das Abfahren von einer gekennzeichneten Haltestelle.
+Sie ermöglichten einem Omnibus des Linienverkehrs/einem Schulbus nicht das Abfahren von einer gekennzeichneten Haltestelle. Sie gefährdeten (…) dadurch Andere.
+Sie ermöglichten einem Omnibus des Linienverkehrs/einem Schulbus nicht das Abfahren von einer gekennzeichneten Haltestelle. Es kam zum Unfall.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei. Sie behinderten dadurch Fahrgäste.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit Schrittgeschwindigkeit vorbei. Sie gefährdeten dadurch Fahrgäste.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei. Sie behinderten dadurch Fahrgäste.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs nicht mit ausreichend Abstand vorbei. Sie gefährdeten dadurch Fahrgäste.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs vorbei, obwohl Sie hätten warten müssen.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs vorbei, obwohl Sie hätten warten müssen. Sie behinderten dadurch Fahrgäste.
+Sie fuhren an einer Haltestelle bei ein- oder aussteigenden Fahrgästen rechts/an einem Omnibus des Linienverkehrs vorbei, obwohl Sie hätten warten müssen. Sie gefährdeten dadurch Fahrgäste.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fälligen Sicherheitsprüfung anzumelden. Termin überschritten um bis zu 2 Monate.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fälligen Sicherheitsprüfung anzumelden. Termin überschritten um 2 bis 4 Monate.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fälligen Sicherheitsprüfung anzumelden. Termin überschritten um 4 bis 8 Monate.
+Sie versäumten es, das Fahrzeug rechtzeitig zur fälligen Sicherheitsprüfung anzumelden. Termin überschritten um > 8 Monate.
+Sie versäumten, das Fahrzeug zur fälligen Hauptuntersuchung anzumelden. Termin überschritten um 2 bis 4 Monate.
+Sie versäumten, das Fahrzeug zur fälligen Hauptuntersuchung anzumelden. Termin überschritten um 4 bis 8 Monate.
+Sie versäumten, das Fahrzeug zur fälligen Hauptuntersuchung anzumelden. Termin überschritten um > 8 Monate.
+Sie führten das Fahrzeug nicht rechtzeitig zur Nachprüfung der Mängelbeseitigung vor.
+Sie missachteten das Verbot/die Beschränkung für den Betrieb des Fahrzeuges wegen Fehlens einer gültigen Prüfplakette.
+Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab.
+Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab. Sie gefährdeten (…) dadurch Andere.
+Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab. Es kam zum Unfall.
+Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig.
+Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig. Sie gefährdeten (…) dadurch Andere.
+Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig. Es kam zum Unfall.
+Sie parkten an engen, unübersichtlichen Stellen. 
+Sie parkten an engen, unübersichtlichen Stellen mit Verkehrsbehinderung.
+Sie parkten an engen, unübersichtlichen Stellen länger als 1 Stunde.
+Sie parkten an engen, unübersichtlichen Stellen länger als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten in Kurvenbereichen.
+Sie parkten in Kurvenbereichen mit Verkehrsbehinderung.
+Sie parkten in Kurvenbereichen länger als 1 Stunde.
+Sie parkten in Kurvenbereichen länger als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten unmittelbar vor/auf Fußgängerüberwegen.
+Sie parkten unmittelbar vor/auf Fußgängerüberwegen mit Verkehrsbehinderung.
+Sie parkten unmittelbar vor/auf Fußgängerüberwegen länger als 1 Stunde.
+Sie parkten unmittelbar vor/auf Fußgängerüberwegen als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten unmittelbar vor Lichtzeichen.
+Sie parkten unmittelbar vor Lichtzeichen mit Verkehrsbehinderung.
+Sie parkten unmittelbar vor Lichtzeichen länger als 1 Stunde.
+Sie parkten unmittelbar vor Lichtzeichen als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten im (eingeschränkten) Halteverbot.
+Sie parkten im (eingeschränkten) Halteverbot mit Verkehrsbehinderung.
+Sie parkten im (eingeschränkten) Halteverbot länger als 1 Stunde.
+Sie parkten im (eingeschränkten) Halteverbot als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten auf dem Seitenstreifen.
+Sie parkten auf dem Seitenstreifen mit Verkehrsbehinderung.
+Sie parkten auf dem Seitenstreifen länger als 1 Stunde.
+Sie parkten auf dem Seitenstreifen als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten unzulässig in einer verkehrsberuhigten Zone.
+Sie parkten unzulässig in einer verkehrsberuhigten Zone mit Verkehrsbehinderung.
+Sie parkten unzulässig in einer verkehrsberuhigten Zone länger als 3 Stunden.
+Sie parkten unzulässig in einer verkehrsberuhigten Zone länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig vor Grundstücksein-/-ausfahrten.
+Sie parkten unzulässig vor Grundstücksein-/-ausfahrten mit Verkehrsbehinderung.
+Sie parkten unzulässig vor Grundstücksein-/-ausfahrten länger als 3 Stunden.
+Sie parkten unzulässig vor Grundstücksein-/-ausfahrten länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig im 5-Meter-Bereich vor Kreuzungen.
+Sie parkten unzulässig im 5-Meter-Bereich vor Kreuzungen mit Verkehrsbehinderung.
+Sie parkten unzulässig im 5-Meter-Bereich vor Kreuzungen länger als 3 Stunden.
+Sie parkten unzulässig im 5-Meter-Bereich vor Kreuzungen länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Haltestellen (Bus oder Taxi).
+Sie parkten unzulässig auf Haltestellen (Bus oder Taxi) mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Haltestellen (Bus oder Taxi) länger als 3 Stunden.
+Sie parkten unzulässig auf Haltestellen (Bus oder Taxi) länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig vor/hinter einem Andreaskreuz.
+Sie parkten unzulässig vor/hinter einem Andreaskreuz mit Verkehrsbehinderung.
+Sie parkten unzulässig vor/hinter einem Andreaskreuz länger als 3 Stunden.
+Sie parkten unzulässig vor/hinter einem Andreaskreuz länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig über Schatdeckeln.
+Sie parkten unzulässig über Schatdeckeln mit Verkehrsbehinderung.
+Sie parkten unzulässig über Schatdeckeln länger als 3 Stunden.
+Sie parkten unzulässig über Schatdeckeln länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig trotz Parkverbotsschild.
+Sie parkten unzulässig trotz Parkverbotsschild mit Verkehrsbehinderung.
+Sie parkten unzulässig trotz Parkverbotsschild länger als 3 Stunden.
+Sie parkten unzulässig trotz Parkverbotsschild länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig vor abgesenktem Bordstein.
+Sie parkten unzulässig vor abgesenktem Bordstein mit Verkehrsbehinderung.
+Sie parkten unzulässig vor abgesenktem Bordstein länger als 3 Stunden.
+Sie parkten unzulässig vor abgesenktem Bordstein länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Anwohnerparkplätzen.
+Sie parkten unzulässig auf Anwohnerparkplätzen mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Anwohnerparkplätzen länger als 3 Stunden.
+Sie parkten unzulässig auf Anwohnerparkplätzen länger als 3 Stunden mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Rad- und/oder Gehwegen.
+Sie parkten unzulässig auf Rad- und/oder Gehwegen mit Verkehrsbehinderung.
+Sie parkten unzulässig auf Rad- und/oder Gehwegen länger als 1 Stunde.
+Sie parkten unzulässig auf Rad- und/oder Gehwegen länger als 1 Stunde mit Verkehrsbehinderung.
+Sie parkten in zweiter Reihe.
+Sie parkten in zweiter Reihe mit Verkehrsbehinderung.
+Sie parkten in zweiter Reihe länger als 15 Minuten.
+Sie parkten in zweiter Reihe länger als 15 Minuten mit Verkehrsbehinderung.
+Sie parkten vor einer Feuerwehrzufahrt.
+Sie parkten vor einer Feuerwehrzufahrt. Sie behinderten dadurch ein Einsatzfahrzeug.
+Sie parkten im Fahrraum von Schienenfahrzeugen.
+Sie parkten im Fahrraum von Schienenfahrzeugen mit Verkehrsbehinderung.
+Sie parkten unzulässig auf einem Schwerbehindertenparklplatz.
+Sie parkten und behinderten dadurch Rettungsfahrzeuge.
+Sie nahmen im Kfz ein Kind mit, ohne für die vorschriftsmäßige Sicherung zu sorgen.
+Sie nahmen im Kfz ein Kind mit, ohne für die vorschriftsmäßige Sicherung zu sorgen. Sie nahmen mehrere Kinder mit.
+Sie beförderten als Fahrer ein Kind, ohne für die vorschriftsmäßige Sicherung zu sorgen.
+Sie beförderten als Fahrer ein Kind, ohne für die vorschriftsmäßige Sicherung zu sorgen. Sie beförderten mehrere Kinder.
+Sie beförderten auf der Ladefläche des Kfz/Anhängers Personen.
+Sie hatten während der Fahrt den Sicherheitsgurt nicht angelegt.
+Sie befolgten nicht die (verkehrsregelnde) Weisung/die Anweisung zur Durchführung einer Verkehrskontrolle des Polizeibeamten.
+Sie befolgten nicht das Zeichen oder das Haltegebot des Polizeibeamten. Es kam zum Unfall.
+Sie führten das Kraftfahrzeug (bzw. dessen Anhänger), obwohl es unzulässig auf einer Achse mit Diagonal- und Radialreifen ausgerüstet war.
+Sie führten das Fahrzeug, obwohl dessen Reifen mit Spikes ausgestattet waren.
+Sie führten das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß.
+Sie führten das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß. Sie gefährdeten (…) dadurch Andere.
+Sie führten das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß. Es kam zum Unfall.
+Sie führten als Halter das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß.
+Sie führten als Halter das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter das Kraftfahrzeug (bzw. dessen Anhänger), obwohl dessen Reifen keine ausreichende Profil- oder Einschnitttiefe bzw. keine ausreichenden Profilrillen oder Einschnitte besaß. Es kam zum Unfall.
+Sie führten das Kfz/den Anhänger mit mangelhaften Reifen, sodass die Verkehrssicherheit beeinträchtigt war.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen Winterreifen.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen Winterreifen. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren bei Glatteis, Schneeglätte, Schneematsch, Eis- oder Reifglätte ohne die vorgeschriebenen Winterreifen. Es kam zum Unfall.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Sie bogen ab, ohne anzuhalten.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Sie gefährdeten (…) dadurch andere Kfz.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Es kam zum Unfall mit einem anderen Kfz.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Sie behinderten dadurch Fußgänger/Fahrradfahrer.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Sie gefährdeten dadurch Fußgänger/Fahrradfahrer.
+Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten den freigegebenen Fahrzeugverkehr. Es kam zum Unfall mit dem Fußgänger/Radfahrer.
+Sie begingen einen einfachen Rotlichtverstoß.
+Sie begingen einen einfachen Rotlichtverstoß. Sie gefährdeten (…) dadurch Andere.
+Sie begingen einen einfachen Rotlichtverstoß. Es kam zum Unfall.
+Sie begingen einen qualifizierten Rotlichtverstoß.
+Sie begingen einen qualifizierten Rotlichtverstoß. Sie gefährdeten (…) dadurch Andere.
+Sie begingen einen qualifizierten Rotlichtverstoß. Es kam zum Unfall.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen).
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen). Sie gefährdeten (…) dadurch Andere.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen). Es kam zum Unfall.
+Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen. Sie gefährdeten (…) dadurch Andere.
+Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn.
+Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn. Sie gefährdeten (…) dadurch Andere.
+Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn. Es kam zum Unfall.
+Sie ordneten sich nach dem Überholen nicht wieder sobald als möglich rechts ein.
+Sie ordneten sich nach dem Überholen nicht wieder sobald als möglich rechts ein. Sie behinderten (…) dadurch Andere.
+Sie behinderten (…) beim Wiedereinordnen nach dem Überholen den Überholten. Sie gefährdeten (…) dadurch Andere.
+Sie behinderten (…) beim Wiedereinordnen nach dem Überholen den Überholten. Es kam zum Unfall.
+Sie scherten zum Überholen aus, ohne es rechtzeitig anzukündigen.
+Sie scherten zum Überholen aus, ohne es rechtzeitig anzukündigen. Sie behinderten (…) dadurch Andere.
+Sie scherten zum Überholen aus, ohne es rechtzeitig anzukündigen. Sie gefährdeten (…) dadurch Andere.
+Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig anzukündigen.
+Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig anzukündigen. Sie gefährdeten (…) dadurch Andere.
+Sie überholten außerhalb geschlossener Ortschaften verbotswidrig rechts. Sie gefährdeten (…) dadurch Andere.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht höher als die des überholten Fahrzeugs war.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht höher als die des überholten Fahrzeugs war. Es kam zum Unfall.
+Sie überholten, ohne dass Sie ausschließen konnten, dass während des gesamten Überholvorgangs der Gegenverkehr nicht behindert wird.
+Sie überholten, ohne dass Sie ausschließen konnten, dass während des gesamten Überholvorgangs der Gegenverkehr nicht behindert wird. Sie gefährdeten (…) dadurch Andere.
+Sie überholten, ohne dass Sie ausschließen konnten, dass während des gesamten Überholvorgangs der Gegenverkehr nicht behindert wird. Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage.
+Sie überholten bei unklarer Verkehrslage. Sie gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage. Es kam zum Unfall.
+Sie überholten trotz unklarer Verkehrslage und missachteten dabei Überholverbotszeichen.
+Sie überholten trotz unklarer Verkehrslage und missachteten dabei Überholverbotszeichen. Sie gefährdeten (…) dadurch Andere.
+Sie überholten trotz unklarer Verkehrslage und missachteten dabei Überholverbotszeichen. Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung.
+Sie überholten bei unklarer Verkehrslage und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung. Sie gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage und fuhren dabei verbotswidrig über die Fahrstreifenbegrenzung. Es kam zum Unfall.
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung.
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung. Sie gefährdeten (…) dadurch Andere.
+Sie überholten bei unklarer Verkehrslage und folgten nicht der durch Pfeile vorgeschriebenen Fahrtrichtung. Es kam zum Unfall.
+Sie scherten zum Überholen aus, ohne auf das überholende Fahrzeug zu achten. Es kam zum Unfall.
+Sie hielten als Beteiligter eines Unfalls nicht unverzüglich an.
+Sie unterließen es als Beteiligter an einem Verkehrsunfall, anderen am Unfallort anwesenden Beteiligten oder Geschädigten Ihre Beteiligung am Unfall anzugeben.
+Sie unterließen es als Beteiligter an einem Verkehrsunfall, anderen am Unfallort anwesenden Beteiligten oder Geschädigten auf Verlangen Ihren Führerschein oder Fahrzeugschein vorzuweisen.
+Sie unterließen es als Beteiligter an einem Verkehrsunfall, anderen am Unfallort anwesenden Beteiligten oder Geschädigten nach bestem Wissen Angaben über Ihre Haftpflichtversicherung zu machen.
+Sie unterließen es als Beteiligter eines Unfalles, nachdem Sie eine nach den Umständen angemessene Zeit gewartet hatten, Ihren Namen und Ihre Anschrift am Unfallort zu hinterlassen.
+Sie sicherten als Beteiligter an einem Verkehrsunfall nicht den Verkehr.
+Sie sicherten als Beteiligter an einem Verkehrsunfall nicht den Verkehr. Es kam zum (Folge-)Unfall.
+Sie fuhren als Beteiligter eines Unfalles mit geringfügigem Schaden nicht unverzüglich beiseite.
+Sie fuhren als Beteiligter eines Unfalles mit geringfügigem Schaden nicht unverzüglich beiseite. Es kam zum (Folge-)Unfall.
+Sie beseitigten nach einem Unfall Unfallspuren, bevor die notwendigen Feststellungen getroffen waren.
+Sie führten das Fahrzeug, obwohl die Kennzeichen schlecht lesbar waren.
+Sie führten das Fahrzeug, obwohl Ihre Sicht/Ihr Gehör beeinträchtigt war.
+Sie benutzten als Fahrzeugführer verbotswidrig ein Mobil- oder Autotelefon und hielten den Hörer in der Hand.
+Sie benutzten als Fahrzeugführer verbotswidrig ein technisches Gerät, um die Verkehrsüberwachung anzuzeigen/zu stören.
+Sie verstießen gegen das Rechtsfahrgebot und gefährdeten (…) dadurch Andere.
+Sie verstießen gegen das Rechtsfahrgebot Es kam zum Unfall.
+Sie scherten vor einem Hindernis aus, ohne dies rechtzeitig anzukündigen.
+Sie ordneten sich nach dem Vorbeifahren ein, ohne dies rechtzeitig anzukündigen.
+Sie fuhren an einem Hindernis links vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu lassen.
+Sie fuhren an einem Hindernis links vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu lassen. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren an einem Hindernis links vorbei, ohne ein entgegenkommendes Fahrzeug durchfahren zu lassen. Es kam zum Unfall.
+Sie missachteten als Wartepflichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere.
+Sie missachteten als Wartepflichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere. Sie gefährdeten (…) dadurch Andere.
+Sie missachteten als Wartepflichtiger die Vorfahrt des von rechts kommenden Fahrzeugs und behinderten dadurch andere. Es kam zum Unfall.
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere.
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren aus einem Feld-/Waldweg auf die Straße, ohne die Vorfahrt zu beachten und behinderten dadurch andere. Es kam zum Unfall.
+Sie missachteten die Vorfahrtregelung durch Beschilderung (VZ 205/VZ 206) und behinderten dadurch andere.
+Sie missachteten die Vorfahrtregelung durch Beschilderung (VZ 205/VZ 206) und behinderten dadurch andere. Sie gefährdeten (…) dadurch Andere.
+Sie missachteten die Vorfahrtregelung durch Beschilderung (VZ 205/VZ 206) und behinderten dadurch andere. Es kam zum Unfall.
+Sie gaben missbräuchlich Schallzeichen/Leuchtzeichen.
+Sie gaben missbräuchlich Schallzeichen/Leuchtzeichen. Sie belästigten (…) dadurch Andere.
+Sie schalteten missbrächlich das Warnblinkslicht an.
+Sie begingen erstmalig einen B-Verstoß während der Probezeit.
+Sie begingen erstmalig einen A-Verstoß einen zweiten B-Verstoß während der Probezeit.
+Sie begingen einen A-Verstoß mit Alkohol und Drogen.
+Sie begingen einen A-Verstoß bzw. zwei B-Verstöße während der verlängerten Probezeit.
+Sie begingen einen zweiten A-Verstoß bzw. zwei weitere B-Verstöße während der verlängerten Probezeit.
+Sie haben während der Probezeit als Fahrzeugführer die Fahrt unter der Wirkung eines alkoholischen Getränks angetreten.
+Sie haben vor Vollendung des 21. Lebensjahres als Fahrzeugführer die Fahrt unter der Wirkung eines alkoholischen Getränks angetreten.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Verbindung nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie nahmen den Lkw/KOB bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie nahmen den Lkw/KOB bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie nahmen den Lkw/KOB bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie nahmen das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie nahmen das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie nahmen das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger in nicht vorschriftsmäßigem Zustand in Betrieb und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie nahmen den Lkw/KOB in Betrieb, obwohl die Betriebserlaubnis erloschen war. Die Umwelt war dadurch gefährdet.
+Sie nahmen den Lkw/KOB in Betrieb, obwohl die Betriebserlaubnis erloschen war. Die Verkehrssicherheit war gefährdet.
+Sie ordneten die Inbetriebnahme des Lkw/KOB an, obwohl die Betriebserlaubnis erloschen war. Die Umwelt war dadurch gefährdet.
+Sie ordneten die Inbetriebnahme des Lkw/KOB an, obwohl die Betriebserlaubnis erloschen war. Die Verkehrssicherheit war gefährdet.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter den Lkw/KOB bzw. dessen Anhänger, obwohl die Bremsen nicht den Vroschriften entsprachen und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Bremsen nicht den Vorschriften entsprach und beeinträchtigen dadurch die Verkehrssicherheit. Es kam zum Unfall.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhältnisse nicht mit angepasster Geschwindigkeit.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhältnisse nicht mit angepasster Geschwindigkeit. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Straßen- oder Verkehrsverhältnisse nicht mit angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhältnisse nicht mit angepasster Geschwindigkeit.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhältnisse nicht mit angepasster Geschwindigkeit. Sie gefährdeten (…) dadurch Andere.
+Sie fuhren mit dem kennzeichnungspflichtigen Fahrzeug mit gefährlichen Gütern/KOB mit Fahrgästen in Anbetracht der besonderen Sicht- oder Wetterverhältnisse nicht mit angepasster Geschwindigkeit. Es kam zum Unfall.
+Sie unterließen es, die Ladung des Lkw/KOB bzw. dessen Anhängers ausreichend gegen Verrutschen, Umfallen, Hin- und Herrollen, Herabfallen abzusichern.
+Sie unterließen es, die Ladung des Lkw/KOB bzw. dessen Anhängers ausreichend gegen Verrutschen, Umfallen, Hin- und Herrollen, Herabfallen abzusichern. Sie gefährdeten (…) dadurch Andere.
+Sie unterließen es, die Ladung des Lkw/KOB bzw. dessen Anhängers ausreichend gegen Verrutschen, Umfallen, Hin- und Herrollen, Herabfallen abzusichern. Es kam zum Unfall.
+Sie führten das Fahrzeug, obwohl es mit Ladung höher als 4,20 m war.
+Sie führten das Fahrzeug, obwohl es mit Ladung länger als 20,75 m war.
+Sie ordneten die Inbetriebnahme eines Lkw/KOB bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu.
+Sie ordneten die Inbetriebnahme eines Lkw/KOB bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu. Sie gefährdeten (…) dadurch Andere.
+Sie ordneten die Inbetriebnahme eines Lkw/KOB bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu. Es kam zum Unfall.
+Sie ordneten die Inbetriebnahme eines kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu.
+Sie ordneten die Inbetriebnahme eines kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu. Sie gefährdeten (…) dadurch Andere.
+Sie ordneten die Inbetriebnahme eines kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen bzw. dessen Anhängers an, obwohl die Verkehrssicherheit durch die Ladung/Besetzung wesentlich beeinträchtigt wurde bzw. ließen sie zu. Es kam zum Unfall.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen. Sie gefährdeten (…) dadurch Andere.
+Sie führten das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen. Es kam zum Unfall.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen. Sie gefährdeten (…) dadurch Andere.
+Sie führten als Halter das kennzeichnungspflichtige Fahrzeug mit gefährlichen Gütern/den KOB mit Fahrgästen bzw. dessen Anhänger, obwohl die Reifen keine ausreichende Profil- bzw. Einschnitttiefe bzw. ausreichenden Profilrillen besaßen. Es kam zum Unfall.
+Sie ordneten die Inbetriebnahme eines Lkw/KOB an, obwohl die Reifen mangelhaft waren bzw. ließen sie zu.
+Sie ordneten die Inbetriebnahme eines Lkw/KOB an, obwohl die Reifen mir Spikes ausgestattet waren bzw. ließen sie zu.
+Sie haben die Ausnahmegenehmigung nicht mitgeführt bzw. ausgehändigt.
+Sie fuhren mit dem Kraftfahrzeug trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes auf der Autobahn.
+Sie fuhren mit dem Kfz länger als 15 Minuten trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes.
+Sie fuhren mit dem Lkw mit über 7,5 t zGG/Lkw mit Anhänger verbotswidrig an einem Sonntag/Feiertag.
+Sie ließen es zu bzw. ordneten an, dass mit dem Kfz trotz des zu diesem Zeitpunkt bestehenden Verkehrsverbotes länger als 15 Minuten gefahren wird.
+Sie ließen es zu bzw. ordneten an, dass mit dem Lkw mit über 7,5 t zGG/Lkw mit Anhänger verbotswidrig an einem Sonntag/Feiertag gefahren wird.
+Sie überholten und missachteten dabei das Überholverbotszeichen.
+Sie überholten und missachteten dabei das Überholverbotszeichen. Sie behinderten (…) dadurch Andere.
+Sie überholten und missachteten dabei das Überholverbotszeichen. Sie gefährdeten (…) dadurch Andere.
+Sie überholten und missachteten dabei das Überholverbotszeichen. Es kam zum Unfall.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht wesentlich höher war als die des überholten Fahrzeugs.
+Sie überholten, obwohl die von Ihnen gefahrene Geschwindigkeit nicht wesentlich höher war als die des überholten Fahrzeugs. Es kam zum Unfall.
+Sie berholten mit einem Kfz mit über 7,5 t zGG, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug.
+Sie berholten mit einem Kfz mit über 7,5 t zGG, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Sie gefährdeten (…) dadurch Andere.
+Sie berholten mit einem Kfz mit über 7,5 t zGG, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Es kam zum Unfall.
+Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug.
+Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Sie gefährdeten (…) dadurch Andere.
+Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Es kam zum Unfall.
+Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb  geschlossener Ortschaften um XXX km/h in einem verkehrsberuhigten  Bereich (Zeichen 325.1, 325.2).
+Sie ließen das nicht zugelassene Fahrzeug an der Stelle stehen, wodurch der Verkehr erschwert werden konnte.
