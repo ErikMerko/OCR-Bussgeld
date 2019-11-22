@@ -47,7 +47,7 @@ class Extractor:
         return val.get_result()        
 
     def get_information_context(self):
-        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen(), self.find_AusstellerVerwarnung())
+        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen())
 
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
@@ -145,10 +145,14 @@ class Aussteller_Detector(Detector):
     
     def __searchMail(self,ocrOutput):
         regexmail =r'\S{1,40}@\S{1,20}.de'
-        self.__result = super().format_filter(regexmail, self.ocrOutput)
-        for result in __result:
-         print(result)
+        results = super().format_filter(regexmail, self.ocrOutput)
+        for result in results:
+            if len(results) >= 1:
+                print(result)
+            print("kein Match")    
 
+    def __searchStadt(self,ocrOutput):
+        regexPlzOrt =r'\s\d, [0-9]{5}\s[a-z]{3,50}\s'
         # TODO Detector implementieren
 
     def __searchURL(self,ocrOutput):
