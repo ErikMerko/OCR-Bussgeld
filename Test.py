@@ -13,7 +13,7 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Dortmund.png")
 # extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Hamburg.png")
 # extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Koblenz.png")
-extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Unbekannte Stadt.png")
+# extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Unbekannte Stadt.png")
 
 # Testfälle ideal-images/smartphone
 # extr = Extractor("resources/ideal-images/smartphone/7a8b2627-328f-45bd-b062-f51c1508d1d8-1.png")
@@ -25,7 +25,7 @@ extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Unbekannte Stad
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Goslar-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Kassel-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Stuttgart-1.png")
-# extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
+extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-2.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-3.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage11-Zwickau-2.png")
@@ -100,4 +100,3 @@ extr = Extractor("resources/ideal-images/600dpi/Bußgeldbescheid-Unbekannte Stad
 
 context = extr.get_information_context()
 print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))
-
