@@ -10,7 +10,7 @@ kennzeichen_textfile = 'resources/KFZ-Kennzeichen.txt'
 kennzeichen_regex = '^([A-ZÄÖÜ]{1,3})\s*$'
 
 bussgeld_textfile = 'resources/Bussgeldformulierungen.txt'
-bussgeld_regex = '[A-zäöü].*?[\.!?]'
+bussgeld_regex = '[A-zäöü].*?[\.!?][\n]'
 
 
 def function_Textfile_auslesen(pfad, regex):
@@ -23,10 +23,10 @@ def function_Textfile_auslesen(pfad, regex):
             match = ''.join(listeMatch)
             #\n entfernen da sich python und regex \n teilen
             removeChar = match.replace('\n','')
-            listeKfz.append(match)
+            listeKfz.append(removeChar)
         #zero-length-strings entfernen
         listeKfzOk = [i for i in listeKfz if i]
-        #print(listeKfzOk)
+        print(listeKfzOk)
         return listeKfzOk
 
 
