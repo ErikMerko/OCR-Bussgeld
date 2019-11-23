@@ -6,19 +6,29 @@ import re
 
 testdaten_anzahl = 50
 
-def function_Textfile_Auslesen():
-    #Pfad noch ändern zu resources/KFZ-Kennzeichen.txt
-    with open('resources/KFZ-Kennzeichen.txt', 'r', encoding='utf-8') as kfz:
+kennzeichen_textfile = 'resources/KFZ-Kennzeichen.txt'
+kennzeichen_regex = '^([A-ZÄÖÜ]{1,3})\s*$'
+
+bussgeld_textfile = 'resources/Bussgeldformulierungen.txt'
+bussgeld_regex = '[A-zäöü].*?[\.!?]'
+
+
+def function_Textfile_auslesen(pfad, regex):
+    with open(pfad, 'r', encoding='UTF-8') as kfz:
     
         listeKfz = []
         listeKfzOk = []
         for zeile in kfz:
-            listeMatch = re.findall('^([A-ZÖÄÜ]{1,3})\s*$', zeile)
+            listeMatch = re.findall(regex, zeile)
             match = ''.join(listeMatch)
+            #\n entfernen da sich python und regex \n teilen
+            removeChar = match.replace('\n','')
             listeKfz.append(match)
         #zero-length-strings entfernen
         listeKfzOk = [i for i in listeKfz if i]
+        #print(listeKfzOk)
         return listeKfzOk
+
 
 
 #Kennzeichen_Generator
@@ -27,7 +37,7 @@ def function_Kennzeichen_Generator():
     listeKennzeichen = []
     for x in range(testdaten_anzahl):
         grossbuchstaben = string.ascii_uppercase
-        kennzeichen = (random.choice(function_Textfile_Auslesen())
+        kennzeichen = (random.choice(function_Textfile_auslesen(kennzeichen_textfile, kennzeichen_regex))
         + random.choice([' ', ' -', '-']) 
         + ''.join(random.choice(grossbuchstaben) for i in range(random.randint(1,2)))
         + " "
@@ -180,28 +190,7 @@ def function_Ort_Generator():
 def function_Vergehen_Generator():
     listeVergehen = []
     for x in range(testdaten_anzahl):
-        vergehen = (random.choice(["Sie überschritten die zulässige Höchstgeschwindigkeit " \
-                                   "außerhalb geschlossener Ortschaften um %s km/h." %(random.randint(6,200)),
-                                   "Sie überschritten die zulässige Höchstgeschwindigkeit " \
-                                   "innerhalb geschlossener Ortschaften um %s km/h." %(random.randint(6,200)),
-                                   "Sie führten das Kraftfahrzeug mit einer Atemalkoholkonzentration von 0,25 g/l oder mehr. " \
-                                   "Die festgestellte Atemalkoholkonzentration betrug %s,%d mg/l." %(random.randint(0,4), random.randint(26,99)),
-                                   "Sie fuhren ohne triftigen Grund so langsam, dass der Verkehrs­fluss behindert wurde.",
-                                   "Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrs­verhältnisse " \
-                                   "mit nicht angepasster Geschwindig­keit.",
-                                   "Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg. Sie führten den vorgeschriebenen " \
-                                   "Führerschein nicht mit.",
-                                   "Sie begingen einen einfachen Rotlichtverstoß.",
-                                   "Sie missachteten die Vorfahrtregelung durch Beschilderung (VZ 205/VZ 206) und behinderten dadurch andere.",
-                                   "Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn.",
-                                   "Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen (Blinken).",
-                                   "Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßigab.",
-                                   "Sie fuhren mit nicht angepasster Geschwindigkeit an einen Bahnübergangheran.",
-                                   "Sie ordneten die Inbetriebnahme des Fahrzeuges an, obwohl die Betriebserlaubnis erloschen war, bzw. ließen sie zu",
-                                   "Sie nahmen das Kraftfahrzeug unter Verstoß gegen eine Vorschrift über mitzuführendes Erste-Hilfe-Material in Betrieb.",
-                                   "Sie ermöglichten einem Omnibus desLinienverkehrs/einem Schulbus nicht das " \
-                                   "Abfahren von einer gekennzeichneten Haltestelle.",
-                                   "Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab."]))
+        vergehen = (random.choice(function_Textfile_auslesen(bussgeld_textfile, bussgeld_regex)))
         listeVergehen.append(vergehen)
     return listeVergehen
 

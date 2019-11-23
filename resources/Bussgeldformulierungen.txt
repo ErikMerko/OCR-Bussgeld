@@ -1,4 +1,4 @@
-Sie führten das Kraftfahrzeug mit einer Atemalkoholkonzentration von 0,25 mg/l oder mehr.
+﻿Sie führten das Kraftfahrzeug mit einer Atemalkoholkonzentration von 0,25 mg/l oder mehr.
 Sie führten das Kraftfahrzeug mit einer Blutalkoholkonzentration von 0,5 Promille oder mehr.
 Sie führten das Kraftfahrzeug mit einer Alkoholmenge im Körper, die zu einer Atemalkoholkonzentration von 0,25 mg/l oder mehr geführt hat.
 Sie führten das Kraftfahrzeug mit einer Alkoholmenge im Körper, die zu einer Blutalkoholkonzentration von 0,5 Promille oder mehr geführt hat.
@@ -45,7 +45,7 @@ Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand vo
 Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein, so dass die Insassen dieses Fahrzeugs gefährdet (…) wurden.
 Sie hielten bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein. Ihr Abstand betrug XXX,XX m. Es kam zum Unfall.
 Sie fuhren infolge zu geringen Abstands auf das abbremsende Fahrzeug auf. Es kam zum Unfall.
-Sie hielten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrg. (…) bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein. 
+Sie hielten mit einem kennzpfl. Kfz. m. gef. Gütern/KOM m. Fahrg. (…) bei einer Geschwindigkeit von XXX km/h den erforderlichen Abstand von XXX,XX m zum vorausfahrenden Fahrzeug nicht ein.
 Sie bremsten als Vorausfahrender stark ohne zwingenden Grund, so dass es zur Gefährdung (…) des nachfolgenden Verkehrsteilnehmers kam.
 Sie bremsten als Vorausfahrender stark ohne zwingenden Grund, so dass es zum Unfall kam.
 Sie hielten außerhalb geschlossener Ortschaften nicht den zum Einscheren erforderlichen Abstand von dem vorausfahrenden Fahrzeug|Vorausfahrenden.
@@ -70,23 +70,23 @@ Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die W
 Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
 Sie überquerten als nichtmotorisierter Verkehrsteilnehmer (…) den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
 Sie verletzten vor einem Bahnübergang eine Wartepflicht.
-Sie fuhren aus einem Grundstück auf die Straße und gefährdeten (…) dadurch Andere. 	
+Sie fuhren aus einem Grundstück auf die Straße und gefährdeten (…) dadurch Andere.
 Sie fuhren aus einem Grundstück auf die Straße. Es kam zum Unfall.
-Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße und gefährdeten (…) dadurch Andere. 			
-Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße. Es kam zum Unfall. 	
-Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße und gefährdeten (…) dadurch Andere. 			
-Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße. Es kam zum Unfall. 			
-Sie fuhren von einem anderen Straßenteil auf die Fahrbahn und gefährdeten (…) dadurch Andere. 
-Sie fuhren von einem anderen Straßenteil auf die Fahrbahn. Es kam zum Unfall. 		
-Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn und gefährdeten (…) dadurch Andere. 			
-Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn. Es kam zum Unfall. 	
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße und gefährdeten (…) dadurch Andere.
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße. Es kam zum Unfall.
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße und gefährdeten (…) dadurch Andere.
+Sie fuhren aus einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße. Es kam zum Unfall.
+Sie fuhren von einem anderen Straßenteil auf die Fahrbahn und gefährdeten (…) dadurch Andere.
+Sie fuhren von einem anderen Straßenteil auf die Fahrbahn. Es kam zum Unfall.
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn und gefährdeten (…) dadurch Andere.
+Sie fuhren über einen abgesenkten Bordstein hinweg auf die Fahrbahn. Es kam zum Unfall.
 Sie fuhren vom Fahrbahnrand an und gefährdeten (…) dadurch Andere.
 Sie fuhren vom Fahrbahnrand an. Es kam zum Unfall.
 Sie fuhren aus einem Grundstück auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen.
-Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
-Sie fuhren von einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
-Sie fuhren von einem Straßenteil auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen. 
-Sie fuhren über einen abgesenkten Bordstein auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen. 			
+Sie fuhren aus einer Fußgängerzone (Zeichen 242.1, 242.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen.
+Sie fuhren von einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2) auf die Straße, ohne den Fahrtrichtungsanzeiger zu benutzen.
+Sie fuhren von einem Straßenteil auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen.
+Sie fuhren über einen abgesenkten Bordstein auf die Fahrbahn, ohne den Fahrtrichtungsanzeiger zu benutzen.
 Sie fuhren vom Fahrbahnrand der Straße an, ohne den Fahrtrichtungsanzeiger zu benutzen.
 Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen.
 Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen und gefährdeten (…) dadurch Andere.
@@ -139,23 +139,23 @@ Sie überschritten die zulässige Höchstgeschwindigkeit in mehr als 2 Fällen n
 Sie überschritten die zulässige Höchstgeschwindigkeit mit Schneeketten innerhalb geschlossener Ortschaften um XXX km/h.
 Sie überschritten die zulässige Höchstgeschwindigkeit mit Schneeketten außerhalb geschlossener Ortschaften um XXX km/h.
 Sie kamen von der Fahrbahn ab und verursachten Sachschaden.
-Sie gerieten ins Schleudern und verursachten Sachschaden. 
-Sie streiften beim Vorbeifahren ein Fahrzeug und verursachten Sachschaden. 			
-Sie ließen beim Befahren der Straße die im Verkehr erforderliche Rücksicht außer Acht und beschmutzten dabei Andere. 			
-Sie stellten das Fahrzeug so ab, dass ein anderes Fahrzeug nicht wegfahren konnte. 		
-Sie ließen an einer Fahrbahnverengung die im Verkehr erforderliche Sorgfalt außer Acht, so dass es zum Unfall kam. 			
-Sie behinderten (…) Andere, indem Sie ihnen das Einordnen im sogenannten Reißverschlussverfahren nicht ermöglichten. 			
-Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen. 			
-Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen. Es kam zum Unfall. 	
-Sie behinderten (…) durch das Parken auf einer Fußgängerfurt der Lichtzeichenanlage Andere. 	
+Sie gerieten ins Schleudern und verursachten Sachschaden.
+Sie streiften beim Vorbeifahren ein Fahrzeug und verursachten Sachschaden.
+Sie ließen beim Befahren der Straße die im Verkehr erforderliche Rücksicht außer Acht und beschmutzten dabei Andere.
+Sie stellten das Fahrzeug so ab, dass ein anderes Fahrzeug nicht wegfahren konnte.
+Sie ließen an einer Fahrbahnverengung die im Verkehr erforderliche Sorgfalt außer Acht, so dass es zum Unfall kam.
+Sie behinderten (…) Andere, indem Sie ihnen das Einordnen im sogenannten Reißverschlussverfahren nicht ermöglichten.
+Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen.
+Sie fuhren in den Kreuzungsbereich/Einmündungsbereich (…) ein, ohne dem dort verkehrsbedingt wartenden Fahrzeug die Möglichkeit zu geben, diesen zu verlassen. Es kam zum Unfall.
+Sie behinderten (…) durch das Parken auf einer Fußgängerfurt der Lichtzeichenanlage Andere.
 Sie behinderten (…) durch das Parken Andere.
-Sie belästigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar. 			
-Sie behinderten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar. 			
-Sie gefährdeten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere. 
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere. 	
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein vorausfahrendes Fahrzeug. 			
-Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein stehendes Fahrzeug. 			
-Sie beschädigten beim Fahren in eine/aus einer Parklücke ein stehendes Fahrzeug. 		
+Sie belästigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar.
+Sie behinderten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere mehr als nach den Umständen unvermeidbar.
+Sie gefährdeten (…) durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt Andere.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein vorausfahrendes Fahrzeug.
+Sie schädigten durch Außer-Acht-Lassen der im Straßenverkehr erforderlichen Sorgfalt andere Verkehrsteilnehmer durch Auffahren auf ein stehendes Fahrzeug.
+Sie beschädigten beim Fahren in eine/aus einer Parklücke ein stehendes Fahrzeug.
 Sie fuhren mit einem Kraftrad auf dem Hinterrad und gefährdeten (…) dadurch Andere.
 Sie hielten näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses.
 Sie hielten näher als 10 Meter vor einem Lichtzeichen und verdeckten dieses, wodurch Andere behindert (…) wurden.
@@ -292,14 +292,14 @@ Sie ordneten sich nach dem Überholen nicht wieder sobald wie möglich nach rech
 Sie ordneten sich nach dem Überholen nicht wieder sobald wie möglich nach rechts ein und behinderten (…) dadurch Andere.
 Sie behinderten (…) beim Wiedereinordnen nach dem Überholen den Überholten.
 Sie gefährdeten (…) beim Wiedereinordnen nach dem Überholen Andere.
-Sie schnitten beim Wiedereinordnen nach dem Überholen Andere. Es kam zum Unfall.	
+Sie schnitten beim Wiedereinordnen nach dem Überholen Andere. Es kam zum Unfall.
 Sie scherten zum Überholen aus und gefährdeten (…) dadurch den nachfolgenden Verkehr.
 Sie scherten zum Überholen aus, ohne auf das überholende Fahrzeug zu achten, so dass es zum Unfall kam.
 Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen.
 Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen, und behinderten (…) dadurch Andere.
 Sie scherten zum Überholen aus, ohne es rechtzeitig und deutlich anzukündigen, und gefährdeten (…) dadurch Andere.
 Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig und deutlich anzukündigen.
-Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig und deutlich anzukündigen, und gefährdeten (…) dadurch Andere. 
+Sie ordneten sich nach dem Überholen wieder ein, ohne es rechtzeitig und deutlich anzukündigen, und gefährdeten (…) dadurch Andere.
 Sie kündigten das Überholen mit Fernlicht an und blendeten dadurch den Gegenverkehr.
 Sie hinderten einen anderen Verkehrsteilnehmer am Überholen, indem Sie Ihre Geschwindigkeit erhöhten.
 Sie ermäßigten nicht ihre Geschwindigkeit/warteten nicht (…) als Fahrer eines langsameren Fahrzeugs, um so mehreren unmittelbar folgenden Fahrzeugen das Überholen zu ermöglichen.
@@ -379,7 +379,7 @@ Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die W
 Sie überholten unzulässig an einem Bahnübergang. Sie gefährdeten (…) dadurch Andere.
 Sie überquerten mit einem Fahrzeug den mit Andreaskreuz (Zeichen 201) gekennzeichneten Bahnübergang, ohne den Vorrang eines Schienenfahrzeugs zu beachten. Sie gefährdeten (…) dadurch Andere.
 Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen. Sie gefährdeten (…) dadurch Andere.
-Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. 
+Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten.
 Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. Sie gefährdeten (…) dadurch Andere.
 Sie unterließen es, die vorgeschriebenen Beleuchtungseinrichtungen zu benutzen, obwohl es die Sichtverhältnisse erforderten. Es kam zum Unfall.
 Die Beleuchtungsvorrichtungen an Ihrem Fahrzeug waren verdeckt/verschmutzt/defekt.
@@ -388,7 +388,7 @@ Die Beleuchtungsvorrichtungen an Ihrem Fahrzeug waren verdeckt/verschmutzt/defek
 Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr.
 Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr. Sie gefährdeten (…) dadurch Andere.
 Sie blendeten nicht rechtzeitig ab, obwohl Fahrzeuge entgegenkamen oder ein anderes Fahrzeug mit geringem Abstand vor Ihnen fuhr. Es kam zum Unfall.
-Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. 
+Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war.
 Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. Sie gefährdeten (…) dadurch Andere.
 Sie fuhren mit Fernlicht, obwohl die Straße mit durchgehender Beleuchtung versehen war. Es kam zum Unfall.
 Sie fuhren mit eingeschalteter Nebelschlussleuchte und/oder Nebelscheinwerfer, obwohl keine Sichtberhinderung mit einer Sichtweite unter 50 Meter gegeben war.
@@ -459,7 +459,7 @@ Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmä�
 Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig.
 Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig. Sie gefährdeten (…) dadurch Andere.
 Sie beleuchteten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig. Es kam zum Unfall.
-Sie parkten an engen, unübersichtlichen Stellen. 
+Sie parkten an engen, unübersichtlichen Stellen.
 Sie parkten an engen, unübersichtlichen Stellen mit Verkehrsbehinderung.
 Sie parkten an engen, unübersichtlichen Stellen länger als 1 Stunde.
 Sie parkten an engen, unübersichtlichen Stellen länger als 1 Stunde mit Verkehrsbehinderung.
@@ -718,5 +718,5 @@ Sie berholten mit einem Kfz mit über 7,5 t zGG, obwohl die Sichtweite durch Neb
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug.
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Sie gefährdeten (…) dadurch Andere.
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Es kam zum Unfall.
-Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb  geschlossener Ortschaften um XXX km/h in einem verkehrsberuhigten  Bereich (Zeichen 325.1, 325.2).
+Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb geschlossener Ortschaften um XXX km/h in einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2).
 Sie ließen das nicht zugelassene Fahrzeug an der Stelle stehen, wodurch der Verkehr erschwert werden konnte.
