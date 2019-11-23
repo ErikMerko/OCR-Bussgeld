@@ -12,22 +12,25 @@ kennzeichen_regex = '^([A-ZÄÖÜ]{1,3})\s*$'
 bussgeld_textfile = 'resources/Bussgeldformulierungen.txt'
 bussgeld_regex = '[A-zäöü].*?[\.!?][\n]'
 
+orte_textfile = 'resources/Orte.txt'
+orte_regex = '[A-zäöü]+.*'
+
 
 def function_Textfile_auslesen(pfad, regex):
     with open(pfad, 'r', encoding='UTF-8') as kfz:
     
-        listeKfz = []
-        listeKfzOk = []
+        listeTextfile = []
+        listeTextfileOk = []
         for zeile in kfz:
             listeMatch = re.findall(regex, zeile)
             match = ''.join(listeMatch)
             #\n entfernen da sich python und regex \n teilen
             removeChar = match.replace('\n','')
-            listeKfz.append(removeChar)
+            listeTextfile.append(removeChar)
         #zero-length-strings entfernen
-        listeKfzOk = [i for i in listeKfz if i]
-        print(listeKfzOk)
-        return listeKfzOk
+        listeTextfileOk = [i for i in listeTextfile if i]
+        #print(listeTextfileOk)
+        return listeTextfileOk
 
 
 
@@ -182,7 +185,7 @@ def function_Nachname_Generator():
 def function_Ort_Generator():
     listeOrt = []
     for x in range(testdaten_anzahl):
-        ort = (random.choice(["Hamburg", "München", "Berlin", "Bielefeld", "Paderborn", "Frankurt am Main", "Bremen"]))
+        ort = (random.choice(function_Textfile_auslesen(orte_textfile, orte_regex)))
         listeOrt.append(ort)
     return listeOrt
 
