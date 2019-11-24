@@ -78,10 +78,11 @@ class Kennzeichen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\b([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
+        self.__result = super().format_filter(r'\b([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
         if len(self.__result) < 1:
-            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
-
+            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
+        if len(self.__result) < 1:
+            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}(\sE|E)', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -228,7 +229,8 @@ class Kennzeichen_Validator:
                 self.__result = kennzeichen
                 return
             else:
-                self.__result = self.__rechts_rotieren(kennzeichen)
+                detec = Kennzeichen_Detector(self.__rechts_rotieren(kennzeichen))
+                self.__result = detec.get_result()[0]
                 return
         self.__result = '???'
 
