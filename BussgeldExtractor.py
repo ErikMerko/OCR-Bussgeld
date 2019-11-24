@@ -1,6 +1,7 @@
 import pytesseract
 import re
 import datetime
+import math
 from PIL import Image
 
 # import rstr
@@ -12,13 +13,10 @@ class Extractor:
     def __init__(self, bussgeld_path):
        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
         pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
-        self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
-        print('####################################')
-        print(pytesseract.image_to_data(Image.open(bussgeld_path), lang='deu'))
-        print('###################################')
+        self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
         # Entfernt Zeilenumbrüche
-        self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
+        # self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
 
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
     def find_Kennzeichen(self):
@@ -109,13 +107,9 @@ class Tatuhrzeit_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\bum\s\d{1,2}\:\d{1,2}\sUhr', self.ocrOutput)
-        if len(self.__result) < 1:
-            self.__result = super().format_filter(r'\d{1,2}\:\d{1,2}', self.ocrOutput)
-
-        self.__result = [m.replace('um', '') for m in self.__result]
-        self.__result = [m.replace('Uhr', '') for m in self.__result]
-            
+        self.__result = super().format_filter(r'(\s|-)\d{1,2}(:|\.)\d{1,2}(\s|-)', self.ocrOutput)
+        self.__result = [e.strip(' ') for e in self.__result]
+          
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
         return self.__result
@@ -351,17 +345,84 @@ class Tatuhrzeit_Validator:
     def __check_plausibility(self):
         detec = Tatuhrzeit_Detector(self.ocrOutput)
         matches = detec.get_result()
-        print(matches)
+        print(self.ocrOutput)
+        times = []
+        for match in matches:
+            if self.__is_time_valid(match):
+                times.append(match)
+        
+        if len(times) == 1:
+            self.__result = times[0]
+        elif len(times) == 2:
+            self.__result = times
+        elif len(times) > 2:
+            timeTuples = self.__ermittle_Koordinaten(times)
+            timeMusterTuples = self.__ermittle_Musterindex(timeTuples)
+            cumulus_list = [x[3] for x in timeMusterTuples]
+            index_max = max(range(len(cumulus_list)), key=cumulus_list.__getitem__)
+            self.__result = timeMusterTuples[index_max][0]
 
-        if len(matches) == 1:
-            self.__result = matches[0]
-        elif len(matches) > 1:
-            self.__result = matches[0]
-            
         if len(matches) < 1:
             self.__result = '???'
 
-        # TODO Plausibilität überprüfen!
+       
+
+    def __ermittle_Koordinaten(self, times):
+
+        ocrOutputLines = self.ocrOutput.splitlines()
+        times = list(dict.fromkeys(times))
+        timeTuples = []
+
+        for time in times:
+            lineCounter = 0
+            for line in reversed(ocrOutputLines):
+                columnCounter = line.find(time)
+
+                if not columnCounter == -1:
+                    timeTuple = (time, columnCounter, lineCounter)
+                    timeTuples.append(timeTuple)
+                lineCounter += 1
+
+        return timeTuples
+
+    def __ermittle_Musterindex(self, timeTuples):
+
+        helperList = []
+        for timeTuple in timeTuples:
+            helperList.append(timeTuple)
+        
+        for timeTuple in timeTuples:
+            cumulus = 0
+            helperList.remove(timeTuple)
+            for helpTuple in helperList:
+                cumulus += self.__berechne_Punktabstand(timeTuple[1], timeTuple[2], helpTuple[1], helpTuple[2])
+            timeTuple = (timeTuple[0], timeTuple[1], timeTuple[2], cumulus)
+            helperList.append(timeTuple)
+        
+        return helperList
+
+    def __berechne_Punktabstand(self, x1, y1, x2, y2):
+        return math.sqrt(math.pow(y2-y1, 2)+math.pow(x2-x1, 2))
+
+    def __is_time_valid(self, time):
+        
+        isValid = None
+
+        try:
+            validtime = datetime.datetime.strptime(time, "%H:%M")
+            isValid = True
+        except ValueError:
+            try:
+                validtime = datetime.datetime.strptime(time, "%H.%M")
+                isValid = True
+            except ValueError:
+                isValid = False
+        return isValid
+
+
+            
+                
+
 
     def get_result(self):
         return self.__result
