@@ -10,8 +10,12 @@ class Extractor:
 
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
-        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+       # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
+        print('####################################')
+        print(pytesseract.image_to_data(Image.open(bussgeld_path), lang='deu'))
+        print('###################################')
 
         # Entfernt Zeilenumbrüche
         self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
@@ -43,7 +47,6 @@ class Extractor:
 
     def get_information_context(self):
         return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen())
-
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
     #     for x in range(repeats):
@@ -106,11 +109,13 @@ class Tatuhrzeit_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\bum\s(2[0-3]|1[0-9]|0[0-9]|[0-9])\:([0-5][0-9])\sUhr', self.ocrOutput)
+        self.__result = super().format_filter(r'\bum\s\d{1,2}\:\d{1,2}\sUhr', self.ocrOutput)
         if len(self.__result) < 1:
-            self.__result = '???'
-            # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
+            self.__result = super().format_filter(r'\d{1,2}\:\d{1,2}', self.ocrOutput)
 
+        self.__result = [m.replace('um', '') for m in self.__result]
+        self.__result = [m.replace('Uhr', '') for m in self.__result]
+            
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
         return self.__result
@@ -200,7 +205,8 @@ class Vergehen_Detector(Detector):
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
-        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+       # with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -220,8 +226,8 @@ class Kennzeichen_Validator:
 
     def __check_plausibility(self):
         # TODO Plausibilität überprüfen!
-        val = Kennzeichen_Detector(self.ocrOutput)
-        matches = val.get_result()
+        detec = Kennzeichen_Detector(self.ocrOutput)
+        matches = detec.get_result()
         self.__result = matches
         for kennzeichen in matches:
             if self.__ortskennung_Check(kennzeichen):
@@ -246,7 +252,8 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
-        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        # with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
@@ -342,9 +349,17 @@ class Tatuhrzeit_Validator:
         self.__check_plausibility()
 
     def __check_plausibility(self):
-        val = Tatuhrzeit_Detector(self.ocrOutput)
-        matches = val.get_result()
-        self.__result = matches
+        detec = Tatuhrzeit_Detector(self.ocrOutput)
+        matches = detec.get_result()
+        print(matches)
+
+        if len(matches) == 1:
+            self.__result = matches[0]
+        elif len(matches) > 1:
+            self.__result = matches[0]
+            
+        if len(matches) < 1:
+            self.__result = '???'
 
         # TODO Plausibilität überprüfen!
 
@@ -456,7 +471,6 @@ class Vergehen_Validator:
 
     def get_result(self):
         return self.__result
-
 
 class InformationContext:
     def __init__(self, knz, date, time, verwarngeld, vergehen):

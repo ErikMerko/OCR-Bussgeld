@@ -12,9 +12,9 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/images/BB_K-D-U-V-B-A-T-O-AV_15.jpg")
 # extr = Extractor("resources/images/BB_D-U-V-AV_1.JPG")
 # extr = Extractor(r"resources/ideal-images/600dpi/Bußgeldbescheid-Aalen.png")
-extr = Extractor("resources/ideal-images/TestbilderWordSerienbriefe/KonstanzTestNr1.png")
-
-
-context = extr.get_information_context()
-print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))
+# extr = Extractor("resources/ideal-images/TestbilderWordSerienbriefe/KonstanzTestNr1.png")
+extr = Extractor(r"ocr-bussgeld\resources\ideal-images\Testfälle\DresdenTestNr1.png")
+print(extr.find_Tatuhrzeit())
+# context = extr.get_information_context()
+# print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))
 
