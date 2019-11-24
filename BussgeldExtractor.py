@@ -345,22 +345,21 @@ class Tatuhrzeit_Validator:
     def __check_plausibility(self):
         detec = Tatuhrzeit_Detector(self.ocrOutput)
         matches = detec.get_result()
-        print(self.ocrOutput)
         times = []
         for match in matches:
             if self.__is_time_valid(match):
                 times.append(match)
         
         if len(times) == 1:
-            self.__result = times[0]
+            self.__result = times[0].replace('.', ':')
         elif len(times) == 2:
-            self.__result = times
+            self.__result = times.replace('.', ':')
         elif len(times) > 2:
             timeTuples = self.__ermittle_Koordinaten(times)
             timeMusterTuples = self.__ermittle_Musterindex(timeTuples)
             cumulus_list = [x[3] for x in timeMusterTuples]
             index_max = max(range(len(cumulus_list)), key=cumulus_list.__getitem__)
-            self.__result = timeMusterTuples[index_max][0]
+            self.__result = timeMusterTuples[index_max][0].replace('.', ':')
 
         if len(matches) < 1:
             self.__result = '???'
