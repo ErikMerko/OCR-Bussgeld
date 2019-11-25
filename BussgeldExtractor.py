@@ -48,7 +48,7 @@ class Extractor:
         return val.get_result()        
 
     def get_information_context(self):
-        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen())
+        return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen(), self.find_AusstellerVerwarnung())
 
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
@@ -142,28 +142,40 @@ class Aussteller_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         mail=self.__searchMail(ocrOutput)
-        aus_verw =self.__checkMail(mail)
+        self.__result =self.__checkMail(mail)
     
-    
+    #sucht nach der Mail des Austellers im Ocr Output
     def __searchMail(self,ocrOutput):
         regexmail =r'\S{1,40}@\S{1,20}.de'
         results = super().format_filter(regexmail, self.ocrOutput)
         for result in results:
             if len(results).bit_length()<1:
-                print("kein Match")    
+                print("Regex nicht")    
+            print(result) 
+            result = result.lower()   
+            print(result) 
             return result
 
+    # sucht in der bußgeldstellen.csv datei ob er die zur Mail dazu gehörige Bußgeldstelle findet.
     def __checkMail(self,mail):
-        mail=mail
         aus_verw=""
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
-            line_count = 0
             for row in csv_reader:
-                row.find(mail)
-                print(row[0],row[1],row[2],)
+                if (row[2].find(mail) != -1): 
+                    print ("Match gefunden")
+                    inx=row[2].find(mail)
+                    print("row",inx)
+                    aus_verw=row[0]
+                    print(aus_verw)
+                    return aus_verw
+                else: 
+                    aus_verw="???"
+                    # print (aus_verw)
+            return aus_verw
 
-        
+    def get_result(self):
+        return self.__result       
                 
             
     # def __searchStadt(self,ocrOutput):
@@ -506,9 +518,10 @@ class Vergehen_Validator:
 
 
 class InformationContext:
-    def __init__(self, knz, date, time, verwarngeld, vergehen):
+    def __init__(self, knz, date, time, verwarngeld, vergehen, aussteller):
         self.Kennzeichen = knz
         self.Tatdatum = date
         self.Tatzeit = time
         self.Verwarngeld = verwarngeld
         self.Vergehen = vergehen
+        self.Aussteller = aussteller

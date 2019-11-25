@@ -9,14 +9,14 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/600dpi/f8bc9163-a6d6-44d9-bd5d-0baac4dfe4c7-1.png")
 # extr = Extractor("resources/ideal-images/smartphone/7a8b2627-328f-45bd-b062-f51c1508d1d8-1.png")
 # extr = Extractor(r"ocr-bussgeld\resources\images\BB_K-D-U-V-B-O-AV_5.jpg")
-extr = Extractor("resources\ideal-images\Testfälle\ZwickauTestNr1.png")
+extr = Extractor("resources\ideal-images\Testfälle\Bußgeldbescheid-Stuttgart-1.png")
 # extr = Extractor("resources/images/BB_D-U-V-AV_1.JPG")
 # extr = Extractor(r"resources/ideal-images/600dpi/Bußgeldbescheid-Aalen.png")
 # extr = Extractor("resources/ideal-images/Testfälle/MünsterTestv1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/LandBrandenburgTestNr1.png")
 
 
-test= extr.find_AusstellerVerwarnung()
-context = extr.get_information_context()
+context= extr.get_information_context()
+
 print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))
 
