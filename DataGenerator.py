@@ -9,7 +9,7 @@ testdaten_anzahl = 50
 kennzeichen_textfile = 'resources/KFZ-Kennzeichen.txt'
 kennzeichen_regex = '^([A-ZÄÖÜ]{1,3})\s*$'
 
-bussgeld_textfile = 'resources/Bussgeldformulierungen.txt'
+bussgeld_textfile = 'resources/BussgeldformulierungenCSV.txt'
 bussgeld_regex = '[A-zäöü].*?[\.!?][\n]'
 
 orte_textfile = 'resources/Orte.txt'
