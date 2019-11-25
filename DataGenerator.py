@@ -1,16 +1,46 @@
 import random 
 import string
+import re
 
 #Ingo Speckens
 
 testdaten_anzahl = 50
 
+kennzeichen_textfile = 'resources/KFZ-Kennzeichen.txt'
+kennzeichen_regex = '^([A-ZÄÖÜ]{1,3})\s*$'
+
+bussgeld_textfile = 'resources/BussgeldformulierungenCSV.txt'
+bussgeld_regex = '[A-zäöü].*?[\.!?][\n]'
+
+orte_textfile = 'resources/Orte.txt'
+orte_regex = '[A-zäöü]+.*'
+
+
+def function_Textfile_auslesen(pfad, regex):
+    with open(pfad, 'r', encoding='UTF-8') as kfz:
+    
+        listeTextfile = []
+        listeTextfileOk = []
+        for zeile in kfz:
+            listeMatch = re.findall(regex, zeile)
+            match = ''.join(listeMatch)
+            #\n entfernen da sich python und regex \n teilen
+            removeChar = match.replace('\n','')
+            listeTextfile.append(removeChar)
+        #zero-length-strings entfernen
+        listeTextfileOk = [i for i in listeTextfile if i]
+        #print(listeTextfileOk)
+        return listeTextfileOk
+
+
+
 #Kennzeichen_Generator
 def function_Kennzeichen_Generator():
+
     listeKennzeichen = []
     for x in range(testdaten_anzahl):
         grossbuchstaben = string.ascii_uppercase
-        kennzeichen = (''.join(random.choice(grossbuchstaben) for i in range(random.randint(1,3))) 
+        kennzeichen = (random.choice(function_Textfile_auslesen(kennzeichen_textfile, kennzeichen_regex))
         + random.choice([' ', ' -', '-']) 
         + ''.join(random.choice(grossbuchstaben) for i in range(random.randint(1,2)))
         + " "
@@ -155,7 +185,7 @@ def function_Nachname_Generator():
 def function_Ort_Generator():
     listeOrt = []
     for x in range(testdaten_anzahl):
-        ort = (random.choice(["Hamburg", "München", "Berlin", "Bielefeld", "Paderborn", "Frankurt am Main", "Bremen"]))
+        ort = (random.choice(function_Textfile_auslesen(orte_textfile, orte_regex)))
         listeOrt.append(ort)
     return listeOrt
 
@@ -163,28 +193,7 @@ def function_Ort_Generator():
 def function_Vergehen_Generator():
     listeVergehen = []
     for x in range(testdaten_anzahl):
-        vergehen = (random.choice(["Sie überschritten die zulässige Höchstgeschwindigkeit " \
-                                   "außerhalb geschlossener Ortschaften um %s km/h." %(random.randint(6,200)),
-                                   "Sie überschritten die zulässige Höchstgeschwindigkeit " \
-                                   "innerhalb geschlossener Ortschaften um %s km/h." %(random.randint(6,200)),
-                                   "Sie führten das Kraftfahrzeug mit einer Atemalkoholkonzentration von 0,25 g/l oder mehr. " \
-                                   "Die festgestellte Atemalkoholkonzentration betrug %s,%d mg/l." %(random.randint(0,4), random.randint(26,99)),
-                                   "Sie fuhren ohne triftigen Grund so langsam, dass der Verkehrs­fluss behindert wurde.",
-                                   "Sie fuhren in Anbetracht der besonderen örtlichen Straßen- oder Verkehrs­verhältnisse " \
-                                   "mit nicht angepasster Geschwindig­keit.",
-                                   "Sie fuhren bei stockendem Verkehr auf den Fußgängerüberweg. Sie führten den vorgeschriebenen " \
-                                   "Führerschein nicht mit.",
-                                   "Sie begingen einen einfachen Rotlichtverstoß.",
-                                   "Sie missachteten die Vorfahrtregelung durch Beschilderung (VZ 205/VZ 206) und behinderten dadurch andere.",
-                                   "Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn.",
-                                   "Sie bogen ab, ohne die Fahrtrichtungsänderung rechtzeitig und deutlich anzukündigen (Blinken).",
-                                   "Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßigab.",
-                                   "Sie fuhren mit nicht angepasster Geschwindigkeit an einen Bahnübergangheran.",
-                                   "Sie ordneten die Inbetriebnahme des Fahrzeuges an, obwohl die Betriebserlaubnis erloschen war, bzw. ließen sie zu",
-                                   "Sie nahmen das Kraftfahrzeug unter Verstoß gegen eine Vorschrift über mitzuführendes Erste-Hilfe-Material in Betrieb.",
-                                   "Sie ermöglichten einem Omnibus desLinienverkehrs/einem Schulbus nicht das " \
-                                   "Abfahren von einer gekennzeichneten Haltestelle.",
-                                   "Sie sicherten Ihr liegen gebliebenes mehrspuriges Fahrzeug nicht vorschriftsmäßig ab."]))
+        vergehen = (random.choice(function_Textfile_auslesen(bussgeld_textfile, bussgeld_regex)))
         listeVergehen.append(vergehen)
     return listeVergehen
 

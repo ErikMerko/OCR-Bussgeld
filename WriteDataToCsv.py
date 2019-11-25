@@ -17,8 +17,8 @@ from DataGenerator import function_Vergehen_Generator
 #Ingo Speckens
 
 with open('data.csv', 'w', newline='', encoding='utf-8') as new_file:
-
-        csv_writer = csv.writer(new_file, escapechar='', quoting=csv.QUOTE_NONE, delimiter='\t')
+        #escapechar tritt bei " bei Vergehen auf
+        csv_writer = csv.writer(new_file, escapechar='?', quoting=csv.QUOTE_NONE, delimiter='\t')
        
         list_Kennzeichen = function_Kennzeichen_Generator()
         list_Tatdatum = function_Tatdatum_Generator()
@@ -35,13 +35,14 @@ with open('data.csv', 'w', newline='', encoding='utf-8') as new_file:
         list_Austeller = function_Austeller_Generator()
         list_Vergehen = function_Vergehen_Generator()
         listen = zip(list_Kennzeichen, list_Tatdatum, list_Briefdatum, list_Geburtstag, list_Uhrzeit,
-                     list_Telefon, list_Anrede, list_Verwarngeld, list_Aktenzeichen, list_Vorname, list_Ort, 
+                     list_Telefon, list_Anrede, list_Verwarngeld, list_Aktenzeichen, list_Vorname, list_Nachname, list_Ort, 
                      list_Austeller, list_Vergehen)
 
         csv_writer.writerow(['Kennzeichen', 'Tatdatum', 'Briefdatum', 'Geburtstag', 'Uhrzeit', 'Telefon', 'Anrede',
                              'Verwarngeld', 'Aktenzeichen', 'Vorname', 'Nachname', 'Ort', 'Austeller', 'Vergehen'])
+
         for x in listen:
-             csv_writer.writerow(x)
+                csv_writer.writerow(x)
 
 
 

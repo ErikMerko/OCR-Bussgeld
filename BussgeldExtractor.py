@@ -15,6 +15,7 @@ class Extractor:
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
 
         # Entfernt Zeilenumbrüche
+        self.ocrOutput = re.sub('\s\n', ' ', self.ocrOutput)
         self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
 
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
@@ -99,7 +100,7 @@ class Tatdatum_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
+        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}\s', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -223,16 +224,29 @@ class Vergehen_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         schlagworte = self.__schlagwort_Check(ocrOutput)
-        formulierungen = self.__alle_Formulierungen()
+        formulierungen = self.__alle_Formulierungen_Regex()
+        erg = [""]
+        '''for formulierung in formulierungen:
+            a = formulierung.replace("\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ", "(\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?")
+            print(a)'''
         for schlagwort in schlagworte:
             if schlagwort != None:
                 for formulierung in formulierungen:
                     if formulierung.find(schlagwort) != -1:
-                        regex1 = r'Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h\.'
-                        regex2 = formulierung
-                        print(regex1)
-                        print(regex2)
-                        self.__result = super().format_filter(regex2, self.ocrOutput)
+                        zerg = super().format_filter(formulierung, self.ocrOutput)
+                        if len(zerg) == 1:
+                            if len(erg) == 0 | (len(zerg[0]) > len(erg[0])):
+                                erg[0] = zerg[0]
+        if len(erg[0]) >= 1:
+            erg.append("1")
+            self.__result = erg
+        else:
+            for schlagwort in schlagworte:
+                regex = r'Sie(.)+' + schlagwort + '(([A-ZÄÖÜ]|[a-zäöü]|[0-9]|[ß]|[\,\§\$\/\(\)\-\+\"]|[\s])+[\.]){1,4}'
+                self.__result = super().format_filter(regex, self.ocrOutput)
+                if len(self.__result) == 1:
+                    self.__result.append("0")
+                    break
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
@@ -254,9 +268,9 @@ class Vergehen_Detector(Detector):
                 schlagworte.append(line.rstrip())
         return schlagworte
 
-    # Gibt eine Stringliste mit allen Bussgeldformulierungen zurück
-    def __alle_Formulierungen(self):
-        with open("resources/Bussgeldformulierungen.txt", 'r', encoding='utf-8') as f:
+    # Gibt eine Stringliste mit allen Bussgeldformulierungen als Regex formuliert zurück
+    def __alle_Formulierungen_Regex(self):
+        with open("resources/Bussgeldformulierungen (Regex).txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         formulierungen = []
         for line in lines:
@@ -336,26 +350,17 @@ class Tatdatum_Validator:
     def __check_plausibility(self):
         val = Tatdatum_Detector(self.ocrOutput)
         matches = val.get_result()
-        check_matches = []
         if len(matches) < 1:
             self.__result = '???'
         else:
-            for match in matches:
-                zukunft = self.__check_Zukunft(match)
-                if zukunft == False:
-                    try:
-                        erg = datetime.datetime.strptime(match, '%d.%m.%Y')
-                    except ValueError:
-                        erg = datetime.datetime.strptime(match, '%d.%m.%y')
-                    check_matches.append(erg)
-            self.__result = self.__check_Tatdatum(check_matches)
+            checked_matches = self.__check_Zukunft(matches)
+            self.__result = self.__check_Tatdatum(checked_matches)
 
     def __check_Tatdatum(self, matches):
         if (len(matches) == 1) | (len(matches) > 3):
             erg = '???'
         elif len(matches) == 2:
             if ((matches[0] + datetime.timedelta(days=3650)) < matches[1]) | ((matches[1] + datetime.timedelta(days=3650)) < matches[0]):
-                print(matches[0] + datetime.timedelta(days=3650))
                 if matches[0] > matches[1]:
                     zerg = datetime.date.strftime(matches[0], '%d.%m.%Y')
                 else:
@@ -376,16 +381,17 @@ class Tatdatum_Validator:
             erg = str(zerg)
         return erg
 
-    def __check_Zukunft(self, datum):
+    def __check_Zukunft(self, datumliste):
         heute = datetime.datetime.today()
-        try:
-            match = datetime.datetime.strptime(datum, '%d.%m.%Y')
-        except ValueError:
-            match = datetime.datetime.strptime(datum, '%d.%m.%y')
-        if match > heute:
-            return True
-        else:
-            return False
+        erg = []
+        for datum in datumliste:
+            try:
+                match = datetime.datetime.strptime(datum, '%d.%m.%Y ')
+            except ValueError:
+                match = datetime.datetime.strptime(datum, '%d.%m.%y ')
+            if match < heute:
+                erg.append(match)
+        return erg
 
     def get_result(self):
         return self.__result
@@ -509,9 +515,23 @@ class Vergehen_Validator:
     def __check_plausibility(self):
         val = Vergehen_Detector(self.ocrOutput)
         matches = val.get_result()
-        self.__result = matches
+        if len(matches) < 1:
+            self.__result = '???'
+        else:
+            if matches[1] == "1":
+                self.__result = matches[0]
+            else:
+                self.__result = matches
+                # TODO Abgleich
 
-        # TODO Plausibilität überprüfen!
+    # Gibt eine Stringliste mit allen Bussgeldformulierungen zurück
+    def __alle_Formulierungen(self):
+        with open("resources/Bussgeldformulierungen.txt", 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        formulierungen = []
+        for line in lines:
+            formulierungen.append(line.rstrip())
+        return formulierungen
 
     def get_result(self):
         return self.__result
