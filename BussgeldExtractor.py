@@ -414,7 +414,8 @@ class Tatuhrzeit_Validator:
                         raise ValueError('Ungültiges Zeitformat')
                 
                 timeDifference = int(hourTime) - int(helpHourTime)
-                if ((timeDifference == 0 or abs(timeDifference) == 1) and self.__berechne_Punktabstand(timeTuple[1], timeTuple[2], helpItem[1], helpItem[2]) < 20):
+                np.linalg.norm(np.array((1, 2))-np.array((4, 5)))   
+                if ((timeDifference == 0 or abs(timeDifference) == 1) and np.linalg.norm(np.array((timeTuple[1], timeTuple[2]))-np.array((helpItem[1], helpItem[2]))) < 20):
                     return timeTuple[0]+' bis '+helpItem[0]
         return False
 
@@ -446,7 +447,7 @@ class Tatuhrzeit_Validator:
             cumulus = 0
             helperList.remove(timeTuple)
             for helpTuple in helperList:
-                cumulus += self.__berechne_Punktabstand(timeTuple[1], timeTuple[2], helpTuple[1], helpTuple[2])
+                cumulus += np.linalg.norm(np.array((timeTuple[1], timeTuple[2]))-np.array((helpTuple[1], helpTuple[2])))
             cumulus -= 5*abs(timeTuple[2]- float(len(self.ocrOutput.splitlines()))/2)
             timeTuple = (timeTuple[0], timeTuple[1], timeTuple[2], cumulus)
             helperList.append(timeTuple)
