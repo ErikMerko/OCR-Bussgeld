@@ -2,7 +2,9 @@ import pytesseract
 import re
 import datetime
 import math
+import numpy as np
 from PIL import Image
+
 
 # import rstr
 
@@ -108,8 +110,7 @@ class Tatuhrzeit_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'(\s|-)\d{1,2}(:|\.)\d{1,2}(\s|-)', self.ocrOutput)
-        self.__result = [e.strip(' ') for e in self.__result]
+        self.__result = super().format_filter(r'((?<!(\.|\d))\d{1,2}(:|\.)\d{1,2})(?!(\sEUR|\d\sEUR|\s€|\d\s€|\.|\d\.|\d))', self.ocrOutput)
           
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -354,19 +355,68 @@ class Tatuhrzeit_Validator:
         
         if len(times) == 1:
             self.__result = times[0].replace('.', ':')
-        elif len(times) == 2:
-            self.__result = times.replace('.', ':')
-        elif len(times) > 2:
+        else:
             timeTuples = self.__ermittle_Koordinaten(times)
             timeMusterTuples = self.__ermittle_Musterindex(timeTuples)
-            cumulus_list = [x[3] for x in timeMusterTuples]
-            index_max = max(range(len(cumulus_list)), key=cumulus_list.__getitem__)
-            self.__result = timeMusterTuples[index_max][0].replace('.', ':')
+            cumuli = [timeMusterTuple[3] for timeMusterTuple in timeMusterTuples]
+            ausreisser = self.__get_Ausreisser(cumuli)
+            if len(ausreisser) == 1:
+                self.__result = timeMusterTuples[cumuli.index(ausreisser[0])][0]
+            else:
+                interval = self.__check_Interval(timeTuples)
+                if interval:
+                    self.__result = interval.replace('.', ':')
+                else:
+                    self.__result = '???'
 
         if len(matches) < 1:
             self.__result = '???'
 
-       
+    def __get_Ausreisser(self, cumuli):
+
+        ausreisser = []
+        threshold = 1
+        mean = np.mean(cumuli)
+        std = np.std(cumuli)
+
+        for y in cumuli:
+            z_score = (y - mean)/std 
+            if np.abs(z_score) > threshold:
+                ausreisser.append(y)
+        return ausreisser
+
+    def __check_Interval(self, timeTuples):
+                
+        helperList = []
+        for timeTuple in timeTuples:
+            helperList.append(timeTuple)
+
+        for timeTuple in timeTuples:
+            helperList.remove(timeTuple)
+            for helpItem in helperList:
+                subindex = timeTuple[0].find(':')
+                if not subindex == -1:
+                    hourTime = timeTuple[0][:subindex]
+                else:
+                    subindex = timeTuple[0].find('.')
+                    if not subindex == -1:
+                        hourTime = timeTuple[0][:subindex]
+                    else:
+                        raise ValueError('Ungültiges Zeitformat')
+                subindex = helpItem[0].find(':')
+                if not subindex == -1:
+                    helpHourTime = helpItem[0][:subindex]
+                else:
+                    subindex = helpItem[0].find('.')
+                    if not subindex == -1:
+                        helpHourTime = helpItem[0][:subindex]
+                    else:
+                        raise ValueError('Ungültiges Zeitformat')
+                
+                timeDifference = int(hourTime) - int(helpHourTime)
+                if ((timeDifference == 0 or abs(timeDifference) == 1) and self.__berechne_Punktabstand(timeTuple[1], timeTuple[2], helpItem[1], helpItem[2]) < 20):
+                    return timeTuple[0]+' bis '+helpItem[0]
+        return False
 
     def __ermittle_Koordinaten(self, times):
 
@@ -397,6 +447,7 @@ class Tatuhrzeit_Validator:
             helperList.remove(timeTuple)
             for helpTuple in helperList:
                 cumulus += self.__berechne_Punktabstand(timeTuple[1], timeTuple[2], helpTuple[1], helpTuple[2])
+            cumulus -= 5*abs(timeTuple[2]- float(len(self.ocrOutput.splitlines()))/2)
             timeTuple = (timeTuple[0], timeTuple[1], timeTuple[2], cumulus)
             helperList.append(timeTuple)
         
@@ -419,11 +470,6 @@ class Tatuhrzeit_Validator:
             except ValueError:
                 isValid = False
         return isValid
-
-
-            
-                
-
 
     def get_result(self):
         return self.__result
