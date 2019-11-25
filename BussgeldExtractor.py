@@ -2,6 +2,7 @@ import pytesseract
 import re
 import datetime
 from PIL import Image
+import csv
 
 # import rstr
 
@@ -141,22 +142,36 @@ class Aussteller_Detector(Detector):
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
         mail=self.__searchMail(ocrOutput)
+        aus_verw =self.__checkMail(mail)
     
     
     def __searchMail(self,ocrOutput):
         regexmail =r'\S{1,40}@\S{1,20}.de'
         results = super().format_filter(regexmail, self.ocrOutput)
         for result in results:
-            if len(results) >= 1:
-                print(result)
-            print("kein Match")    
+            if len(results).bit_length()<1:
+                print("kein Match")    
+            return result
 
-    def __searchStadt(self,ocrOutput):
-        regexPlzOrt =r'\s\d, [0-9]{5}\s[a-z]{3,50}\s'
-        # TODO Detector implementieren
+    def __checkMail(self,mail):
+        mail=mail
+        aus_verw=""
+        with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=';')
+            line_count = 0
+            for row in csv_reader:
+                row.find(mail)
+                print(row[0],row[1],row[2],)
 
-    def __searchURL(self,ocrOutput):
-         regexurl =r'www.\S{1,50} .de'
+        
+                
+            
+    # def __searchStadt(self,ocrOutput):
+    #     regexPlzOrt =r'\s\d, [0-9]{5}\s[a-z]{3,50}\s'
+    #     # TODO Detector implementieren
+
+    # def __searchURL(self,ocrOutput):
+    #      regexurl =r'www.\S{1,50} .de'
 
            
 
