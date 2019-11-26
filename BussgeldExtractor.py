@@ -1,8 +1,11 @@
 import pytesseract
 import re
 import datetime
+import math
+import numpy as np
 from PIL import Image
 import csv
+
 
 # import rstr
 
@@ -11,12 +14,13 @@ class Extractor:
 
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-        self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu')
+
+       # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
+        self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
         # Entfernt Zeilenumbrüche
-        self.ocrOutput = re.sub('\s\n', ' ', self.ocrOutput)
-        self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
+        # self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
 
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
     def find_Kennzeichen(self):
@@ -51,6 +55,7 @@ class Extractor:
     def get_information_context(self):
         return InformationContext(self.find_Kennzeichen(), self.find_Tatdatum(), self.find_Tatuhrzeit(), self.find_Verwarngeld(), self.find_Vergehen(), self.find_AusstellerVerwarnung())
 
+
     # Erzeugt zufällige Strings anhand eines Extractor (für Testzwecke)
     # def __random_Regex_Strings(self, Extractor, repeats = 1):
     #     for x in range(repeats):
@@ -84,10 +89,11 @@ class Kennzeichen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\b([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
+        self.__result = super().format_filter(r'\b([A-Z]|[\u00C4\u00D6\u00DC]){1,3}(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
         if len(self.__result) < 1:
-            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s{|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
-
+            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}', self.ocrOutput)
+        if len(self.__result) < 1:
+            self.__result = super().format_filter(r'([A-Z]|[\u00C4\u00D6\u00DC])+(\-|\s|\s\-)[A-Z]{1,2}\s\d{1,4}(\sE|E)', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -113,11 +119,8 @@ class Tatuhrzeit_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'\bum\s(2[0-3]|1[0-9]|0[0-9]|[0-9])\:([0-5][0-9])\sUhr', self.ocrOutput)
-        if len(self.__result) < 1:
-            self.__result = '???'
-            # TODO 2. Phasen implementieren - wenn Matches < 1 -> Regex lockern
-
+        self.__result = super().format_filter(r'((?<!(\.|\d))\d{1,2}(:|\.)\d{1,2})(?!(\sEUR|\d\sEUR|\s€|\d\s€|\.|\d\.|\d))', self.ocrOutput)
+          
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
         return self.__result
@@ -261,7 +264,8 @@ class Vergehen_Detector(Detector):
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
-        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+       # with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -290,15 +294,16 @@ class Kennzeichen_Validator:
 
     def __check_plausibility(self):
         # TODO Plausibilität überprüfen!
-        val = Kennzeichen_Detector(self.ocrOutput)
-        matches = val.get_result()
+        detec = Kennzeichen_Detector(self.ocrOutput)
+        matches = detec.get_result()
         self.__result = matches
         for kennzeichen in matches:
             if self.__ortskennung_Check(kennzeichen):
                 self.__result = kennzeichen
                 return
             else:
-                self.__result = self.__rechts_rotieren(kennzeichen)
+                detec = Kennzeichen_Detector(self.__rechts_rotieren(kennzeichen))
+                self.__result = detec.get_result()[0]
                 return
         self.__result = '???'
 
@@ -316,7 +321,8 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
-        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        # with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
@@ -404,11 +410,131 @@ class Tatuhrzeit_Validator:
         self.__check_plausibility()
 
     def __check_plausibility(self):
-        val = Tatuhrzeit_Detector(self.ocrOutput)
-        matches = val.get_result()
-        self.__result = matches
+        detec = Tatuhrzeit_Detector(self.ocrOutput)
+        matches = detec.get_result()
+        times = []
+        for match in matches:
+            if self.__is_time_valid(match):
+                times.append(match)
+        
+        if len(times) == 1:
+            self.__result = times[0].replace('.', ':')
+        else:
+            timeTuples = self.__ermittle_Koordinaten(times)
+            timeMusterTuples = self.__ermittle_Musterindex(timeTuples)
+            cumuli = [timeMusterTuple[3] for timeMusterTuple in timeMusterTuples]
+            ausreisser = self.__get_Ausreisser(cumuli)
+            if len(ausreisser) == 1:
+                self.__result = timeMusterTuples[cumuli.index(ausreisser[0])][0]
+            else:
+                interval = self.__check_Interval(timeTuples)
+                if interval:
+                    self.__result = interval.replace('.', ':')
+                else:
+                    self.__result = '???'
 
-        # TODO Plausibilität überprüfen!
+        if len(matches) < 1:
+            self.__result = '???'
+
+    def __get_Ausreisser(self, cumuli):
+
+        ausreisser = []
+        threshold = 1
+        mean = np.mean(cumuli)
+        std = np.std(cumuli)
+
+        for y in cumuli:
+            z_score = (y - mean)/std 
+            if np.abs(z_score) > threshold:
+                ausreisser.append(y)
+        return ausreisser
+
+    def __check_Interval(self, timeTuples):
+                
+        helperList = []
+        for timeTuple in timeTuples:
+            helperList.append(timeTuple)
+
+        for timeTuple in timeTuples:
+            helperList.remove(timeTuple)
+            for helpItem in helperList:
+                subindex = timeTuple[0].find(':')
+                if not subindex == -1:
+                    hourTime = timeTuple[0][:subindex]
+                else:
+                    subindex = timeTuple[0].find('.')
+                    if not subindex == -1:
+                        hourTime = timeTuple[0][:subindex]
+                    else:
+                        raise ValueError('Ungültiges Zeitformat')
+                subindex = helpItem[0].find(':')
+                if not subindex == -1:
+                    helpHourTime = helpItem[0][:subindex]
+                else:
+                    subindex = helpItem[0].find('.')
+                    if not subindex == -1:
+                        helpHourTime = helpItem[0][:subindex]
+                    else:
+                        raise ValueError('Ungültiges Zeitformat')
+                
+                timeDifference = int(hourTime) - int(helpHourTime)
+                np.linalg.norm(np.array((1, 2))-np.array((4, 5)))   
+                if ((timeDifference == 0 or abs(timeDifference) == 1) and np.linalg.norm(np.array((timeTuple[1], timeTuple[2]))-np.array((helpItem[1], helpItem[2]))) < 20):
+                    return timeTuple[0]+' bis '+helpItem[0]
+        return False
+
+    def __ermittle_Koordinaten(self, times):
+
+        ocrOutputLines = self.ocrOutput.splitlines()
+        times = list(dict.fromkeys(times))
+        timeTuples = []
+
+        for time in times:
+            lineCounter = 0
+            for line in reversed(ocrOutputLines):
+                columnCounter = line.find(time)
+
+                if not columnCounter == -1:
+                    timeTuple = (time, columnCounter, lineCounter)
+                    timeTuples.append(timeTuple)
+                lineCounter += 1
+
+        return timeTuples
+
+    def __ermittle_Musterindex(self, timeTuples):
+
+        helperList = []
+        for timeTuple in timeTuples:
+            helperList.append(timeTuple)
+        
+        for timeTuple in timeTuples:
+            cumulus = 0
+            helperList.remove(timeTuple)
+            for helpTuple in helperList:
+                cumulus += np.linalg.norm(np.array((timeTuple[1], timeTuple[2]))-np.array((helpTuple[1], helpTuple[2])))
+            cumulus -= 5*abs(timeTuple[2]- float(len(self.ocrOutput.splitlines()))/2)
+            timeTuple = (timeTuple[0], timeTuple[1], timeTuple[2], cumulus)
+            helperList.append(timeTuple)
+        
+        return helperList
+
+    def __berechne_Punktabstand(self, x1, y1, x2, y2):
+        return math.sqrt(math.pow(y2-y1, 2)+math.pow(x2-x1, 2))
+
+    def __is_time_valid(self, time):
+        
+        isValid = None
+
+        try:
+            validtime = datetime.datetime.strptime(time, "%H:%M")
+            isValid = True
+        except ValueError:
+            try:
+                validtime = datetime.datetime.strptime(time, "%H.%M")
+                isValid = True
+            except ValueError:
+                isValid = False
+        return isValid
 
     def get_result(self):
         return self.__result
@@ -535,7 +661,6 @@ class Vergehen_Validator:
 
     def get_result(self):
         return self.__result
-
 
 class InformationContext:
     def __init__(self, knz, date, time, verwarngeld, vergehen, aussteller):
