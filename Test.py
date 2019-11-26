@@ -49,7 +49,7 @@ extr = Extractor("resources/ideal-images/Testfälle/HerfordTestNr1.png")
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-AV_1.jpg")
-# extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-O-AV_14.jpg")
+extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-O-AV_14.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-T-O-AV-X_9.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-T-O-AV_2.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-O-AV_3.jpg")
