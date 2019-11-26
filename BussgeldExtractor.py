@@ -2,6 +2,7 @@ import pytesseract
 import re
 import datetime
 from PIL import Image
+from Levenshtein import *
 
 # import rstr
 
@@ -94,7 +95,7 @@ class Tatdatum_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        self.__result = super().format_filter(r'(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}\s', self.ocrOutput)
+        self.__result = super().format_filter(r'\s(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
     def get_result(self):
@@ -175,9 +176,6 @@ class Vergehen_Detector(Detector):
         schlagworte = self.__schlagwort_Check(ocrOutput)
         formulierungen = self.__alle_Formulierungen_Regex()
         erg = [""]
-        '''for formulierung in formulierungen:
-            a = formulierung.replace("\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\) ", "(\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?")
-            print(a)'''
         for schlagwort in schlagworte:
             if schlagwort != None:
                 for formulierung in formulierungen:
@@ -191,10 +189,10 @@ class Vergehen_Detector(Detector):
             self.__result = erg
         else:
             for schlagwort in schlagworte:
-                regex = r'Sie(.)+' + schlagwort + '(([A-ZÄÖÜ]|[a-zäöü]|[0-9]|[ß]|[\,\§\$\/\(\)\-\+\"]|[\s])+[\.]){1,4}'
+                regex = r'Sie ' + schlagwort + ' (([A-ZÄÖÜ]|[a-zäöü]|[0-9]|[ß]|[\,\§\$\/\(\)\-\+\"\\\;\&\:]|[\s])*[\.]){1,4}'
                 self.__result = super().format_filter(regex, self.ocrOutput)
                 if len(self.__result) == 1:
-                    self.__result.append("0")
+                    self.__result.append(schlagwort)
                     break
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
@@ -335,9 +333,9 @@ class Tatdatum_Validator:
         erg = []
         for datum in datumliste:
             try:
-                match = datetime.datetime.strptime(datum, '%d.%m.%Y ')
+                match = datetime.datetime.strptime(datum, ' %d.%m.%Y')
             except ValueError:
-                match = datetime.datetime.strptime(datum, '%d.%m.%y ')
+                match = datetime.datetime.strptime(datum, ' %d.%m.%y')
             if match < heute:
                 erg.append(match)
         return erg
@@ -464,14 +462,25 @@ class Vergehen_Validator:
     def __check_plausibility(self):
         val = Vergehen_Detector(self.ocrOutput)
         matches = val.get_result()
+        formulierungen = self.__alle_Formulierungen()
+        levenshtein = 100
+        checked_formulierung = ""
+        x = 0
         if len(matches) < 1:
             self.__result = '???'
         else:
             if matches[1] == "1":
                 self.__result = matches[0]
             else:
+                match = matches[1].replace("(l|I){2}", "ll").replace("(l|I)", "l")
+                for formulierung in formulierungen:
+                    if formulierung.find(match) != -1:
+                        zerg = distance(formulierung, matches[0])
+                        if zerg < levenshtein:
+                            levenshtein = zerg
+                            checked_formulierung = formulierung
+                print(levenshtein)
                 self.__result = matches
-                # TODO Abgleich
 
     # Gibt eine Stringliste mit allen Bussgeldformulierungen zurück
     def __alle_Formulierungen(self):

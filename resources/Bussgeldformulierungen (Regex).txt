@@ -475,10 +475,10 @@ Sie parkten unmitte(l|I)bar vor Lichtzeichen\.
 Sie parkten unmitte(l|I)bar vor Lichtzeichen mit Verkehrsbehinderung\.
 Sie parkten unmitte(l|I)bar vor Lichtzeichen (l|I)änger a(l|I)s 1 Stunde\.
 Sie parkten unmitte(l|I)bar vor Lichtzeichen a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
-Sie parkten im (eingeschränkten) Ha(l|I)teverbot\.
-Sie parkten im (eingeschränkten) Ha(l|I)teverbot mit Verkehrsbehinderung\.
-Sie parkten im (eingeschränkten) Ha(l|I)teverbot (l|I)änger a(l|I)s 1 Stunde\.
-Sie parkten im (eingeschränkten) Ha(l|I)teverbot a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
+Sie parkten (unzu(l|I)ässig\s)?im (eingeschränkten\s)?Ha(l|I)t(e)?verbot(\s\(Zeichen 286\))?\.
+Sie parkten (unzu(l|I)ässig\s)?im (eingeschränkten\s)?Ha(l|I)t(e)?verbot (\(Zeichen 286\)\s)?mit Verkehrsbehinderung\.
+Sie parkten (unzu(l|I)ässig\s)?im (eingeschränkten\s)?Ha(l|I)t(e)?verbot (\(Zeichen 286\)\s)?(l|I)änger a(l|I)s 1 Stunde\.
+Sie parkten (unzu(l|I)ässig\s)?im (eingeschränkten\s)?Ha(l|I)t(e)?verbot (\(Zeichen 286\)\s)?a(l|I)s 1 Stunde mit Verkehrsbehinderung\.
 Sie parkten auf dem Seitenstreifen\.
 Sie parkten auf dem Seitenstreifen mit Verkehrsbehinderung\.
 Sie parkten auf dem Seitenstreifen (l|I)änger a(l|I)s 1 Stunde\.
@@ -720,3 +720,7 @@ Sie berho(l|I)ten mit einem kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ic
 Sie berho(l|I)ten mit einem kennzeichnungspf(l|I)ichtigen Kfz mit gefähr(l|I)ichen Gütern\/K(O|0)B mit Fahrgästen, obwoh(l|I) die Sichtweite durch Nebe(l|I)\/Niedersch(l|I)ag weniger a(l|I)s 5(0|O) m betrug\. Es kam zum Unfa(l|I){2}\.
 Sie überschritten die zu(l|I)ässige Höchstgeschwindigkeit innerha(l|I)b  gesch(l|I)ossener (O|0)rtschaften um \d{1,3} km\/h in einem verkehrsberuhigten  Bereich (Zeichen 325\.1, 325\.2)\.
 Sie (l|I)ießen das nicht zuge(l|I)assene Fahrzeug an der Ste(l|I){2}e stehen, wodurch der Verkehr erschwert werden konnte\.
+Sie nahmen trotz eines Verkehrsverbots zur Verminderung schäd(l|I)icher Luftverunreinigungen \(Zeichen 270\.1, 270\.2\) mit einem Kraftfahrzeug am Verkehr tei(l|I)\. Am Fahrzeug war keine Umwe(l|I)tp(l|I)akette sichtbar angebracht\.
+Sie benutzten als Führer des Kraftfahrzeuges ein e(l|I)ektronisches Gerät, das der Kommunikation, (I|l)nformation oder Organisation dient oder zu dienen bestimmt ist, in vorschriftswidriger Weise(\s\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\))?\.
+Sie parkten auf einem Parkp(l|I)atz \(Zeichen 314\), obwoh(l|I) dies durch Zusatzzeichen \(314 NUR M(I|l)T SONDERGENEHM(I|l)GUNG\) für Sie verboten war\.
+Sie parkten im Bereich eines Parkscheinautomaten ohne gü(l|I)tigen Parkschein\.

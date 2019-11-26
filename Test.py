@@ -25,7 +25,7 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Goslar-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Kassel-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Stuttgart-1.png")
-extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
+# extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-2.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-3.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage11-Zwickau-2.png")
@@ -49,7 +49,7 @@ extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dr
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-AV_1.jpg")
-# extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-O-AV_14.jpg")
+extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-O-AV_14.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-T-O-AV-X_9.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-B-T-O-AV_2.jpg")
 # extr = Extractor("resources/images/Anhörungsbogen/AB_D-U-O-AV_3.jpg")
