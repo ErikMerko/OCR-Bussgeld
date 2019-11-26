@@ -153,8 +153,6 @@ class Aussteller_Detector(Detector):
             if len(results).bit_length()<1:
                 print("Regex nicht")    
             print(result) 
-            result = result.lower()   
-            print(result) 
             return result
 
     # sucht in der bußgeldstellen.csv datei ob er die zur Mail dazu gehörige Bußgeldstelle findet.
@@ -163,6 +161,7 @@ class Aussteller_Detector(Detector):
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
             for row in csv_reader:
+                
                 if (row[2].find(mail) != -1): 
                     print ("Match gefunden")
                     inx=row[2].find(mail)
@@ -171,8 +170,11 @@ class Aussteller_Detector(Detector):
                     print(aus_verw)
                     return aus_verw
                 else: 
+                    auss_verw=row[0]
+                    mail_verw=row[2]
+                    print(auss_verw, mail_verw)
                     aus_verw="???"
-                    # print (aus_verw)
+                    print (aus_verw)
             return aus_verw
 
     def get_result(self):
