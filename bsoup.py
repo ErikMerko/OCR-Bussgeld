@@ -2,14 +2,16 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
+# "https://www.bussgeldkatalog.org/bussgeldstelle/polizeiverwaltungsamt-sachsen/",
+
 
 
 liste_url=["https://www.bussgeldkatalog.org/bussgeldstelle/baden-wuerttemberg/","https://www.bussgeldkatalog.org/bussgeldstelle/muenchen/",
                   "https://www.bussgeldkatalog.org/bussgeldstelle/berlin/","https://www.bussgeldkatalog.org/bussgeldstelle/nuernberg/","https://www.bussgeldkatalog.org/bussgeldstelle/viechtach/",
-                  "https://www.bussgeldkatalog.org/bussgeldstelle/straubing/","https://www.bussgeldkatalog.org/bussgeldstelle/polizeiverwaltungsamt-bayern/","https://www.bussgeldkatalog.org/bussgeldstelle/gransee/","https://www.bussgeldkatalog.org/bussgeldstelle/bremen/",
+                  "https://www.bussgeldkatalog.org/bussgeldstelle/straubing/","https://www.bussgeldkatalog.org/bussgeldstelle/gransee/","https://www.bussgeldkatalog.org/bussgeldstelle/bremen/",
                   "https://www.bussgeldkatalog.org/bussgeldstelle/hamburg/","https://www.bussgeldkatalog.org/bussgeldstelle/kassel/","https://www.bussgeldkatalog.org/bussgeldstelle/frankfurt-am-main/",
                   "https://www.bussgeldkatalog.org/bussgeldstelle/mecklenburg-vorpommern/","https://www.bussgeldkatalog.org/bussgeldstelle/niedersachsen/","https://www.bussgeldkatalog.org/bussgeldstelle/nordrhein-westfalen/",
-                  "https://www.bussgeldkatalog.org/bussgeldstelle/speyer/","https://www.bussgeldkatalog.org/bussgeldstelle/st-ingbert/","https://www.bussgeldkatalog.org/bussgeldstelle/sachsen/","https://www.bussgeldkatalog.org/bussgeldstelle/polizeiverwaltungsamt-sachsen/",
+                  "https://www.bussgeldkatalog.org/bussgeldstelle/speyer/","https://www.bussgeldkatalog.org/bussgeldstelle/st-ingbert/","https://www.bussgeldkatalog.org/bussgeldstelle/sachsen/",
                   "https://www.bussgeldkatalog.org/bussgeldstelle/sachsen-anhalt/","https://www.bussgeldkatalog.org/bussgeldstelle/polizeidirektion-sachsen-anhalt/","https://www.bussgeldkatalog.org/bussgeldstelle/schleswig-holstein/","https://www.bussgeldkatalog.org/bussgeldstelle/artern/",
                   "https://www.bussgeldkatalog.org/bussgeldstelle/thueringen","https://www.bussgeldkatalog.org/bussgeldstelle/herford/"]      
        
@@ -43,7 +45,7 @@ for bußgeldstelle in liste_url:
                                         print(text)
                                         
 
-                        print("________________________________________________")
+#                         print("________________________________________________")
 
 
 csv_input = zip(liste_name,liste_anschrift,liste_kontakt)
@@ -60,7 +62,7 @@ with open('bußgeldstellen.csv', 'w', newline='', encoding='utf-8') as new_file:
 
 with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
-        search="www.aalen.de"
+        search="bussgeldstelle@dresden.de"
         for row in csv_reader:
                 if (row[2].find(search) != -1): 
                         print ("Contains given substring ")
