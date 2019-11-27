@@ -64,9 +64,9 @@ Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die W
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden.
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden, und gefährdeten (…) dadurch Andere.
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl rotes Blinklicht gegeben wurde oder gelbe Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden. Es kam zum Unfall.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter 'Halt' gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter 'Halt' gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte, und gefährdeten (…) dadurch Andere.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter 'Halt' gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte. Es kam zum Unfall.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte, und gefährdeten (…) dadurch Andere.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepflicht, obwohl die Schranken sich senkten oder ein Bahnbediensteter "Halt" gebot oder ein hörbares Signal, wie das Pfeifsignal des herannahenden Zuges, ertönte. Es kam zum Unfall.
 Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
 Sie überquerten als nichtmotorisierter Verkehrsteilnehmer (…) den Bahnübergang trotz geschlossener Schranke/Halbschranke (…).
 Sie verletzten vor einem Bahnübergang eine Wartepflicht.
@@ -165,8 +165,8 @@ Sie missachteten das Rotlicht in Verbindung mit dem Gelblicht.
 Sie missachteten das Gelblicht der Lichtzeichenanlage, obwohl Sie gefahrlos hätten anhalten können.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil aus einem anderen als dem rechten Fahrstreifen nach rechts ab.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten (…) den Fahrzeugverkehr der freigegebenen Richtung.
-Sie missachteten das 'Halt' anordnende besondere Lichtzeichen 'weißer waagerechter Lichtbalken' für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall.
-Sie missachteten das 'Halt' anordnende besondere Lichtzeichen 'weißer waagerechter Lichtbalken' für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall. Die Rotphase dauerte bereits länger als 1 Sekunde an.
+Sie missachteten das "Halt" anordnende besondere Lichtzeichen "weißer waagerechter Lichtbalken" für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall.
+Sie missachteten das "Halt" anordnende besondere Lichtzeichen "weißer waagerechter Lichtbalken" für eine Straßenbahn/einen Bus/ein Taxi (…). Es kam zum Unfall. Die Rotphase dauerte bereits länger als 1 Sekunde an.
 Sie missachteten das Rotlicht der Lichtzeichenanlage.
 Sie missachteten das Rotlicht der Lichtzeichenanlage und gefährdeten (…) dadurch Andere.
 Sie missachteten das Rotlicht der Lichtzeichenanlage. Es kam zum Unfall.
@@ -179,9 +179,9 @@ Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachte
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und behinderten (…) dadurch den Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab und gefährdeten (…) dadurch den Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfeil nach rechts ab. Es kam zum Unfall mit dem Fußgängerverkehr/Fahrradverkehr auf einer Radwegfurt (…) der freigegebenen Verkehrsrichtungen.
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken'.
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken' und gefährdeten (…) dadurch Andere.
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken'. Es kam zum Unfall.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken".
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" und gefährdeten (…) dadurch Andere.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken". Es kam zum Unfall.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn und behinderten (…) dadurch Andere.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn und gefährdeten (…) dadurch Andere.
@@ -566,9 +566,9 @@ Sie begingen einen einfachen Rotlichtverstoß. Es kam zum Unfall.
 Sie begingen einen qualifizierten Rotlichtverstoß.
 Sie begingen einen qualifizierten Rotlichtverstoß. Sie gefährdeten (…) dadurch Andere.
 Sie begingen einen qualifizierten Rotlichtverstoß. Es kam zum Unfall.
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken' (gesperrter Fahrstreifen).
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken' (gesperrter Fahrstreifen). Sie gefährdeten (…) dadurch Andere.
-Sie missachteten das Dauerlichtzeichen 'rote gekreuzte Schrägbalken' (gesperrter Fahrstreifen). Es kam zum Unfall.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen).
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen). Sie gefährdeten (…) dadurch Andere.
+Sie missachteten das Dauerlichtzeichen "rote gekreuzte Schrägbalken" (gesperrter Fahrstreifen). Es kam zum Unfall.
 Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leitlinien (Zeichen 340) markierten Fahrstreifen den mittleren zum Überholen. Sie gefährdeten (…) dadurch Andere.
 Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn.
 Sie überholten auf der dem Gegenverkehr vorbehaltenen Fahrbahn. Sie gefährdeten (…) dadurch Andere.
@@ -718,5 +718,9 @@ Sie berholten mit einem Kfz mit über 7,5 t zGG, obwohl die Sichtweite durch Neb
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug.
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Sie gefährdeten (…) dadurch Andere.
 Sie berholten mit einem kennzeichnungspflichtigen Kfz mit gefährlichen Gütern/KOB mit Fahrgästen, obwohl die Sichtweite durch Nebel/Niederschlag weniger als 50 m betrug. Es kam zum Unfall.
-Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb geschlossener Ortschaften um XXX km/h in einem verkehrsberuhigten Bereich (Zeichen 325.1, 325.2).
+Sie überschritten die zulässige Höchstgeschwindigkeit innerhalb  geschlossener Ortschaften um XXX km/h in einem verkehrsberuhigten  Bereich (Zeichen 325.1, 325.2).
 Sie ließen das nicht zugelassene Fahrzeug an der Stelle stehen, wodurch der Verkehr erschwert werden konnte.
+Sie nahmen trotz eines Verkehrsverbots zur Verminderung schädlicher Luftverunreinigungen (Zeichen 270.1, 270.2) mit einem Kraftfahrzeug am Verkehr teil. Am Fahrzeug war keine Umweltplakette sichtbar angebracht.
+Sie benutzten als Führer des Kraftfahrzeuges ein elektronisches Gerät, das der Kommunikation, Information oder Organisation dient oder zu dienen bestimmt ist, in vorschriftswidriger Weise (…).
+Sie parkten auf einem Parkplatz (Zeichen 314), obwohl dies durch Zusatzzeichen (314 NUR MIT SONDERGENEHMIGUNG) für Sie verboten war.
+Sie parkten im Bereich eines Parkscheinautomaten ohne gültigen Parkschein.

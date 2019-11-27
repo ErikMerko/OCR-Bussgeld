@@ -16,8 +16,8 @@ class Extractor:
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
 
-       # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
         # Entfernt Zeilenumbrüche
@@ -265,8 +265,8 @@ class Vergehen_Detector(Detector):
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
-       # with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
-        with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        # with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -322,8 +322,8 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
-        # with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
-        with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        # with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
@@ -659,8 +659,42 @@ class Vergehen_Validator:
                         if zerg < levenshtein:
                             levenshtein = zerg
                             checked_formulierung = formulierung
-                print(levenshtein)
-                self.__result = matches
+                self.__result = self.__extrahiere_Formulierung(checked_formulierung, matches[0])
+
+    def __extrahiere_Formulierung(self, a, b):
+        a_split = a.split(" ")
+        b_split = b.split(" ")
+        erg = ""
+        x = 0
+        delete = 0
+        bool = True
+
+        for wort in b_split:
+            gesamt = x + delete
+            if (a_split[x] == wort) | (a_split[x] == 'XXX') | (a_split[x] == 'XXX,XX'):
+                erg = erg + wort + " "
+                x += 1
+            elif (a_split[x] == '(…)') & (b_split[gesamt].find("(") != -1):
+                while bool == True:
+                    erg = erg + b_split[gesamt] + " "
+                    if (b_split[gesamt].find(")") != -1) & (len(b_split[gesamt]) > 2):
+                        bool = False
+                    gesamt += 1
+                x += 1
+            elif (a_split[x] == '(…)') & (b_split[gesamt].find("(") == -1):
+                if a_split[x + 1] == wort:
+                    erg = erg + wort + " "
+                    delete -= 1
+                    x += 2
+                else:
+                    delete += 1
+            else:
+                delete += 1
+            if x == len(a_split):
+                break
+        if x != len(a_split):
+            erg = '???'
+        return erg
 
     # Gibt eine Stringliste mit allen Bussgeldformulierungen zurück
     def __alle_Formulierungen(self):
