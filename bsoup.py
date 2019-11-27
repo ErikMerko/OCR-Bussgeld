@@ -48,12 +48,12 @@ for bußgeldstelle in liste_url:
 #                         print("________________________________________________")
 
 
-csv_input = zip(liste_name,liste_anschrift,liste_kontakt)
+# csv_input = zip(liste_name,liste_anschrift,liste_kontakt)
 
-with open('bußgeldstellen.csv', 'w', newline='', encoding='utf-8') as new_file:
-        csv_writer = csv.writer(new_file, escapechar=' ', quoting=csv.QUOTE_NONE, delimiter=';')
-        for x in csv_input:
-                csv_writer.writerow(x)
+# with open('bußgeldstellen.csv', 'w', newline='', encoding='utf-8') as new_file:
+#         csv_writer = csv.writer(new_file, escapechar=' ', quoting=csv.QUOTE_NONE, delimiter=';')
+#         for x in csv_input:
+#                 csv_writer.writerow(x)
 
 
 
@@ -62,7 +62,9 @@ with open('bußgeldstellen.csv', 'w', newline='', encoding='utf-8') as new_file:
 
 with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
-        search="bussgeldstelle@dresden.de"
+        search="www.dresden.de"
+        print(search)
+        
         for row in csv_reader:
                 if (row[2].find(search) != -1): 
                         print ("Contains given substring ")
@@ -72,17 +74,6 @@ with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
                         print(bußgeldstelle)
                 else: 
                          print ("Doesn't contains given substring") 
-                # print(row[0],row[1],row[2],)
+                
                 
 
-
-
-
-
-
-
-
-# # for line in table.findAll('tr'):
-# #     print(line)
-# #     for l in line.findAll('td'):
-# #         print(l)
