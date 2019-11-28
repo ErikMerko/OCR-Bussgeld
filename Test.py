@@ -1,4 +1,5 @@
 import json
+from Levenshtein import *
 
 # from pdf2image import pdf2image
 from BussgeldExtractor import Extractor
@@ -35,7 +36,7 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/Testfälle/HavellandTestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/HerfordTestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/KonstanzTestNr1.png")
-extr = Extractor("resources/ideal-images/Testfälle/LandBrandenburgTestNr1.png")
+# extr = Extractor("resources/ideal-images/Testfälle/LandBrandenburgTestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/MünsterTestv1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/OriginalDuisburg.jpg")
 # extr = Extractor("resources/ideal-images/Testfälle/OriginalLandkreisKonstanz.png")
@@ -45,6 +46,17 @@ extr = Extractor("resources/ideal-images/Testfälle/LandBrandenburgTestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/VerwarngeldbescheidVorlage3TestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/VerwarngeldbescheidVorlage4BielefeldTestNr1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/ZwickauTestNr1.png")
+
+# Testfälle ideal-images/Testfälle/falsche Testfälle
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/1.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/2.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/4.png")
+extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/5.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
 
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
