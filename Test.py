@@ -26,7 +26,7 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Goslar-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Kassel-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Stuttgart-1.png")
-# extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
+extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-1.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-2.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage6-Dresden-3.png")
 # extr = Extractor("resources/ideal-images/Testfälle/Bußgeldbescheid-Vorlage11-Zwickau-2.png")

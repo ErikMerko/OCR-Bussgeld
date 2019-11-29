@@ -16,7 +16,9 @@ class Extractor:
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
 
-        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+
         # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
@@ -147,51 +149,78 @@ class Aussteller_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        mail=self.__searchMail(ocrOutput)
-        self.__result =self.__checkMail(mail)
-
+    
+        if(self.__searchMail(ocrOutput) != -1 or self.__checkMail(self.__searchMail(ocrOutput)) != -1):
+            self.__result=self.__checkMail(self.__searchMail(ocrOutput))
+        elif(self.__searchURL(ocrOutput) != -1 or self.__checkURL(self.__searchURL(ocrOutput)) != -1):
+            self.__result=self.__checkURL(self.__searchURL(ocrOutput))
+        else:
+            self.__result="???"     
+            
+    # def __searchBezVerwarnung(self,ocrOutput):
+    #      with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
+    #         csv_reader = csv.reader(csv_file, delimiter=';')
+    #         for row in csv_reader:
+    #             bez_aussteller = row[0]
+    #             print(bez_aussteller)
+    #             if(bez_aussteller in ocrOutput == True):
+    #                 print(row[0])
+    #                 print("Aussteller gefunden") 
+    #                 return row[0]
+                    
     #sucht nach der Mail des Austellers im Ocr Output
     def __searchMail(self,ocrOutput):
         regexmail =r'\S{1,40}@\S{1,20}.de'
         results = super().format_filter(regexmail, self.ocrOutput)
         for result in results:
             if len(results).bit_length()<1:
-                print("Regex nicht")
-            print(result)
+                print("Keine Mail gefunden")
+                return -1   
+            print(result) 
             return result
 
-    # sucht in der bußgeldstellen.csv datei ob er die zur Mail dazu gehörige Bußgeldstelle findet.
+
+    # sucht in der Datei bußgeldstellen.csv ob er die zur Mail dazu gehörige Bußgeldstelle findet.
     def __checkMail(self,mail):
-        aus_verw=""
+        kenn_mail=mail.split("@")[-1]
+        print(kenn_mail)
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
             for row in csv_reader:
 
-                if (row[2].find(mail) != -1):
-                    print ("Match gefunden")
-                    inx=row[2].find(mail)
-                    print("row",inx)
+                if (row[2].find(kenn_mail) != -1 or row[2].find(kenn_mail.lower()) != -1): 
+                    print("Match gefunden Mail")
+                    aus_verw=row[0]
+                    print(aus_verw)
+                    return aus_verw    
+            return -1
+
+    def get_result(self):
+        return self.__result       
+                
+
+
+    def __searchURL(self,ocrOutput):
+        regexurl =r'www.\S{1,50}.de'
+        results = super().format_filter(regexurl, self.ocrOutput)
+        for result in results:
+            if len(results).bit_length()==0:
+                return -1   
+            print(result) 
+            return result
+
+    def __checkURL(self,url):
+        url=url
+        print(url)
+        with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=';')
+            for row in csv_reader:
+                if (row[2].find(url) != -1 or row[2].find(url.lower()) != -1): 
+                    print("Match gefunden")
                     aus_verw=row[0]
                     print(aus_verw)
                     return aus_verw
-                else:
-                    auss_verw=row[0]
-                    mail_verw=row[2]
-                    print(auss_verw, mail_verw)
-                    aus_verw="???"
-                    print (aus_verw)
-            return aus_verw
-
-    def get_result(self):
-        return self.__result
-
-
-    # def __searchStadt(self,ocrOutput):
-    #     regexPlzOrt =r'\s\d, [0-9]{5}\s[a-z]{3,50}\s'
-    #     # TODO Detector implementieren
-
-    # def __searchURL(self,ocrOutput):
-    #      regexurl =r'www.\S{1,50} .de'
+            return -1
 
 
 
@@ -265,8 +294,10 @@ class Vergehen_Detector(Detector):
 
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
+
         with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
         # with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+
             lines = f.readlines()
         schlagworte = []
         for line in lines:
@@ -322,8 +353,11 @@ class Kennzeichen_Validator:
 
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
+
         with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
         # with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+
+
             lines = f.readlines()
         lines = [line.strip() for line in lines]
         ortskennungen = []
