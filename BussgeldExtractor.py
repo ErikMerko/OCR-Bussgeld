@@ -149,14 +149,15 @@ class Aussteller_Detector(Detector):
             mail=mail=self.__searchMail(ocrOutput)
             if(self.__checkMail(mail)!=-1):
                 self.__result =self.__checkMail(mail)
+            elif((self.__searchURL(ocrOutput))!= -1):
+                url=self.__searchURL(ocrOutput)
+                if(self.__checkURL(url)!= -1):
+                    self.__result=self.__checkURL(url)
+                else:
+                    self.__result="???"
             else:
                 self.__result="???"
-        elif((self.__searchURL(ocrOutput))!= -1):
-            url=self.__searchURL(ocrOutput)
-            if(self.__checkURL(url)!= -1):
-                self.__result=self.__checkURL(url)
-            else:
-                self.__result="???"    
+
 
     
     #sucht nach der Mail des Austellers im Ocr Output
@@ -165,6 +166,7 @@ class Aussteller_Detector(Detector):
         results = super().format_filter(regexmail, self.ocrOutput)
         for result in results:
             if len(results).bit_length()<1:
+                print("Keine Mail gefunden")
                 return -1   
             print(result) 
             return result
@@ -172,16 +174,21 @@ class Aussteller_Detector(Detector):
 
     # sucht in der Datei bußgeldstellen.csv ob er die zur Mail dazu gehörige Bußgeldstelle findet.
     def __checkMail(self,mail):
-        kenn_mail=mail.split("@")[-1].lower()
+        kenn_mail=mail.split("@")[-1]
         print(kenn_mail)
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
             for row in csv_reader:
                 if (row[2].find(kenn_mail) != -1): 
-                    print("Match gefunden")
+                    print("Match gefunden Mail")
                     aus_verw=row[0]
                     print(aus_verw)
                     return aus_verw
+                elif (row[2].find(kenn_mail.lower()) != -1): 
+                    print("Match gefunden Mail")
+                    aus_verw=row[0]
+                    print(aus_verw)
+                    return aus_verw    
             return -1
 
     def get_result(self):
@@ -193,7 +200,7 @@ class Aussteller_Detector(Detector):
     #     # TODO Detector implementieren
 
     def __searchURL(self,ocrOutput):
-        regexurl =r'\S{1,50}.de'
+        regexurl =r'www.\S{1,50}.de'
         results = super().format_filter(regexurl, self.ocrOutput)
         for result in results:
             if len(results).bit_length()==0:
@@ -201,13 +208,18 @@ class Aussteller_Detector(Detector):
             print(result) 
             return result
 
-    def __checkMail(self,url):
+    def __checkURL(self,url):
         url=url
         print(url)
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
             for row in csv_reader:
                 if (row[2].find(url) != -1): 
+                    print("Match gefunden")
+                    aus_verw=row[0]
+                    print(aus_verw)
+                    return aus_verw
+                elif (row[2].find(url.lower()) != -1): 
                     print("Match gefunden")
                     aus_verw=row[0]
                     print(aus_verw)
