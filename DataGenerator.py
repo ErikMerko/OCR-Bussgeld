@@ -141,14 +141,32 @@ def function_uhrzeit_generator():
         liste_uhrzeit.append(uhrzeit)
     return liste_uhrzeit
 
+#liste_verwarngeld_ursprung
+liste_verwarngeld_ursprung = []
+for x in range(testdaten_anzahl):
+    betrag = random.randint(1,5000)
+    liste_verwarngeld_ursprung.append(betrag)
+
 #Verwarngeld_generator
 def function_verwarngeld_generator():
     liste_verwarngeld = []
-    for x in range(testdaten_anzahl):
-        betrag = random.randint(1,5000)
+    liste_verwarngeld.extend(liste_verwarngeld_ursprung)
+    for x in range(len(liste_verwarngeld_ursprung)):
+        betrag = liste_verwarngeld[x]
         verwarngeld = ("{:,.2f}".format(betrag).replace(",", "X").replace(".", ",").replace("X", "."))
-        liste_verwarngeld.append(verwarngeld)
+        liste_verwarngeld[x] = verwarngeld
     return liste_verwarngeld
+
+#Verwarngeld_generator
+def function_verwarngeld_endbetrag_generator():
+    liste_verwarngeld_endbetrag = []
+    liste_verwarngeld_endbetrag.extend(liste_verwarngeld_ursprung)
+    for x in range(len(liste_verwarngeld_ursprung)):
+        #hier werden 5-10 als Gebuehren zum Verwarngeld draufaddiert
+        betrag = random.randint(5,10) + liste_verwarngeld_endbetrag[x]
+        verwarngeld = ("{:,.2f}".format(betrag).replace(",", "X").replace(".", ",").replace("X", "."))
+        liste_verwarngeld_endbetrag[x] = verwarngeld
+    return liste_verwarngeld_endbetrag
 
 #Anrede_generator
 def function_anrede_generator():
