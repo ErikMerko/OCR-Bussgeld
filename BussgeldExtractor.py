@@ -16,7 +16,7 @@ class Extractor:
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
 
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
         #Ingo
         #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
@@ -394,11 +394,15 @@ class Tatdatum_Validator:
     def __check_plausibility(self):
         val = Tatdatum_Detector(self.ocrOutput)
         matches = val.get_result()
+        print(matches)
         if len(matches) < 1:
             self.__result = '???'
         else:
             checked_matches = self.__check_Zukunft(matches)
-            self.__result = self.__check_Tatdatum(checked_matches)
+            if len(checked_matches) < 1:
+                self.__result = '???'
+            else:
+                self.__result = self.__check_Tatdatum(checked_matches)
 
     def __check_Tatdatum(self, matches):
         if (len(matches) == 1) | (len(matches) > 3):
