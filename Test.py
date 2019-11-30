@@ -50,15 +50,22 @@ from BussgeldExtractor import Extractor
 # Testfälle ideal-images/Testfälle/falsche Testfälle
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/1.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/2.png")
-extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/4.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/5.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/6.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/7.png")
-# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/8.png")
-# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/9.png")
-# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/10.png")
-# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/11.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/8.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/9.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/10.png")
+
+extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/11.png")
+
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/12.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/13.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/14.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/15.png")
+# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/16.png")
 
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
