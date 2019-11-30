@@ -50,11 +50,11 @@ from BussgeldExtractor import Extractor
 # Testfälle ideal-images/Testfälle/falsche Testfälle
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/1.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/2.png")
-# extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
+extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/3.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/4.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/5.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/6.png")
-extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/7.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/7.png")
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/8.png")
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/9.png")
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/10.png")

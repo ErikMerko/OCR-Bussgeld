@@ -64,9 +64,9 @@ Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die W
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\.
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
 Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) rotes B(l|I)ink(l|I)icht gegeben wurde oder ge(l|I)be Lichtzeichen gegeben wurden oder rote Lichtzeichen gegeben wurden\. Es kam zum Unfa(l|I){2}\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
-Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter "Ha(l|I)t" gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\. Es kam zum Unfa(l|I){2}\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter (\"|\')Ha(l|I)t(\"|\') gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter (\"|\')Ha(l|I)t(\"|\') gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte, und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie überquerten mit einem Fahrzeug den Bahnübergang unter Verstoß gegen die Wartepf(l|I)icht, obwoh(l|I) die Schranken sich senkten oder ein Bahnbediensteter (\"|\')Ha(l|I)t(\"|\') gebot oder ein hörbares Signa(l|I), wie das Pfeifsigna(l|I) des herannahenden Zuges, ertönte\. Es kam zum Unfa(l|I){2}\.
 Sie überquerten mit einem Kraftfahrzeug den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
 Sie überquerten a(l|I)s nichtmotorisierter Verkehrstei(l|I)nehmer (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?den Bahnübergang trotz gesch(l|I)ossener Schranke\/Ha(l|I)bschranke \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\.
 Sie ver(l|I)etzten vor einem Bahnübergang eine Wartepf(l|I)icht\.
@@ -165,8 +165,8 @@ Sie missachteten das Rot(l|I)icht in Verbindung mit dem Ge(l|I)b(l|I)icht\.
 Sie missachteten das Ge(l|I)b(l|I)icht der Lichtzeichenan(l|I)age, obwoh(l|I) Sie gefahr(l|I)os hätten anha(l|I)ten können\.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) aus einem anderen a(l|I)s dem rechten Fahrstreifen nach rechts ab\.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?den Fahrzeugverkehr der freigegebenen Richtung\.
-Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
-Sie missachteten das "Ha(l|I)t" anordnende besondere Lichtzeichen "weißer waagerechter Lichtba(l|I)ken" für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
+Sie missachteten das (\"|\')Ha(l|I)t(\"|\') anordnende besondere Lichtzeichen (\"|\')weißer waagerechter Lichtba(l|I)ken(\"|\') für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das (\"|\')Ha(l|I)t(\"|\') anordnende besondere Lichtzeichen (\"|\')weißer waagerechter Lichtba(l|I)ken(\"|\') für eine Straßenbahn\/einen Bus\/ein Taxi \(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]){1,}\)\. Es kam zum Unfa(l|I){2}\. Die Rotphase dauerte (bereits)?(l|I)änger a(l|I)s 1 Sekunde an\.
 Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\.
 Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
 Sie missachteten das Rot(l|I)icht der Lichtzeichenan(l|I)age\. Es kam zum Unfa(l|I){2}\.
@@ -179,9 +179,9 @@ Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachte
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch den Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
 Sie bogen mit dem Fahrzeug bei rotem Lichtzeichen mit rechts daneben angebrachtem Grünpfei(l|I) nach rechts ab\. Es kam zum Unfa(l|I){2} mit dem Fußgängerverkehr\/Fahrradverkehr auf einer Radwegfurt (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?der freigegebenen Verkehrsrichtungen\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken"\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\')\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\') und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\')\. Es kam zum Unfa(l|I){2}\.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn\.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn und behinderten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
 Sie benutzten vorschriftswidrig nicht die Fahrbahn und gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
@@ -566,9 +566,9 @@ Sie begingen einen einfachen Rot(l|I)ichtverstoß\. Es kam zum Unfa(l|I){2}\.
 Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\.
 Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
 Sie begingen einen qua(l|I)ifizierten Rot(l|I)ichtverstoß\. Es kam zum Unfa(l|I){2}\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
-Sie missachteten das Dauer(l|I)ichtzeichen "rote gekreuzte Schrägba(l|I)ken" (gesperrter Fahrstreifen)\. Es kam zum Unfa(l|I){2}\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\') (gesperrter Fahrstreifen)\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\') (gesperrter Fahrstreifen)\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
+Sie missachteten das Dauer(l|I)ichtzeichen (\"|\')rote gekreuzte Schrägba(l|I)ken(\"|\') (gesperrter Fahrstreifen)\. Es kam zum Unfa(l|I){2}\.
 Sie benutzten auf der Fahrbahn mit für beide Richtungen drei oder fünf durch Leit(l|I)inien (Zeichen 34(0|O)) markierten Fahrstreifen den mitt(l|I)eren zum Überho(l|I)en\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
 Sie überho(l|I)ten auf der dem Gegenverkehr vorbeha(l|I)tenen Fahrbahn\.
 Sie überho(l|I)ten auf der dem Gegenverkehr vorbeha(l|I)tenen Fahrbahn\. Sie gefährdeten (\(([A-ZÄÖÜ]|[a-zäöü]|[ß]|[0-9]|\s){1,}\)\s)?dadurch (A|a)ndere\.
