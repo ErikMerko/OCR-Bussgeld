@@ -25,10 +25,6 @@ class Extractor:
         # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
-        # Entfernt Zeilenumbrüche
-        self.ocrOutput = re.sub('\s\n', ' ', self.ocrOutput)
-        self.ocrOutput = re.sub('\n', ' ', self.ocrOutput)
-
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
     def find_Kennzeichen(self):
         val = Kennzeichen_Validator(self.ocrOutput)
@@ -113,6 +109,7 @@ class Tatdatum_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariabele.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
+        ocrOutput = re.sub('O', '0', self.ocrOutput)
         self.__result = super().format_filter(r'\s(3[01]|[12][0-9]|0[1-9])\.(1[0-2]|0[1-9])\.\d{2,4}', self.ocrOutput)
 
     # Gibt den finalen Ergebnissstring zurück.
@@ -262,6 +259,8 @@ class Vergehen_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
+        ocrOutput = re.sub('\s\n', ' ', self.ocrOutput)
+        ocrOutput = re.sub('\n', ' ', self.ocrOutput)
         schlagworte = self.__schlagwort_Check(ocrOutput)
         formulierungen = self.__alle_Formulierungen_Regex()
         erg = [""]
@@ -278,11 +277,16 @@ class Vergehen_Detector(Detector):
             self.__result = erg
         else:
             for schlagwort in schlagworte:
-                regex = r'Sie ' + schlagwort + ' (([A-ZÄÖÜ]|[a-zäöü]|[0-9]|[ß]|[\,\§\$\/\(\)\-\+\"\\\;\&\:]|[\s])*[\.]){1,4}'
-                self.__result = super().format_filter(regex, self.ocrOutput)
-                if len(self.__result) == 1:
-                    self.__result.append(schlagwort)
-                    break
+                for counter in range(1,5):
+                    regex = r'Sie ' + schlagwort + ' (([A-ZÄÖÜ]|[a-zäöü]|[0-9]|[ß]|[\,\§\$\/\(\)\-\+\"\\\;\&\:\']|[\s])*[\.]){' + str(counter) + '}'
+                    a = super().format_filter(regex, self.ocrOutput)
+                    if (len(a) >= 1) & (counter == 1):
+                        erg[0] = schlagwort
+                        erg.append(a[0])
+                    elif (len(a) >= 1):
+                        erg.append(a[0])
+            if len(erg) >= 1:
+                self.__result = erg
 
     # Überprüft ob eines der Schlagwörter im OCR-Output vorhanden ist.
     def __schlagwort_Check(self, ocrOutput):
@@ -388,13 +392,11 @@ class Tatdatum_Validator:
 
     def __init__(self, ocrOutput):
         self.ocrOutput = ocrOutput
-        print(ocrOutput)
         self.__check_plausibility()
 
     def __check_plausibility(self):
         val = Tatdatum_Detector(self.ocrOutput)
         matches = val.get_result()
-        print(matches)
         if len(matches) < 1:
             self.__result = '???'
         else:
@@ -436,9 +438,16 @@ class Tatdatum_Validator:
             try:
                 match = datetime.datetime.strptime(datum, ' %d.%m.%Y')
             except ValueError:
-                match = datetime.datetime.strptime(datum, ' %d.%m.%y')
+                try:
+                    match = datetime.datetime.strptime(datum, ' %d.%m.%y')
+                except ValueError:
+                    erg = []
+                    break
             if match < heute:
                 erg.append(match)
+                if len(erg) >= 2:
+                    if erg[len(erg) - 1] == erg[len(erg) - 2]:
+                        del erg[-1]
         return erg
 
     def get_result(self):
@@ -674,6 +683,8 @@ class Tatort_Validator:
         return self.__result
 
 
+# Hendrik Veips
+# Prüft die Richtigkeit und die Vollständigkeit des Match
 class Vergehen_Validator:
 
     def __init__(self, ocrOutput):
@@ -686,22 +697,26 @@ class Vergehen_Validator:
         formulierungen = self.__alle_Formulierungen()
         levenshtein = 100
         checked_formulierung = ""
-        x = 0
+        checked_match = ""
         if len(matches) < 1:
             self.__result = '???'
         else:
             if matches[1] == "1":
                 self.__result = matches[0]
             else:
-                match = matches[1].replace("(l|I){2}", "ll").replace("(l|I)", "l")
+                match = matches[0].replace("(l|I){2}", "ll").replace("(l|I)", "l")
+                del matches[0]
                 for formulierung in formulierungen:
                     if formulierung.find(match) != -1:
-                        zerg = distance(formulierung, matches[0])
-                        if zerg < levenshtein:
-                            levenshtein = zerg
-                            checked_formulierung = formulierung
-                self.__result = self.__extrahiere_Formulierung(checked_formulierung, matches[0])
+                        for mat in matches:
+                            zerg = distance(formulierung, mat)
+                            if zerg < levenshtein:
+                                levenshtein = zerg
+                                checked_formulierung = formulierung
+                                checked_match = mat
+                self.__result = self.__extrahiere_Formulierung(checked_formulierung, checked_match)
 
+    # Vergleicht gefundenes Match und die ähnlichst Bußgeldformulierung (via Levenshtein gefunden)
     def __extrahiere_Formulierung(self, a, b):
         a_split = a.split(" ")
         b_split = b.split(" ")
@@ -709,11 +724,13 @@ class Vergehen_Validator:
         x = 0
         delete = 0
         bool = True
+        print(a)
+        print(b)
 
         for wort in b_split:
             gesamt = x + delete
-            if (a_split[x] == wort) | (a_split[x] == 'XXX') | (a_split[x] == 'XXX,XX'):
-                erg = erg + wort + " "
+            if (distance(a_split[x], wort) <= 2) | (a_split[x] == 'XXX') | (a_split[x] == 'XXX,XX'):
+                erg = erg + a_split[x] + " "
                 x += 1
             elif (a_split[x] == '(…)') & (b_split[gesamt].find("(") != -1):
                 while bool == True:
@@ -729,9 +746,10 @@ class Vergehen_Validator:
                     x += 2
                 else:
                     delete += 1
-            else:
+            elif (distance(a_split[x], wort) > 2):
                 delete += 1
             if x == len(a_split):
+                erg = erg[:-1]
                 break
         if x != len(a_split):
             erg = '???'
