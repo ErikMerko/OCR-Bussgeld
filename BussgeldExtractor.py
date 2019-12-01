@@ -182,7 +182,11 @@ class Aussteller_Detector(Detector):
 
     # sucht in der Datei bußgeldstellen.csv ob er die zur Mail dazu gehörige Bußgeldstelle findet.
     def __checkMail(self,mail):
-        kenn_mail=mail.split("@")[-1]
+        try:
+            kenn_mail=mail.split("@")[-1]
+        except AttributeError:
+            return "???"
+        
         print(kenn_mail)
         with open('bußgeldstellen.csv', encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
