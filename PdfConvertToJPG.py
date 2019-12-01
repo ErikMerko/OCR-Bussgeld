@@ -46,10 +46,11 @@ test = PdfConvertToJPG()
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage11Bußgeldbescheid-Zwickau.pdf')
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage11Bußgeldbescheid-Zwickau - 2.pdf')
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Bußgeldbescheid-Unbekannte Stadt - 2.pdf')
-
-images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage24Bußgeldbescheid-Goslar - 2.pdf')
+#images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage16Verwarngeldbescheid-Kassel.pdf')
+#images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage16Verwarngeldbescheid-Kassel - 2.pdf')
 
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage24Bußgeldbescheid-Goslar.pdf')
+
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage24Bußgeldbescheid-Goslar.pdf')
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage24Bußgeldbescheid-Goslar.pdf')
 #images = test.jpgConvert('C:/Users/soc4real/TesseractData/GitRepo/ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/Vorlage24Bußgeldbescheid-Goslar.pdf')
