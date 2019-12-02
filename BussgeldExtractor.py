@@ -705,7 +705,8 @@ class Tatort_Validator:
 
         if len(matches) == 0:
             self.__result = '???'
-            
+            return
+
         self.__result = matches[0]
 
     def __ermittle_Koordinaten(self, elemente):
