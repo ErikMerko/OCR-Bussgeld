@@ -64,7 +64,10 @@ from BussgeldExtractor import Extractor
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/14.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/15.png")
 #extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/16.png")
-extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/17.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/17.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/18.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/19.png")
+#extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/20.png")
 
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
