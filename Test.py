@@ -1,5 +1,5 @@
 import json
-from Levenshtein import *
+# from Levenshtein import *
 
 # from pdf2image import pdf2image
 from BussgeldExtractor import Extractor
@@ -58,7 +58,7 @@ from BussgeldExtractor import Extractor
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/8.png")
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/9.png")
 # extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/10.png")
-extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/11.png")
+extr = Extractor(r"ocr-bussgeld/resources/ideal-images/Testfälle/falsche Testfälle/11.png")
 
 # Testfälle images/Anhörungsbogen
 # extr = Extractor("resources/images/Anhörungsbogen/AB_B-AV-X_15.jpg")
@@ -110,7 +110,6 @@ extr = Extractor("resources/ideal-images/Testfälle/falsche Testfälle/11.png")
 # extr = Extractor("resources/images/Bussgeldbescheide/BB_V-O-AV_7.JPG")
 # extr = Extractor("resources/images/Bussgeldbescheide/BB_X_9 (Nationalparkverwaltung).jpg")
 # extr = Extractor("resources/images/Bussgeldbescheide/BB_X_18.jpg")
-
 
 context = extr.get_information_context()
 print(json.dumps(context, default=lambda x: x.__dict__, ensure_ascii=False))

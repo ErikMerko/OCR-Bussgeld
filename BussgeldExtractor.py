@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 import csv
 
-from Levenshtein import *
+# from Levenshtein import *
 
 # import rstr
 
@@ -16,13 +16,13 @@ class Extractor:
     # Erzeugt und speichert OCR-Output
     def __init__(self, bussgeld_path):
 
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
         #Ingo
         #pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
 
-        # pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Erik\Tesseract-OCR\tesseract.exe'
         self.ocrOutput = pytesseract.image_to_string(Image.open(bussgeld_path), lang='deu', config='preserve_interword_spaces = true')
 
     # Gibt aus dem OCR-Output das Kennzeichen als String zurück
@@ -40,6 +40,11 @@ class Extractor:
         val = Tatuhrzeit_Validator(self.ocrOutput)
         return val.get_result()
 
+    # Gibt aus dem OCR-Output den Tatort als String zurück
+    def find_Tatort(self):
+        val = Tatort_Validator(self.ocrOutput)
+        return val.get_result()
+    
     # Gibt aus dem OCR-Output das Verwarngeld als String zurück
     def find_Verwarngeld(self):
         val = Verwarngeld_Validator(self.ocrOutput)
@@ -254,7 +259,20 @@ class Tatort_Detector(Detector):
     # Speichert den finalen Ergebnisstring in der Result-Instanzvariable.
     def __init__(self, ocrOutput):
         super().__init__(ocrOutput)
-        # TODO Detector implementieren
+        alle_Orte = self.__alle_Orte()
+        self.__result = []
+        for ort in alle_Orte:
+            if re.match(r"\b[A-Z]([a-z]|[\u00DF\u00E4\u00F6\u00FC])+", ort) and re.search(r""+re.escape(ort)+r"(?!\w)", self.ocrOutput):
+                self.__result.append(ort)
+
+    def __alle_Orte(self):
+
+        with open(r"ocr-bussgeld\resources\Orte.txt", 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        return [line.strip() for line in lines]
+    
+    def get_result(self):
+        return self.__result
 
 
 # Extrahiert die Art des Vergehens aus dem OCR-Output.
@@ -306,8 +324,8 @@ class Vergehen_Detector(Detector):
     # Gibt eine Stringliste mit allen Bussgeld-Schlagwörtern zurück
     def __alle_Schlagworte(self):
 
-        with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
-        # with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        # with open("resources/Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\Bussgeld-Schlagwoerter.txt", 'r', encoding='utf-8') as f:
 
             lines = f.readlines()
         schlagworte = []
@@ -365,12 +383,10 @@ class Kennzeichen_Validator:
     # Gibt eine Stringliste mit allen deutschen KFZ-Ortskennungen zurück
     def __alle_Ortskennungen(self):
 
-        with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
-        # with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
-
-
+        # with open("resources/KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
+        with open(r"ocr-bussgeld\resources\KFZ-Kennzeichen.txt", 'r', encoding='utf-8') as f:
             lines = f.readlines()
-        lines = [line.strip() for line in lines]
+            lines = [line.strip() for line in lines]
         ortskennungen = []
         for line in lines:
             if line.isupper():
@@ -538,23 +554,23 @@ class Tatuhrzeit_Validator:
                     return timeTuple[0]+' bis '+helpItem[0]
         return False
 
-    def __ermittle_Koordinaten(self, times):
+    def __ermittle_Koordinaten(self, elemente):
 
         ocrOutputLines = self.ocrOutput.splitlines()
-        times = list(dict.fromkeys(times))
-        timeTuples = []
+        elemente = list(dict.fromkeys(elemente))
+        elementPointTuples = []
 
-        for time in times:
+        for time in elemente:
             lineCounter = 0
             for line in reversed(ocrOutputLines):
                 columnCounter = line.find(time)
 
                 if not columnCounter == -1:
                     timeTuple = (time, columnCounter, lineCounter)
-                    timeTuples.append(timeTuple)
+                    elementPointTuples.append(timeTuple)
                 lineCounter += 1
 
-        return timeTuples
+        return elementPointTuples
 
     def __ermittle_Musterindex(self, timeTuples):
 
@@ -679,9 +695,43 @@ class Tatort_Validator:
     def __check_plausibility(self):
         val = Tatort_Detector(self.ocrOutput)
         matches = val.get_result()
-        self.__result = matches
 
-        # TODO Plausibilität überprüfen!
+        if len(matches) > 1:
+            ortPunktTuples = self.__ermittle_Koordinaten(matches)
+            ortPunktMittigkeitTuples = self.__ermittle_Mittigkeit(ortPunktTuples)
+            mittigeTuples = [ortPunktMittigkeitTuple for ortPunktMittigkeitTuple in ortPunktMittigkeitTuples if ortPunktMittigkeitTuple[3] < 10]
+            self.__result = mittigeTuples[0][0]
+            return
+
+        if len(matches) == 0:
+            self.__result = '???'
+            
+        self.__result = matches[0]
+
+    def __ermittle_Koordinaten(self, elemente):
+
+        ocrOutputLines = self.ocrOutput.splitlines()
+        elemente = list(dict.fromkeys(elemente))
+        elementPointTuples = []
+
+        for time in elemente:
+            lineCounter = 0
+            for line in reversed(ocrOutputLines):
+                columnCounter = line.find(time)
+
+                if not columnCounter == -1:
+                    timeTuple = (time, columnCounter, lineCounter)
+                    elementPointTuples.append(timeTuple)
+                lineCounter += 1
+
+        return elementPointTuples        
+
+    def __ermittle_Mittigkeit(self, ortPunktTuples):
+
+        ortPunktMittigkeitTuples = []
+        for ortPunktTuple in ortPunktTuples:
+            ortPunktMittigkeitTuples.append((ortPunktTuple[0], ortPunktTuple[1], ortPunktTuple[2], abs(ortPunktTuple[2]- float(len(self.ocrOutput.splitlines()))/2)))
+        return ortPunktMittigkeitTuples
 
     def get_result(self):
         return self.__result
@@ -772,10 +822,11 @@ class Vergehen_Validator:
         return self.__result
 
 class InformationContext:
-    def __init__(self, knz, date, time, verwarngeld, vergehen, aussteller):
+    def __init__(self, knz, date, time, tatort, verwarngeld, vergehen, aussteller):
         self.Kennzeichen = knz
         self.Tatdatum = date
         self.Tatzeit = time
+        self.Tatort = tatort
         self.Verwarngeld = verwarngeld
         self.Vergehen = vergehen
         self.Aussteller = aussteller
